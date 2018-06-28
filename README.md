@@ -16,3 +16,8 @@ Desarrollo en KICAD del hardware base para LPCXpresso1769 con los componentes b√
 
 	- Creaci√≥n del repositorio
     - se inicio el esquematico con dos reg mc1702, micro sd y medicion de bateria con lm358
+    ...
+    - se agrego simbolo del lpcxpresso1769
+    - falta acomodar los directorios de las librerias
+    - falta ads1292, simbolo y footprint
+    - falta footprint lpcxpresso1769

@@ -88,10 +88,6 @@ LIBS:MCU_Microchip_PIC10
 LIBS:MCU_Intel
 LIBS:MCU_Infineon
 LIBS:MCU_Cypress
-LIBS:MCU_Atmel_AVR
-LIBS:MCU_Atmel_ATTINY
-LIBS:MCU_Atmel_ATMEGA
-LIBS:MCU_Atmel_8051
 LIBS:MCU_AnalogDevices
 LIBS:Logic_Programmable
 LIBS:Logic_LevelTranslator
@@ -308,15 +304,17 @@ LIBS:dk_Balun
 LIBS:dk_Automotive-Relays
 LIBS:dk_Alarms-Buzzers-and-Sirens
 LIBS:dk_Addressable-Specialty
+LIBS:lpcxpresso1769
+LIBS:vop24_lpcxpresso1769_basehw-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "VOP24_LPCXpresso1769_BaseHW"
+Date "2018-06-27"
+Rev "0.1"
+Comp "Universidad Favaloro"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -325,325 +323,364 @@ $EndDescr
 $Comp
 L Micro_SD_Card J?
 U 1 1 5B33BAF7
-P 8650 4400
-F 0 "J?" H 8000 5000 50  0000 C CNN
-F 1 "Micro_SD_Card" H 9300 5000 50  0000 R CNN
-F 2 "" H 9800 4700 50  0001 C CNN
-F 3 "" H 8650 4400 50  0001 C CNN
-	1    8650 4400
+P 10150 1550
+F 0 "J?" H 9500 2150 50  0000 C CNN
+F 1 "Micro_SD_Card" H 10800 2150 50  0000 R CNN
+F 2 "" H 11300 1850 50  0001 C CNN
+F 3 "" H 10150 1550 50  0001 C CNN
+	1    10150 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L LM358 U?
 U 1 1 5B33E22C
-P 3000 4900
-F 0 "U?" H 3000 5100 50  0000 L CNN
-F 1 "LM358" H 3000 4700 50  0000 L CNN
-F 2 "" H 3000 4900 50  0001 C CNN
-F 3 "" H 3000 4900 50  0001 C CNN
-	1    3000 4900
+P 2200 3650
+F 0 "U?" H 2200 3850 50  0000 L CNN
+F 1 "LM358" H 2200 3450 50  0000 L CNN
+F 2 "" H 2200 3650 50  0001 C CNN
+F 3 "" H 2200 3650 50  0001 C CNN
+	1    2200 3650
 	1    0    0    1   
 $EndComp
 $Comp
 L MCP1700T-3302E_TT U?
 U 1 1 5B33EDEC
-P 3600 1700
-F 0 "U?" H 3600 1900 60  0000 C CNN
-F 1 "MCP1700T-3302E_TT" H 3600 2000 60  0000 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 3800 1900 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 3800 2000 60  0001 L CNN
-F 4 "MCP1700T3302ETTCT-ND" H 3800 2100 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP1700T-3302E/TT" H 3800 2200 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 3800 2300 60  0001 L CNN "Category"
-F 7 "PMIC - Voltage Regulators - Linear" H 3800 2400 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 3800 2500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP1700T-3302E-TT/MCP1700T3302ETTCT-ND/652677" H 3800 2600 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC REG LINEAR 3.3V 250MA SOT23-3" H 3800 2700 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 3800 2800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3800 2900 60  0001 L CNN "Status"
-	1    3600 1700
+P 2800 850
+F 0 "U?" H 2800 1050 60  0000 C CNN
+F 1 "MCP1700T-3302E_TT" H 2800 1150 60  0000 C CNN
+F 2 "digikey-footprints:SOT-23-3" H 3000 1050 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 3000 1150 60  0001 L CNN
+F 4 "MCP1700T3302ETTCT-ND" H 3000 1250 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP1700T-3302E/TT" H 3000 1350 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 3000 1450 60  0001 L CNN "Category"
+F 7 "PMIC - Voltage Regulators - Linear" H 3000 1550 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 3000 1650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP1700T-3302E-TT/MCP1700T3302ETTCT-ND/652677" H 3000 1750 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC REG LINEAR 3.3V 250MA SOT23-3" H 3000 1850 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 3000 1950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3000 2050 60  0001 L CNN "Status"
+	1    2800 850 
 	1    0    0    -1  
 $EndComp
 $Comp
 L MCP1700T-3302E_TT U?
 U 1 1 5B33EEBE
-P 3550 2950
-F 0 "U?" H 3550 3150 60  0000 C CNN
-F 1 "MCP1700T-3302E_TT" H 3550 3250 60  0000 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 3750 3150 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 3750 3250 60  0001 L CNN
-F 4 "MCP1700T3302ETTCT-ND" H 3750 3350 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP1700T-3302E/TT" H 3750 3450 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 3750 3550 60  0001 L CNN "Category"
-F 7 "PMIC - Voltage Regulators - Linear" H 3750 3650 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 3750 3750 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP1700T-3302E-TT/MCP1700T3302ETTCT-ND/652677" H 3750 3850 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC REG LINEAR 3.3V 250MA SOT23-3" H 3750 3950 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 3750 4050 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3750 4150 60  0001 L CNN "Status"
-	1    3550 2950
+P 2750 2100
+F 0 "U?" H 2750 2300 60  0000 C CNN
+F 1 "MCP1700T-3302E_TT" H 2750 2400 60  0000 C CNN
+F 2 "digikey-footprints:SOT-23-3" H 2950 2300 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 2950 2400 60  0001 L CNN
+F 4 "MCP1700T3302ETTCT-ND" H 2950 2500 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP1700T-3302E/TT" H 2950 2600 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 2950 2700 60  0001 L CNN "Category"
+F 7 "PMIC - Voltage Regulators - Linear" H 2950 2800 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 2950 2900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP1700T-3302E-TT/MCP1700T3302ETTCT-ND/652677" H 2950 3000 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC REG LINEAR 3.3V 250MA SOT23-3" H 2950 3100 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 2950 3200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2950 3300 60  0001 L CNN "Status"
+	1    2750 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x02 J?
 U 1 1 5B33F4B6
-P 1600 1800
-F 0 "J?" H 1600 1900 50  0000 C CNN
-F 1 "Conn_01x02" H 1600 1600 50  0000 C CNN
-F 2 "" H 1600 1800 50  0001 C CNN
-F 3 "" H 1600 1800 50  0001 C CNN
-	1    1600 1800
+P 800 950
+F 0 "J?" H 800 1050 50  0000 C CNN
+F 1 "Conn_01x02" H 800 750 50  0000 C CNN
+F 2 "" H 800 950 50  0001 C CNN
+F 3 "" H 800 950 50  0001 C CNN
+	1    800  950 
 	-1   0    0    1   
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5B33F6FF
-P 2700 1950
-F 0 "C?" H 2710 2020 50  0000 L CNN
-F 1 "C_Small" H 2710 1870 50  0000 L CNN
-F 2 "" H 2700 1950 50  0001 C CNN
-F 3 "" H 2700 1950 50  0001 C CNN
-	1    2700 1950
+P 1900 1100
+F 0 "C?" H 1910 1170 50  0000 L CNN
+F 1 "C_Small" H 1910 1020 50  0000 L CNN
+F 2 "" H 1900 1100 50  0001 C CNN
+F 3 "" H 1900 1100 50  0001 C CNN
+	1    1900 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5B33F7AC
-P 4500 1950
-F 0 "C?" H 4510 2020 50  0000 L CNN
-F 1 "C_Small" H 4510 1870 50  0000 L CNN
-F 2 "" H 4500 1950 50  0001 C CNN
-F 3 "" H 4500 1950 50  0001 C CNN
-	1    4500 1950
+P 3700 1100
+F 0 "C?" H 3710 1170 50  0000 L CNN
+F 1 "C_Small" H 3710 1020 50  0000 L CNN
+F 2 "" H 3700 1100 50  0001 C CNN
+F 3 "" H 3700 1100 50  0001 C CNN
+	1    3700 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5B33F7D4
-P 2750 3200
-F 0 "C?" H 2760 3270 50  0000 L CNN
-F 1 "C_Small" H 2760 3120 50  0000 L CNN
-F 2 "" H 2750 3200 50  0001 C CNN
-F 3 "" H 2750 3200 50  0001 C CNN
-	1    2750 3200
+P 1950 2350
+F 0 "C?" H 1960 2420 50  0000 L CNN
+F 1 "C_Small" H 1960 2270 50  0000 L CNN
+F 2 "" H 1950 2350 50  0001 C CNN
+F 3 "" H 1950 2350 50  0001 C CNN
+	1    1950 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C?
 U 1 1 5B33F83A
-P 4500 3200
-F 0 "C?" H 4510 3270 50  0000 L CNN
-F 1 "C_Small" H 4510 3120 50  0000 L CNN
-F 2 "" H 4500 3200 50  0001 C CNN
-F 3 "" H 4500 3200 50  0001 C CNN
-	1    4500 3200
+P 3700 2350
+F 0 "C?" H 3710 2420 50  0000 L CNN
+F 1 "C_Small" H 3710 2270 50  0000 L CNN
+F 2 "" H 3700 2350 50  0001 C CNN
+F 3 "" H 3700 2350 50  0001 C CNN
+	1    3700 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 1700 3200 1700
-Wire Wire Line
-	2700 1850 2700 1700
-Connection ~ 2700 1700
-Wire Wire Line
-	2100 2950 3150 2950
-Wire Wire Line
-	2100 2950 2100 1700
-Connection ~ 2100 1700
-Wire Wire Line
-	2750 3100 2750 2950
-Connection ~ 2750 2950
-Wire Wire Line
-	4050 2950 5150 2950
-Wire Wire Line
-	4500 2950 4500 3100
-Wire Wire Line
-	2750 3300 2750 3550
-Wire Wire Line
-	2600 3550 5150 3550
-Wire Wire Line
-	4500 3550 4500 3300
-Wire Wire Line
-	3550 3350 3550 3550
-Connection ~ 3550 3550
-Wire Wire Line
-	2700 2050 2700 2350
-Wire Wire Line
-	2550 2350 5150 2350
-Wire Wire Line
-	4500 2350 4500 2050
-Wire Wire Line
-	4100 1700 5150 1700
-Wire Wire Line
-	4500 1700 4500 1850
-Wire Wire Line
-	3600 2100 3600 2350
-Connection ~ 3600 2350
 $Comp
 L R_Small R?
 U 1 1 5B33FB93
-P 2450 2350
-F 0 "R?" H 2480 2370 50  0000 L CNN
-F 1 "R_Small" H 2480 2310 50  0000 L CNN
-F 2 "" H 2450 2350 50  0001 C CNN
-F 3 "" H 2450 2350 50  0001 C CNN
-	1    2450 2350
+P 1650 1500
+F 0 "R?" H 1680 1520 50  0000 L CNN
+F 1 "R_Small" H 1680 1460 50  0000 L CNN
+F 2 "" H 1650 1500 50  0001 C CNN
+F 3 "" H 1650 1500 50  0001 C CNN
+	1    1650 1500
 	0    1    1    0   
 $EndComp
 $Comp
 L R_Small R?
 U 1 1 5B33FC32
-P 2500 3550
-F 0 "R?" H 2530 3570 50  0000 L CNN
-F 1 "R_Small" H 2530 3510 50  0000 L CNN
-F 2 "" H 2500 3550 50  0001 C CNN
-F 3 "" H 2500 3550 50  0001 C CNN
-	1    2500 3550
+P 1700 2700
+F 0 "R?" H 1730 2720 50  0000 L CNN
+F 1 "R_Small" H 1730 2660 50  0000 L CNN
+F 2 "" H 1700 2700 50  0001 C CNN
+F 3 "" H 1700 2700 50  0001 C CNN
+	1    1700 2700
 	0    1    1    0   
 $EndComp
-Connection ~ 2750 3550
-Wire Wire Line
-	2000 3550 2400 3550
-Wire Wire Line
-	2000 1800 2000 3550
-Wire Wire Line
-	2000 1800 1800 1800
-Wire Wire Line
-	2350 2350 2000 2350
-Connection ~ 2000 2350
-Connection ~ 2700 2350
-Text Label 4200 1700 0    60   ~ 0
+Text Label 3400 850  0    60   ~ 0
 DVCC
-Text Label 4200 2350 0    60   ~ 0
+Text Label 3400 1500 0    60   ~ 0
 DGND
-Text Label 4200 2950 0    60   ~ 0
+Text Label 3400 2100 0    60   ~ 0
 AVCC
-Text Label 4200 3550 0    60   ~ 0
+Text Label 3400 2700 0    60   ~ 0
 AGND
-Text Label 2000 1700 0    60   ~ 0
+Text Label 1200 850  0    60   ~ 0
 VBAT
-Text Label 2050 3550 0    60   ~ 0
+Text Label 1250 2700 0    60   ~ 0
 GNDBAT
 $Comp
 L R_Small R?
 U 1 1 5B34027B
-P 2000 4700
-F 0 "R?" H 2030 4720 50  0000 L CNN
-F 1 "R_Small" H 2030 4660 50  0000 L CNN
-F 2 "" H 2000 4700 50  0001 C CNN
-F 3 "" H 2000 4700 50  0001 C CNN
-	1    2000 4700
+P 1200 3450
+F 0 "R?" H 1230 3470 50  0000 L CNN
+F 1 "R_Small" H 1230 3410 50  0000 L CNN
+F 2 "" H 1200 3450 50  0001 C CNN
+F 3 "" H 1200 3450 50  0001 C CNN
+	1    1200 3450
 	-1   0    0    1   
 $EndComp
 $Comp
 L R_Small R?
 U 1 1 5B3402D9
-P 2000 5250
-F 0 "R?" H 2030 5270 50  0000 L CNN
-F 1 "R_Small" H 2030 5210 50  0000 L CNN
-F 2 "" H 2000 5250 50  0001 C CNN
-F 3 "" H 2000 5250 50  0001 C CNN
-	1    2000 5250
+P 1200 4000
+F 0 "R?" H 1230 4020 50  0000 L CNN
+F 1 "R_Small" H 1230 3960 50  0000 L CNN
+F 2 "" H 1200 4000 50  0001 C CNN
+F 3 "" H 1200 4000 50  0001 C CNN
+	1    1200 4000
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2000 4600 2000 4400
-Wire Wire Line
-	2000 4400 1550 4400
-Wire Wire Line
-	2000 4800 2000 5150
-Wire Wire Line
-	2000 5350 2000 5600
-Wire Wire Line
-	2000 5600 1550 5600
-Text Label 1650 4400 0    60   ~ 0
+Text Label 850  3150 0    60   ~ 0
 VBAT
-Text Label 1600 5600 0    60   ~ 0
+Text Label 800  4350 0    60   ~ 0
 GNDBAT
-Wire Wire Line
-	2700 5000 2000 5000
-Connection ~ 2000 5000
-Wire Wire Line
-	2700 4800 2450 4800
-Wire Wire Line
-	2450 4800 2450 4400
-Wire Wire Line
-	2450 4400 3850 4400
-Wire Wire Line
-	3850 4400 3850 4900
-Wire Wire Line
-	3850 4900 3300 4900
-Wire Wire Line
-	2900 4600 2900 4550
-Wire Wire Line
-	2900 4550 2550 4550
-Wire Wire Line
-	2900 5200 2900 5300
-Wire Wire Line
-	2900 5300 2550 5300
-Text Label 2650 4550 0    60   ~ 0
+Text Label 1850 3300 0    60   ~ 0
 AVCC
-Text Label 2650 5300 0    60   ~ 0
+Text Label 1850 4050 0    60   ~ 0
 AGND
-Text Label 3400 4900 0    60   ~ 0
+Text Label 2600 3650 0    60   ~ 0
 ADC_BAT
 $Comp
 L LED_Small D?
 U 1 1 5B3409E4
-P 5150 1900
-F 0 "D?" H 5100 2025 50  0000 L CNN
-F 1 "LED_Small" H 4975 1800 50  0000 L CNN
-F 2 "" V 5150 1900 50  0001 C CNN
-F 3 "" V 5150 1900 50  0001 C CNN
-	1    5150 1900
+P 4350 1050
+F 0 "D?" H 4300 1175 50  0000 L CNN
+F 1 "LED_Small" H 4175 950 50  0000 L CNN
+F 2 "" V 4350 1050 50  0001 C CNN
+F 3 "" V 4350 1050 50  0001 C CNN
+	1    4350 1050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R_Small R?
 U 1 1 5B340A89
-P 5150 2200
-F 0 "R?" H 5180 2220 50  0000 L CNN
-F 1 "R_Small" H 5180 2160 50  0000 L CNN
-F 2 "" H 5150 2200 50  0001 C CNN
-F 3 "" H 5150 2200 50  0001 C CNN
-	1    5150 2200
+P 4350 1350
+F 0 "R?" H 4380 1370 50  0000 L CNN
+F 1 "R_Small" H 4380 1310 50  0000 L CNN
+F 2 "" H 4350 1350 50  0001 C CNN
+F 3 "" H 4350 1350 50  0001 C CNN
+	1    4350 1350
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5150 1700 5150 1800
-Connection ~ 4500 1700
-Wire Wire Line
-	5150 2100 5150 2000
-Wire Wire Line
-	5150 2350 5150 2300
-Connection ~ 4500 2350
 $Comp
 L LED_Small D?
 U 1 1 5B340D72
-P 5150 3100
-F 0 "D?" H 5100 3225 50  0000 L CNN
-F 1 "LED_Small" H 4975 3000 50  0000 L CNN
-F 2 "" V 5150 3100 50  0001 C CNN
-F 3 "" V 5150 3100 50  0001 C CNN
-	1    5150 3100
+P 4350 2250
+F 0 "D?" H 4300 2375 50  0000 L CNN
+F 1 "LED_Small" H 4175 2150 50  0000 L CNN
+F 2 "" V 4350 2250 50  0001 C CNN
+F 3 "" V 4350 2250 50  0001 C CNN
+	1    4350 2250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R_Small R?
 U 1 1 5B340DDF
-P 5150 3400
-F 0 "R?" H 5180 3420 50  0000 L CNN
-F 1 "R_Small" H 5180 3360 50  0000 L CNN
-F 2 "" H 5150 3400 50  0001 C CNN
-F 3 "" H 5150 3400 50  0001 C CNN
-	1    5150 3400
+P 4350 2550
+F 0 "R?" H 4380 2570 50  0000 L CNN
+F 1 "R_Small" H 4380 2510 50  0000 L CNN
+F 2 "" H 4350 2550 50  0001 C CNN
+F 3 "" H 4350 2550 50  0001 C CNN
+	1    4350 2550
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5150 2950 5150 3000
-Connection ~ 4500 2950
+	1000 850  2400 850 
 Wire Wire Line
-	5150 3200 5150 3300
+	1900 1000 1900 850 
+Connection ~ 1900 850 
 Wire Wire Line
-	5150 3550 5150 3500
-Connection ~ 4500 3550
+	1300 2100 2350 2100
+Wire Wire Line
+	1300 2100 1300 850 
+Connection ~ 1300 850 
+Wire Wire Line
+	1950 2250 1950 2100
+Connection ~ 1950 2100
+Wire Wire Line
+	3250 2100 4350 2100
+Wire Wire Line
+	3700 2100 3700 2250
+Wire Wire Line
+	1950 2450 1950 2700
+Wire Wire Line
+	1800 2700 4350 2700
+Wire Wire Line
+	3700 2700 3700 2450
+Wire Wire Line
+	2750 2500 2750 2700
+Connection ~ 2750 2700
+Wire Wire Line
+	1900 1200 1900 1500
+Wire Wire Line
+	1750 1500 4350 1500
+Wire Wire Line
+	3700 1500 3700 1200
+Wire Wire Line
+	3300 850  4350 850 
+Wire Wire Line
+	3700 850  3700 1000
+Wire Wire Line
+	2800 1250 2800 1500
+Connection ~ 2800 1500
+Connection ~ 1950 2700
+Wire Wire Line
+	1200 2700 1600 2700
+Wire Wire Line
+	1200 950  1200 2700
+Wire Wire Line
+	1200 950  1000 950 
+Wire Wire Line
+	1550 1500 1200 1500
+Connection ~ 1200 1500
+Connection ~ 1900 1500
+Wire Wire Line
+	1200 3350 1200 3150
+Wire Wire Line
+	1200 3150 750  3150
+Wire Wire Line
+	1200 3550 1200 3900
+Wire Wire Line
+	1200 4100 1200 4350
+Wire Wire Line
+	1200 4350 750  4350
+Wire Wire Line
+	1900 3750 1200 3750
+Connection ~ 1200 3750
+Wire Wire Line
+	1900 3550 1650 3550
+Wire Wire Line
+	1650 3550 1650 3150
+Wire Wire Line
+	1650 3150 3050 3150
+Wire Wire Line
+	3050 3150 3050 3650
+Wire Wire Line
+	3050 3650 2500 3650
+Wire Wire Line
+	2100 3350 2100 3300
+Wire Wire Line
+	2100 3300 1750 3300
+Wire Wire Line
+	2100 3950 2100 4050
+Wire Wire Line
+	2100 4050 1750 4050
+Wire Wire Line
+	4350 850  4350 950 
+Connection ~ 3700 850 
+Wire Wire Line
+	4350 1250 4350 1150
+Wire Wire Line
+	4350 1500 4350 1450
+Connection ~ 3700 1500
+Wire Wire Line
+	4350 2100 4350 2150
+Connection ~ 3700 2100
+Wire Wire Line
+	4350 2350 4350 2450
+Wire Wire Line
+	4350 2700 4350 2650
+Connection ~ 3700 2700
+Wire Wire Line
+	9250 1350 8600 1350
+Wire Wire Line
+	9250 1450 8600 1450
+Wire Wire Line
+	9250 1550 8600 1550
+Wire Wire Line
+	9250 1650 8600 1650
+Wire Wire Line
+	9250 1750 8600 1750
+Wire Wire Line
+	9250 1850 8600 1850
+Text Label 8700 1350 0    60   ~ 0
+CS_SD
+Text Label 8700 1650 0    60   ~ 0
+SCLK_SD
+Text Label 8700 1450 0    60   ~ 0
+MOSI_SD
+Text Label 8700 1550 0    60   ~ 0
+DVCC
+Text Label 8700 1750 0    60   ~ 0
+DGND
+Text Label 8700 1850 0    60   ~ 0
+MISO_SD
+$Comp
+L LPCXpresso1769 U?
+U 1 1 5B343F3C
+P 5000 5350
+F 0 "U?" H 3900 7050 60  0000 C CNN
+F 1 "LPCXpresso1769" H 4200 7150 60  0000 C CNN
+F 2 "" H 4700 5750 60  0001 C CNN
+F 3 "" H 4700 5750 60  0001 C CNN
+	1    5000 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3800 3100 3800
+Text Label 3150 3800 0    60   ~ 0
+DGND
 $EndSCHEMATC

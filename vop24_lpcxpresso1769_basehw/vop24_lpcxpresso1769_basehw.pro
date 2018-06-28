@@ -1,4 +1,4 @@
-update=mié 27 jun 2018 13:24:00 -03
+update=mié 27 jun 2018 21:49:35 -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=/home/froux/Documentos/kicad-libs/kicad-symbols;/home/froux/Documentos/kicad-libs/digikey-kicad-library/digikey-symbols
+LibDir=/home/piro2/Documents/kicad-libs/kicad-symbols;/home/piro2/Documents/kicad-libs/digikey-kicad-library/digikey-symbols
 [eeschema/libraries]
 LibName1=Video
 LibName2=Valve
@@ -338,3 +338,4 @@ LibName306=dk_Balun
 LibName307=dk_Automotive-Relays
 LibName308=dk_Alarms-Buzzers-and-Sirens
 LibName309=dk_Addressable-Specialty
+LibName310=/home/piro2/Documents/kicad-libs/froux-symbol/lpcxpresso1769
