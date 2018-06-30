@@ -304,7 +304,6 @@ LIBS:dk_Balun
 LIBS:dk_Automotive-Relays
 LIBS:dk_Alarms-Buzzers-and-Sirens
 LIBS:dk_Addressable-Specialty
-LIBS:lpcxpresso1769
 LIBS:vop24_lpcxpresso1769_basehw-cache
 EELAYER 25 0
 EELAYER END
@@ -497,9 +496,9 @@ Text Label 850  3150 0    60   ~ 0
 VBAT
 Text Label 800  4350 0    60   ~ 0
 GNDBAT
-Text Label 1850 3300 0    60   ~ 0
+Text Label 1800 4050 0    60   ~ 0
 AVCC
-Text Label 1850 4050 0    60   ~ 0
+Text Label 1400 6450 0    60   ~ 0
 AGND
 Text Label 2600 3650 0    60   ~ 0
 ADC_BAT
@@ -547,6 +546,98 @@ F 3 "" H 4350 2550 50  0001 C CNN
 	1    4350 2550
 	-1   0    0    1   
 $EndComp
+Text Label 8700 1350 0    60   ~ 0
+CS_SD
+Text Label 8700 1650 0    60   ~ 0
+SCLK_SD
+Text Label 8700 1450 0    60   ~ 0
+MOSI_SD
+Text Label 8700 1550 0    60   ~ 0
+DVCC
+Text Label 8700 1750 0    60   ~ 0
+DGND
+Text Label 8700 1850 0    60   ~ 0
+MISO_SD
+$Comp
+L LPCXpresso1769 U?
+U 1 1 5B343F3C
+P 8850 4350
+F 0 "U?" H 7750 6050 60  0000 C CNN
+F 1 "LPCXpresso1769" H 8050 6150 60  0000 C CNN
+F 2 "" H 8550 4750 60  0001 C CNN
+F 3 "" H 8550 4750 60  0001 C CNN
+	1    8850 4350
+	1    0    0    -1  
+$EndComp
+Text Label 7000 2800 0    60   ~ 0
+DGND
+Text Label 7000 4200 0    60   ~ 0
+ADC_BAT
+Text Label 7000 4300 0    60   ~ 0
+ADC_TEMP
+Text Label 10350 2800 0    60   ~ 0
+DVCC
+Text Label 7000 3100 0    60   ~ 0
+RESET
+$Comp
+L LM358 U?
+U 2 1 5B36A538
+P 1850 6000
+F 0 "U?" H 1850 6200 50  0000 L CNN
+F 1 "LM358" H 1850 5800 50  0000 L CNN
+F 2 "" H 1850 6000 50  0001 C CNN
+F 3 "" H 1850 6000 50  0001 C CNN
+	2    1850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5B36A603
+P 900 5600
+F 0 "R?" H 930 5620 50  0000 L CNN
+F 1 "R_Small" H 930 5560 50  0000 L CNN
+F 2 "" H 900 5600 50  0001 C CNN
+F 3 "" H 900 5600 50  0001 C CNN
+	1    900  5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small RTD
+U 1 1 5B36A698
+P 900 5950
+F 0 "RTD" H 930 5970 50  0000 L CNN
+F 1 "R_Small" H 930 5910 50  0000 L CNN
+F 2 "" H 900 5950 50  0001 C CNN
+F 3 "" H 900 5950 50  0001 C CNN
+	1    900  5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5B36A6F3
+P 1100 6250
+F 0 "R?" H 1130 6270 50  0000 L CNN
+F 1 "R_Small" H 1130 6210 50  0000 L CNN
+F 2 "" H 1100 6250 50  0001 C CNN
+F 3 "" H 1100 6250 50  0001 C CNN
+	1    1100 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5B36A779
+P 1700 6600
+F 0 "R?" H 1730 6620 50  0000 L CNN
+F 1 "R_Small" H 1730 6560 50  0000 L CNN
+F 2 "" H 1700 6600 50  0001 C CNN
+F 3 "" H 1700 6600 50  0001 C CNN
+	1    1700 6600
+	0    1    1    0   
+$EndComp
+Text Label 1400 5550 0    60   ~ 0
+AVCC
+Text Label 700  5300 0    60   ~ 0
+AVCC
 Wire Wire Line
 	1000 850  2400 850 
 Wire Wire Line
@@ -656,31 +747,82 @@ Wire Wire Line
 	9250 1750 8600 1750
 Wire Wire Line
 	9250 1850 8600 1850
-Text Label 8700 1350 0    60   ~ 0
-CS_SD
-Text Label 8700 1650 0    60   ~ 0
-SCLK_SD
-Text Label 8700 1450 0    60   ~ 0
-MOSI_SD
-Text Label 8700 1550 0    60   ~ 0
-DVCC
-Text Label 8700 1750 0    60   ~ 0
-DGND
-Text Label 8700 1850 0    60   ~ 0
-MISO_SD
-$Comp
-L LPCXpresso1769 U?
-U 1 1 5B343F3C
-P 5000 5350
-F 0 "U?" H 3900 7050 60  0000 C CNN
-F 1 "LPCXpresso1769" H 4200 7150 60  0000 C CNN
-F 2 "" H 4700 5750 60  0001 C CNN
-F 3 "" H 4700 5750 60  0001 C CNN
-	1    5000 5350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3650 3800 3100 3800
-Text Label 3150 3800 0    60   ~ 0
-DGND
+	7500 2800 6950 2800
+Wire Wire Line
+	7500 4200 6950 4200
+Wire Wire Line
+	7500 4300 6950 4300
+Wire Wire Line
+	10150 2800 10650 2800
+Wire Wire Line
+	7500 3100 6950 3100
+Wire Wire Line
+	1750 5700 1750 5550
+Wire Wire Line
+	1750 5550 1350 5550
+Wire Wire Line
+	1750 6300 1750 6450
+Wire Wire Line
+	1750 6450 1350 6450
+Wire Wire Line
+	900  5500 900  5300
+Wire Wire Line
+	900  5300 650  5300
+Wire Wire Line
+	900  5700 900  5850
+Wire Wire Line
+	900  6050 900  6450
+Wire Wire Line
+	1100 6450 1100 6350
+Text Label 650  6450 0    60   ~ 0
+AGND
+Wire Wire Line
+	1100 6150 1100 6150
+Wire Wire Line
+	1100 6150 1100 6100
+Wire Wire Line
+	1100 6100 1550 6100
+Wire Wire Line
+	1550 5900 1300 5900
+Wire Wire Line
+	1300 5900 1300 5750
+Wire Wire Line
+	1300 5750 900  5750
+Connection ~ 900  5750
+Wire Wire Line
+	1250 6100 1250 6600
+Wire Wire Line
+	1250 6600 1600 6600
+Connection ~ 1250 6100
+Wire Wire Line
+	2150 6000 2650 6000
+Wire Wire Line
+	1800 6600 2300 6600
+Wire Wire Line
+	2300 6600 2300 6000
+Connection ~ 2300 6000
+Text Label 2350 6000 0    60   ~ 0
+ADC_TEMP
+Wire Wire Line
+	600  6450 1100 6450
+Connection ~ 900  6450
+Text Label 1800 3300 0    60   ~ 0
+AGND
+Wire Wire Line
+	7500 3800 6950 3800
+Wire Wire Line
+	6950 3900 7500 3900
+Wire Wire Line
+	7500 4000 6950 4000
+Wire Wire Line
+	7500 4100 6950 4100
+Text Label 7000 3800 0    60   ~ 0
+MOSI_SD
+Text Label 7000 3900 0    60   ~ 0
+MISO_SD
+Text Label 7000 4000 0    60   ~ 0
+SCLK_SD
+Text Label 7000 4100 0    60   ~ 0
+CS_SD
 $EndSCHEMATC

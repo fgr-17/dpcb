@@ -1,4 +1,4 @@
-update=mié 27 jun 2018 21:49:35 -03
+update=vie 29 jun 2018 21:56:25 -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -339,3 +339,4 @@ LibName307=dk_Automotive-Relays
 LibName308=dk_Alarms-Buzzers-and-Sirens
 LibName309=dk_Addressable-Specialty
 LibName310=/home/piro2/Documents/kicad-libs/froux-symbol/lpcxpresso1769
+LibName311=/home/piro2/Documents/kicad-libs/froux-kicad-libs/froux-symbol/ads1292
