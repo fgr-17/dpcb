@@ -28,3 +28,8 @@ Desarrollo en KICAD del hardware base para LPCXpresso1769 con los componentes bÃ
     - falta ads1292, simbolo y footprint
     - falta footprint lpcxpresso1769
 
+30.06.2018:
+
+    - se agrego simbolo ads1292 al esquematico
+    - falta terminar las conexiones del ads
+    - conviene separar en modulos jerarq. -> VER COMO SE HACE
