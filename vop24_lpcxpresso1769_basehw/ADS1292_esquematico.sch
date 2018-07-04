@@ -1,0 +1,262 @@
+EESchema Schematic File Version 2
+LIBS:lpcxpresso1769
+LIBS:ads1292
+LIBS:vop24_lpcxpresso1769_basehw-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title "ADS1292 esquematico"
+Date "2018-07-04"
+Rev "0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ADS1292 U?
+U 1 1 5B3D4F42
+P 6350 2700
+F 0 "U?" H 7200 3450 60  0000 C CNN
+F 1 "ADS1292" H 7150 3550 60  0000 C CNN
+F 2 "" H 6250 2350 60  0001 C CNN
+F 3 "" H 6250 2350 60  0001 C CNN
+	1    6350 2700
+	1    0    0    -1  
+$EndComp
+Text Label 7350 2350 0    60   ~ 0
+DGND
+Text Label 7350 2450 0    60   ~ 0
+DVCC
+Text Label 7350 2550 0    60   ~ 0
+DRDY_ADS
+Text Label 7350 2650 0    60   ~ 0
+MISO_ADS
+Text Label 7350 2750 0    60   ~ 0
+SCLK_ADS
+Text Label 7350 2850 0    60   ~ 0
+MOSI_ADS
+Text Label 7350 2950 0    60   ~ 0
+CS_ADS
+Text Label 6300 3900 1    60   ~ 0
+AVCC
+Text Label 6400 3900 1    60   ~ 0
+AGND
+Text Label 4800 2550 0    60   ~ 0
+SENS1N
+Text Label 4800 2650 0    60   ~ 0
+SENS1P
+Text Label 4800 2750 0    60   ~ 0
+SENS2N
+Text Label 4800 2850 0    60   ~ 0
+SENS2P
+$Comp
+L C_Small C?
+U 1 1 5B3D4F56
+P 4300 2650
+F 0 "C?" H 4400 2800 50  0000 L CNN
+F 1 "C_Small" H 4400 2700 50  0000 L CNN
+F 2 "" H 4300 2650 50  0001 C CNN
+F 3 "" H 4300 2650 50  0001 C CNN
+	1    4300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B3D4F5D
+P 4150 2450
+F 0 "C?" V 4000 2350 50  0000 L CNN
+F 1 "4.7nF" V 4000 2450 50  0000 L CNN
+F 2 "" H 4150 2450 50  0001 C CNN
+F 3 "" H 4150 2450 50  0001 C CNN
+	1    4150 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 2850 7800 2850
+Wire Wire Line
+	7300 2950 7800 2950
+Wire Wire Line
+	7300 3050 7800 3050
+Wire Wire Line
+	7300 2750 7800 2750
+Wire Wire Line
+	7300 2650 7800 2650
+Wire Wire Line
+	7300 2550 7800 2550
+Wire Wire Line
+	7300 2450 7800 2450
+Wire Wire Line
+	7300 2350 7800 2350
+Wire Wire Line
+	5350 2550 4750 2550
+Wire Wire Line
+	4750 2650 5350 2650
+Wire Wire Line
+	5350 2750 4750 2750
+Wire Wire Line
+	4750 2850 5350 2850
+Wire Wire Line
+	6300 3550 6300 3950
+Wire Wire Line
+	6400 3550 6400 3950
+Wire Wire Line
+	6600 3550 6600 3950
+Wire Wire Line
+	5350 2350 4000 2350
+Wire Wire Line
+	4250 2450 5350 2450
+Wire Wire Line
+	4000 2750 4000 2850
+Wire Wire Line
+	3700 2850 4300 2850
+Wire Wire Line
+	4300 2850 4300 2750
+Connection ~ 4000 2850
+Wire Wire Line
+	4000 2450 4050 2450
+Connection ~ 4300 2450
+Text Label 3750 2850 0    60   ~ 0
+AGND
+Wire Wire Line
+	4000 2350 4000 2550
+Wire Wire Line
+	4300 2450 4300 2550
+$Comp
+L C_Small C?
+U 1 1 5B3D4F7E
+P 4000 3250
+F 0 "C?" H 4010 3320 50  0000 L CNN
+F 1 "C_Small" H 4010 3170 50  0000 L CNN
+F 2 "" H 4000 3250 50  0001 C CNN
+F 3 "" H 4000 3250 50  0001 C CNN
+	1    4000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B3D4F85
+P 4300 3250
+F 0 "C?" H 4310 3320 50  0000 L CNN
+F 1 "C_Small" H 4310 3170 50  0000 L CNN
+F 2 "" H 4300 3250 50  0001 C CNN
+F 3 "" H 4300 3250 50  0001 C CNN
+	1    4300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B3D4F8C
+P 4150 3050
+F 0 "C?" V 4000 3000 50  0000 L CNN
+F 1 "4.7nF" V 4000 3100 50  0000 L CNN
+F 2 "" H 4150 3050 50  0001 C CNN
+F 3 "" H 4150 3050 50  0001 C CNN
+	1    4150 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 2950 4000 2950
+Wire Wire Line
+	4250 3050 5350 3050
+Wire Wire Line
+	4000 3350 4000 3450
+Wire Wire Line
+	3700 3450 4300 3450
+Wire Wire Line
+	4300 3450 4300 3350
+Connection ~ 4000 3450
+Wire Wire Line
+	4000 3050 4050 3050
+Connection ~ 4300 3050
+Text Label 3750 3450 0    60   ~ 0
+AGND
+Wire Wire Line
+	4000 2950 4000 3150
+Wire Wire Line
+	4300 3050 4300 3150
+$Comp
+L C_Small C?
+U 1 1 5B3D4F9E
+P 6500 4550
+F 0 "C?" V 6600 4550 50  0000 L CNN
+F 1 "1uF" V 6600 4400 50  0000 L CNN
+F 2 "" H 6500 4550 50  0001 C CNN
+F 3 "" H 6500 4550 50  0001 C CNN
+	1    6500 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 4550 6050 4550
+Text Label 6100 4550 0    60   ~ 0
+VCAP1
+$Comp
+L C_Small C?
+U 1 1 5B3D4FA7
+P 6500 4800
+F 0 "C?" V 6600 4800 50  0000 L CNN
+F 1 "10uF" V 6600 4600 50  0000 L CNN
+F 2 "" H 6500 4800 50  0001 C CNN
+F 3 "" H 6500 4800 50  0001 C CNN
+	1    6500 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 4800 6400 4800
+Text Label 6100 4800 0    60   ~ 0
+VREFP
+$Comp
+L C_Small C?
+U 1 1 5B3D4FB0
+P 6500 5050
+F 0 "C?" V 6600 5050 50  0000 L CNN
+F 1 "0.1uF" V 6600 4800 50  0000 L CNN
+F 2 "" H 6500 5050 50  0001 C CNN
+F 3 "" H 6500 5050 50  0001 C CNN
+	1    6500 5050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 4800 6250 5050
+Wire Wire Line
+	6250 5050 6400 5050
+Connection ~ 6250 4800
+Wire Wire Line
+	6600 4550 6950 4550
+Wire Wire Line
+	6950 4550 6950 5050
+Wire Wire Line
+	6600 5050 7450 5050
+Connection ~ 6950 4800
+Connection ~ 6950 5050
+Wire Wire Line
+	6100 3550 6100 3950
+Wire Wire Line
+	6000 3550 6000 3950
+Text Label 6000 3900 1    60   ~ 0
+VREFP
+Wire Wire Line
+	6200 3550 6200 3950
+Text Label 6200 3900 1    60   ~ 0
+VCAP1
+Wire Wire Line
+	6600 4800 6950 4800
+Text Label 7300 5050 2    60   ~ 0
+AGND
+Text Label 6100 3900 1    60   ~ 0
+AGND
+$Comp
+L C_Small C?
+U 1 1 5B3D4FC7
+P 4000 2650
+F 0 "C?" H 3700 2800 50  0000 L CNN
+F 1 "C_Small" H 3700 2700 50  0000 L CNN
+F 2 "" H 4000 2650 50  0001 C CNN
+F 3 "" H 4000 2650 50  0001 C CNN
+	1    4000 2650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

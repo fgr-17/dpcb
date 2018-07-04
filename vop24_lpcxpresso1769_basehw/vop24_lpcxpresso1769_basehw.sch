@@ -6,7 +6,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 4
 Title "VOP24_LPCXpresso1769_BaseHW"
 Date "2018-06-27"
 Rev "0.1"
@@ -27,47 +27,6 @@ F 3 "" H 10150 1550 50  0001 C CNN
 	1    10150 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L LM358 U?
-U 1 1 5B33E22C
-P 2200 3650
-F 0 "U?" H 2200 3850 50  0000 L CNN
-F 1 "LM358" H 2200 3450 50  0000 L CNN
-F 2 "" H 2200 3650 50  0001 C CNN
-F 3 "" H 2200 3650 50  0001 C CNN
-	1    2200 3650
-	1    0    0    1   
-$EndComp
-$Comp
-L R_Small R?
-U 1 1 5B34027B
-P 1200 3450
-F 0 "R?" H 1230 3470 50  0000 L CNN
-F 1 "R_Small" H 1230 3410 50  0000 L CNN
-F 2 "" H 1200 3450 50  0001 C CNN
-F 3 "" H 1200 3450 50  0001 C CNN
-	1    1200 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L R_Small R?
-U 1 1 5B3402D9
-P 1200 4000
-F 0 "R?" H 1230 4020 50  0000 L CNN
-F 1 "R_Small" H 1230 3960 50  0000 L CNN
-F 2 "" H 1200 4000 50  0001 C CNN
-F 3 "" H 1200 4000 50  0001 C CNN
-	1    1200 4000
-	-1   0    0    1   
-$EndComp
-Text Label 800  4350 0    60   ~ 0
-GNDBAT
-Text Label 1800 4050 0    60   ~ 0
-AVCC
-Text Label 1400 7250 0    60   ~ 0
-AGND
-Text Label 2600 3650 0    60   ~ 0
-ADC_BAT
 Text Label 8700 1350 0    60   ~ 0
 CS_SD
 Text Label 8700 1650 0    60   ~ 0
@@ -101,71 +60,6 @@ Text Label 10350 2800 0    60   ~ 0
 DVCC
 Text Label 7000 3100 0    60   ~ 0
 RESET
-$Comp
-L LM358 U?
-U 2 1 5B36A538
-P 1850 6800
-F 0 "U?" H 1850 7000 50  0000 L CNN
-F 1 "LM358" H 1850 6600 50  0000 L CNN
-F 2 "" H 1850 6800 50  0001 C CNN
-F 3 "" H 1850 6800 50  0001 C CNN
-	2    1850 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R?
-U 1 1 5B36A603
-P 900 6400
-F 0 "R?" H 930 6420 50  0000 L CNN
-F 1 "R_Small" H 930 6360 50  0000 L CNN
-F 2 "" H 900 6400 50  0001 C CNN
-F 3 "" H 900 6400 50  0001 C CNN
-	1    900  6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small RTD
-U 1 1 5B36A698
-P 900 6750
-F 0 "RTD" H 930 6770 50  0000 L CNN
-F 1 "R_Small" H 930 6710 50  0000 L CNN
-F 2 "" H 900 6750 50  0001 C CNN
-F 3 "" H 900 6750 50  0001 C CNN
-	1    900  6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R?
-U 1 1 5B36A6F3
-P 1100 7050
-F 0 "R?" H 1130 7070 50  0000 L CNN
-F 1 "R_Small" H 1130 7010 50  0000 L CNN
-F 2 "" H 1100 7050 50  0001 C CNN
-F 3 "" H 1100 7050 50  0001 C CNN
-	1    1100 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R?
-U 1 1 5B36A779
-P 1700 7400
-F 0 "R?" H 1730 7420 50  0000 L CNN
-F 1 "R_Small" H 1730 7360 50  0000 L CNN
-F 2 "" H 1700 7400 50  0001 C CNN
-F 3 "" H 1700 7400 50  0001 C CNN
-	1    1700 7400
-	0    1    1    0   
-$EndComp
-Text Label 1400 6350 0    60   ~ 0
-AVCC
-Text Label 700  6100 0    60   ~ 0
-AVCC
-Text Label 650  7250 0    60   ~ 0
-AGND
-Text Label 2400 6800 0    60   ~ 0
-ADC_TEMP
-Text Label 1800 3300 0    60   ~ 0
-AGND
 Text Label 7000 3800 0    60   ~ 0
 MOSI_SD
 Text Label 7000 3900 0    60   ~ 0
@@ -174,31 +68,6 @@ Text Label 7000 4000 0    60   ~ 0
 SCLK_SD
 Text Label 7000 4100 0    60   ~ 0
 CS_SD
-$Comp
-L ADS1292 U?
-U 1 1 5B3774B0
-P 4750 5050
-F 0 "U?" H 5600 5800 60  0000 C CNN
-F 1 "ADS1292" H 5550 5900 60  0000 C CNN
-F 2 "" H 4650 4700 60  0001 C CNN
-F 3 "" H 4650 4700 60  0001 C CNN
-	1    4750 5050
-	1    0    0    -1  
-$EndComp
-Text Label 5750 4700 0    60   ~ 0
-DGND
-Text Label 5750 4800 0    60   ~ 0
-DVCC
-Text Label 5750 4900 0    60   ~ 0
-DRDY_ADS
-Text Label 5750 5000 0    60   ~ 0
-MISO_ADS
-Text Label 5750 5100 0    60   ~ 0
-SCLK_ADS
-Text Label 5750 5200 0    60   ~ 0
-MOSI_ADS
-Text Label 5750 5300 0    60   ~ 0
-CS_ADS
 Text Label 7000 3500 0    60   ~ 0
 CS_ADS
 Text Label 7000 3200 0    60   ~ 0
@@ -207,71 +76,6 @@ Text Label 7000 3400 0    60   ~ 0
 SCLK_ADS
 Text Label 7000 3300 0    60   ~ 0
 MISO_ADS
-Text Label 4700 6250 1    60   ~ 0
-AVCC
-Text Label 4800 6250 1    60   ~ 0
-AGND
-Text Label 3200 4900 0    60   ~ 0
-SENS1N
-Text Label 3200 5000 0    60   ~ 0
-SENS1P
-Text Label 3200 5100 0    60   ~ 0
-SENS2N
-Text Label 3200 5200 0    60   ~ 0
-SENS2P
-$Comp
-L C_Small C?
-U 1 1 5B3799C7
-P 2700 5000
-F 0 "C?" H 2800 5150 50  0000 L CNN
-F 1 "C_Small" H 2800 5050 50  0000 L CNN
-F 2 "" H 2700 5000 50  0001 C CNN
-F 3 "" H 2700 5000 50  0001 C CNN
-	1    2700 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B379A2B
-P 2550 4800
-F 0 "C?" V 2400 4700 50  0000 L CNN
-F 1 "4.7nF" V 2400 4800 50  0000 L CNN
-F 2 "" H 2550 4800 50  0001 C CNN
-F 3 "" H 2550 4800 50  0001 C CNN
-	1    2550 4800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1200 3350 1200 3150
-Wire Wire Line
-	1200 3150 750  3150
-Wire Wire Line
-	1200 3550 1200 3900
-Wire Wire Line
-	1200 4100 1200 4350
-Wire Wire Line
-	1200 4350 750  4350
-Wire Wire Line
-	1900 3750 1200 3750
-Connection ~ 1200 3750
-Wire Wire Line
-	1900 3550 1650 3550
-Wire Wire Line
-	1650 3550 1650 3150
-Wire Wire Line
-	1650 3150 3050 3150
-Wire Wire Line
-	3050 3150 3050 3650
-Wire Wire Line
-	3050 3650 2500 3650
-Wire Wire Line
-	2100 3350 2100 3300
-Wire Wire Line
-	2100 3300 1750 3300
-Wire Wire Line
-	2100 3950 2100 4050
-Wire Wire Line
-	2100 4050 1750 4050
 Wire Wire Line
 	9250 1350 8600 1350
 Wire Wire Line
@@ -295,52 +99,6 @@ Wire Wire Line
 Wire Wire Line
 	7500 3100 6950 3100
 Wire Wire Line
-	1750 6500 1750 6350
-Wire Wire Line
-	1750 6350 1350 6350
-Wire Wire Line
-	1750 7100 1750 7250
-Wire Wire Line
-	1750 7250 1350 7250
-Wire Wire Line
-	900  6300 900  6100
-Wire Wire Line
-	900  6100 650  6100
-Wire Wire Line
-	900  6500 900  6650
-Wire Wire Line
-	900  6850 900  7250
-Wire Wire Line
-	1100 7250 1100 7150
-Wire Wire Line
-	1100 6950 1100 6950
-Wire Wire Line
-	1100 6950 1100 6900
-Wire Wire Line
-	1100 6900 1550 6900
-Wire Wire Line
-	1550 6700 1300 6700
-Wire Wire Line
-	1300 6700 1300 6550
-Wire Wire Line
-	1300 6550 900  6550
-Connection ~ 900  6550
-Wire Wire Line
-	1250 6900 1250 7400
-Wire Wire Line
-	1250 7400 1600 7400
-Connection ~ 1250 6900
-Wire Wire Line
-	2150 6800 2850 6800
-Wire Wire Line
-	1800 7400 2300 7400
-Wire Wire Line
-	2300 7400 2300 6800
-Connection ~ 2300 6800
-Wire Wire Line
-	600  7250 1100 7250
-Connection ~ 900  7250
-Wire Wire Line
 	7500 3800 6950 3800
 Wire Wire Line
 	6950 3900 7500 3900
@@ -349,22 +107,6 @@ Wire Wire Line
 Wire Wire Line
 	7500 4100 6950 4100
 Wire Wire Line
-	5700 5200 6200 5200
-Wire Wire Line
-	5700 5300 6200 5300
-Wire Wire Line
-	5700 5400 6200 5400
-Wire Wire Line
-	5700 5100 6200 5100
-Wire Wire Line
-	5700 5000 6200 5000
-Wire Wire Line
-	5700 4900 6200 4900
-Wire Wire Line
-	5700 4800 6200 4800
-Wire Wire Line
-	5700 4700 6200 4700
-Wire Wire Line
 	7500 3200 6950 3200
 Wire Wire Line
 	6950 3300 7500 3300
@@ -372,174 +114,6 @@ Wire Wire Line
 	7500 3400 6950 3400
 Wire Wire Line
 	6950 3500 7500 3500
-Wire Wire Line
-	3750 4900 3150 4900
-Wire Wire Line
-	3150 5000 3750 5000
-Wire Wire Line
-	3750 5100 3150 5100
-Wire Wire Line
-	3150 5200 3750 5200
-Wire Wire Line
-	4700 5900 4700 6300
-Wire Wire Line
-	4800 5900 4800 6300
-Wire Wire Line
-	5000 5900 5000 6300
-Wire Wire Line
-	3750 4700 2400 4700
-Wire Wire Line
-	2650 4800 3750 4800
-Wire Wire Line
-	2400 5100 2400 5200
-Wire Wire Line
-	2100 5200 2700 5200
-Wire Wire Line
-	2700 5200 2700 5100
-Connection ~ 2400 5200
-Wire Wire Line
-	2400 4800 2450 4800
-Connection ~ 2700 4800
-Text Label 2150 5200 0    60   ~ 0
-AGND
-Wire Wire Line
-	2400 4700 2400 4900
-Wire Wire Line
-	2700 4800 2700 4900
-$Comp
-L C_Small C?
-U 1 1 5B37A9B5
-P 2400 5600
-F 0 "C?" H 2410 5670 50  0000 L CNN
-F 1 "C_Small" H 2410 5520 50  0000 L CNN
-F 2 "" H 2400 5600 50  0001 C CNN
-F 3 "" H 2400 5600 50  0001 C CNN
-	1    2400 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B37A9BB
-P 2700 5600
-F 0 "C?" H 2710 5670 50  0000 L CNN
-F 1 "C_Small" H 2710 5520 50  0000 L CNN
-F 2 "" H 2700 5600 50  0001 C CNN
-F 3 "" H 2700 5600 50  0001 C CNN
-	1    2700 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B37A9C1
-P 2550 5400
-F 0 "C?" V 2400 5350 50  0000 L CNN
-F 1 "4.7nF" V 2400 5450 50  0000 L CNN
-F 2 "" H 2550 5400 50  0001 C CNN
-F 3 "" H 2550 5400 50  0001 C CNN
-	1    2550 5400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3750 5300 2400 5300
-Wire Wire Line
-	2650 5400 3750 5400
-Wire Wire Line
-	2400 5700 2400 5800
-Wire Wire Line
-	2100 5800 2700 5800
-Wire Wire Line
-	2700 5800 2700 5700
-Connection ~ 2400 5800
-Wire Wire Line
-	2400 5400 2450 5400
-Connection ~ 2700 5400
-Text Label 2150 5800 0    60   ~ 0
-AGND
-Wire Wire Line
-	2400 5300 2400 5500
-Wire Wire Line
-	2700 5400 2700 5500
-$Comp
-L C_Small C?
-U 1 1 5B37BBB5
-P 4900 6900
-F 0 "C?" V 5000 6900 50  0000 L CNN
-F 1 "1uF" V 5000 6750 50  0000 L CNN
-F 2 "" H 4900 6900 50  0001 C CNN
-F 3 "" H 4900 6900 50  0001 C CNN
-	1    4900 6900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4800 6900 4450 6900
-Text Label 4500 6900 0    60   ~ 0
-VCAP1
-$Comp
-L C_Small C?
-U 1 1 5B37C418
-P 4900 7150
-F 0 "C?" V 5000 7150 50  0000 L CNN
-F 1 "10uF" V 5000 6950 50  0000 L CNN
-F 2 "" H 4900 7150 50  0001 C CNN
-F 3 "" H 4900 7150 50  0001 C CNN
-	1    4900 7150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4450 7150 4800 7150
-Text Label 4500 7150 0    60   ~ 0
-VREFP
-$Comp
-L C_Small C?
-U 1 1 5B37C490
-P 4900 7400
-F 0 "C?" V 5000 7400 50  0000 L CNN
-F 1 "0.1uF" V 5000 7150 50  0000 L CNN
-F 2 "" H 4900 7400 50  0001 C CNN
-F 3 "" H 4900 7400 50  0001 C CNN
-	1    4900 7400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4650 7150 4650 7400
-Wire Wire Line
-	4650 7400 4800 7400
-Connection ~ 4650 7150
-Wire Wire Line
-	5000 6900 5350 6900
-Wire Wire Line
-	5350 6900 5350 7400
-Wire Wire Line
-	5000 7400 5850 7400
-Connection ~ 5350 7150
-Connection ~ 5350 7400
-Wire Wire Line
-	4500 5900 4500 6300
-Wire Wire Line
-	4400 5900 4400 6300
-Text Label 4400 6250 1    60   ~ 0
-VREFP
-Wire Wire Line
-	4600 5900 4600 6300
-Text Label 4600 6250 1    60   ~ 0
-VCAP1
-Wire Wire Line
-	5000 7150 5350 7150
-Text Label 5700 7400 2    60   ~ 0
-AGND
-Text Label 4500 6250 1    60   ~ 0
-AGND
-$Comp
-L C_Small C?
-U 1 1 5B3796F3
-P 2400 5000
-F 0 "C?" H 2100 5150 50  0000 L CNN
-F 1 "C_Small" H 2100 5050 50  0000 L CNN
-F 2 "" H 2400 5000 50  0001 C CNN
-F 3 "" H 2400 5000 50  0001 C CNN
-	1    2400 5000
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 1200 850  1100 1150
 U 5B3826CA
@@ -549,11 +123,13 @@ F2 "AVCC" I R 2300 1250 60
 F3 "AGND" I R 2300 1350 60 
 F4 "DGND" I R 2300 1600 60 
 F5 "DVCC" I R 2300 1500 60 
+F6 "VBAT" I R 2300 1800 60 
+F7 "GND_BAT" I R 2300 1900 60 
 $EndSheet
 Wire Wire Line
-	2300 1250 3000 1250
+	2300 1250 3550 1250
 Wire Wire Line
-	2300 1350 3000 1350
+	2300 1350 3550 1350
 Wire Wire Line
 	2300 1500 3000 1500
 Wire Wire Line
@@ -566,4 +142,26 @@ Text Label 2650 1600 0    60   ~ 0
 DGND
 Text Label 2650 1500 0    60   ~ 0
 DVCC
+$Sheet
+S 3550 800  1350 1300
+U 5B3D187B
+F0 "analogico" 60
+F1 "analogico.sch" 60
+F2 "ADC_BAT" I R 4900 1300 60 
+F3 "ADC_TEMP" I R 4900 1500 60 
+F4 "AGND" I L 3550 1350 60 
+F5 "AVCC" I L 3550 1250 60 
+F6 "VBAT" I L 3550 1800 60 
+F7 "GNDBAT" I L 3550 1900 60 
+$EndSheet
+Wire Wire Line
+	2300 1800 3550 1800
+Wire Wire Line
+	3550 1900 2300 1900
+$Sheet
+S 1050 2250 2350 1600
+U 5B3D4A05
+F0 "ADS1292_esquematico" 60
+F1 "ADS1292_esquematico.sch" 60
+$EndSheet
 $EndSCHEMATC

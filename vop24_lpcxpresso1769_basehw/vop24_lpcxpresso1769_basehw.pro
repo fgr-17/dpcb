@@ -1,4 +1,4 @@
-update=sáb 30 jun 2018 21:22:53 -03
+update=mié 04 jul 2018 15:45:44 -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=/home/froux/Documentos/kicad-libs/froux-kicad-libs/froux-symbol
+LibDir=/media/piro8/datos/kicadLibs/froux-kicad-libs/froux-symbol
 [eeschema/libraries]
 LibName1=Video
 LibName2=Valve

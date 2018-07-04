@@ -6,7 +6,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -267,4 +267,18 @@ Text HLabel 8300 2600 2    60   Input ~ 0
 DVCC
 Connection ~ 7350 2600
 Connection ~ 7350 3250
+Text HLabel 4700 5000 2    60   Input ~ 0
+VBAT
+Text HLabel 4700 5200 2    60   Input ~ 0
+GND_BAT
+Wire Wire Line
+	4700 5000 4500 5000
+Wire Wire Line
+	4500 5000 4500 3850
+Connection ~ 4500 3850
+Wire Wire Line
+	4450 5200 4700 5200
+Wire Wire Line
+	4450 5200 4450 4450
+Connection ~ 4450 4450
 $EndSCHEMATC
