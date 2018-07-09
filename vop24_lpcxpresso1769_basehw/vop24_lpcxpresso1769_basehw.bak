@@ -466,7 +466,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 1900 2300 1900
 $Sheet
-S 1050 2250 2350 1600
+S 1700 4100 2350 1600
 U 5B3D4A05
 F0 "ADS1292_esquematico" 60
 F1 "ADS1292_esquematico.sch" 60
