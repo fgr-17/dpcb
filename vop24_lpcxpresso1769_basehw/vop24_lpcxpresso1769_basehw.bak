@@ -326,101 +326,63 @@ $EndDescr
 $Comp
 L Micro_SD_Card J?
 U 1 1 5B33BAF7
-P 10150 1550
-F 0 "J?" H 9500 2150 50  0000 C CNN
-F 1 "Micro_SD_Card" H 10800 2150 50  0000 R CNN
-F 2 "" H 11300 1850 50  0001 C CNN
-F 3 "" H 10150 1550 50  0001 C CNN
-	1    10150 1550
-	1    0    0    -1  
+P 2400 5550
+F 0 "J?" H 1750 6150 50  0000 C CNN
+F 1 "Micro_SD_Card" H 3050 6150 50  0000 R CNN
+F 2 "" H 3550 5850 50  0001 C CNN
+F 3 "" H 2400 5550 50  0001 C CNN
+	1    2400 5550
+	-1   0    0    1   
 $EndComp
-Text Label 8700 1350 0    60   ~ 0
+Text Label 3850 5750 2    60   ~ 0
 CS_SD
-Text Label 8700 1650 0    60   ~ 0
+Text Label 3850 5450 2    60   ~ 0
 SCLK_SD
-Text Label 8700 1450 0    60   ~ 0
+Text Label 3850 5650 2    60   ~ 0
 MOSI_SD
-Text Label 8700 1550 0    60   ~ 0
+Text Label 3850 5550 2    60   ~ 0
 DVCC
-Text Label 8700 1750 0    60   ~ 0
+Text Label 3850 5350 2    60   ~ 0
 DGND
-Text Label 8700 1850 0    60   ~ 0
+Text Label 3850 5250 2    60   ~ 0
 MISO_SD
 $Comp
 L LPCXpresso1769 U?
 U 1 1 5B343F3C
-P 8850 4350
-F 0 "U?" H 7750 6050 60  0000 C CNN
-F 1 "LPCXpresso1769" H 8050 6150 60  0000 C CNN
-F 2 "" H 8550 4750 60  0001 C CNN
-F 3 "" H 8550 4750 60  0001 C CNN
-	1    8850 4350
+P 7800 4450
+F 0 "U?" H 6700 6150 60  0000 C CNN
+F 1 "LPCXpresso1769" H 7000 6250 60  0000 C CNN
+F 2 "" H 7500 4850 60  0001 C CNN
+F 3 "" H 7500 4850 60  0001 C CNN
+	1    7800 4450
 	1    0    0    -1  
 $EndComp
-Text Label 7000 2800 0    60   ~ 0
+Text Label 5950 2900 0    60   ~ 0
 DGND
-Text Label 7000 4200 0    60   ~ 0
+Text Label 5950 4300 0    60   ~ 0
 ADC_BAT
-Text Label 7000 4300 0    60   ~ 0
+Text Label 5950 4400 0    60   ~ 0
 ADC_TEMP
-Text Label 10350 2800 0    60   ~ 0
+Text Label 9300 2900 0    60   ~ 0
 DVCC
-Text Label 7000 3100 0    60   ~ 0
+Text Label 5950 3200 0    60   ~ 0
 RESET
-Text Label 7000 3800 0    60   ~ 0
+Text Label 5950 3900 0    60   ~ 0
 MOSI_SD
-Text Label 7000 3900 0    60   ~ 0
+Text Label 5950 4000 0    60   ~ 0
 MISO_SD
-Text Label 7000 4000 0    60   ~ 0
+Text Label 5950 4100 0    60   ~ 0
 SCLK_SD
-Text Label 7000 4100 0    60   ~ 0
+Text Label 5950 4200 0    60   ~ 0
 CS_SD
-Text Label 7000 3500 0    60   ~ 0
+Text Label 5950 3600 0    60   ~ 0
 CS_ADS
-Text Label 7000 3200 0    60   ~ 0
+Text Label 5950 3300 0    60   ~ 0
 MOSI_ADS
-Text Label 7000 3400 0    60   ~ 0
+Text Label 5950 3500 0    60   ~ 0
 SCLK_ADS
-Text Label 7000 3300 0    60   ~ 0
+Text Label 5950 3400 0    60   ~ 0
 MISO_ADS
-Wire Wire Line
-	9250 1350 8600 1350
-Wire Wire Line
-	9250 1450 8600 1450
-Wire Wire Line
-	9250 1550 8600 1550
-Wire Wire Line
-	9250 1650 8600 1650
-Wire Wire Line
-	9250 1750 8600 1750
-Wire Wire Line
-	9250 1850 8600 1850
-Wire Wire Line
-	7500 2800 6950 2800
-Wire Wire Line
-	7500 4200 6950 4200
-Wire Wire Line
-	7500 4300 6950 4300
-Wire Wire Line
-	10150 2800 10650 2800
-Wire Wire Line
-	7500 3100 6950 3100
-Wire Wire Line
-	7500 3800 6950 3800
-Wire Wire Line
-	6950 3900 7500 3900
-Wire Wire Line
-	7500 4000 6950 4000
-Wire Wire Line
-	7500 4100 6950 4100
-Wire Wire Line
-	7500 3200 6950 3200
-Wire Wire Line
-	6950 3300 7500 3300
-Wire Wire Line
-	7500 3400 6950 3400
-Wire Wire Line
-	6950 3500 7500 3500
 $Sheet
 S 1200 850  1100 1150
 U 5B3826CA
@@ -433,14 +395,6 @@ F5 "DVCC" I R 2300 1500 60
 F6 "VBAT" I R 2300 1800 60 
 F7 "GND_BAT" I R 2300 1900 60 
 $EndSheet
-Wire Wire Line
-	2300 1250 3550 1250
-Wire Wire Line
-	2300 1350 3550 1350
-Wire Wire Line
-	2300 1500 3000 1500
-Wire Wire Line
-	2300 1600 3000 1600
 Text Label 2650 1350 0    60   ~ 0
 AGND
 Text Label 2650 1250 0    60   ~ 0
@@ -461,14 +415,158 @@ F5 "AVCC" I L 3550 1250 60
 F6 "VBAT" I L 3550 1800 60 
 F7 "GNDBAT" I L 3550 1900 60 
 $EndSheet
+$Sheet
+S 1200 2600 2350 1600
+U 5B3D4A05
+F0 "ADS1292_esquematico" 60
+F1 "ADS1292_esquematico.sch" 60
+F2 "AVCC" I R 3550 3950 60 
+F3 "AGND" I R 3550 4050 60 
+F4 "DVCC" I R 3550 3400 60 
+F5 "DGND" I R 3550 3500 60 
+F6 "DRDY_ADS" I R 3550 3200 60 
+F7 "MISO_ADS" I R 3550 2900 60 
+F8 "SCLK_ADS" I R 3550 2800 60 
+F9 "MOSI_ADS" I R 3550 3000 60 
+F10 "~CS~_ADS" I R 3550 3100 60 
+F11 "~PWDNE~_ADS" I R 3550 3650 60 
+F12 "START_ADS" I R 3550 3750 60 
+F13 "CLK" I R 3550 2700 60 
+F14 "SENS1N" I L 1200 2950 60 
+F15 "SENS1P" I L 1200 3050 60 
+F16 "SENS2N" I L 1200 3150 60 
+F17 "SENS2P" I L 1200 3250 60 
+F18 "SENS3N" I L 1200 3350 60 
+F19 "SENS3P" I L 1200 3450 60 
+$EndSheet
+Text Label 3800 3000 0    60   ~ 0
+MOSI_ADS
+Text Label 3800 2900 0    60   ~ 0
+MISO_ADS
+Text Label 3800 3100 0    60   ~ 0
+CS_ADS
+Text Label 3800 2800 0    60   ~ 0
+SCLK_ADS
+Text Label 3850 3400 0    60   ~ 0
+DVCC
+Text Label 3850 3500 0    60   ~ 0
+DGND
+Text Label 3850 3950 0    60   ~ 0
+AVCC
+Text Label 3850 4050 0    60   ~ 0
+AGND
+Text Label 3800 3200 0    60   ~ 0
+DRDY_ADS
+Text Label 5950 3700 0    60   ~ 0
+DRDY_ADS
+Text Label 3850 3650 0    60   ~ 0
+PWDNE_ADS
+Text Label 3850 3750 0    60   ~ 0
+START_ADS
+Text Label 3800 2700 0    60   ~ 0
+CLK_ADS
+Text Label 9200 4100 0    60   ~ 0
+START_ADS
+Text Label 9200 4000 0    60   ~ 0
+PWDNE_ADS
+Text Label 9200 3900 0    60   ~ 0
+CLK_ADS
+Text Label 3850 5150 2    60   ~ 0
+CD_SD
+Wire Wire Line
+	3300 5750 3950 5750
+Wire Wire Line
+	3300 5650 3950 5650
+Wire Wire Line
+	3300 5550 3950 5550
+Wire Wire Line
+	3300 5450 3950 5450
+Wire Wire Line
+	3300 5350 3950 5350
+Wire Wire Line
+	3300 5250 3950 5250
+Wire Wire Line
+	6450 2900 5900 2900
+Wire Wire Line
+	6450 4300 5900 4300
+Wire Wire Line
+	6450 4400 5900 4400
+Wire Wire Line
+	9100 2900 9600 2900
+Wire Wire Line
+	6450 3200 5900 3200
+Wire Wire Line
+	6450 3900 5900 3900
+Wire Wire Line
+	5900 4000 6450 4000
+Wire Wire Line
+	6450 4100 5900 4100
+Wire Wire Line
+	6450 4200 5900 4200
+Wire Wire Line
+	6450 3300 5900 3300
+Wire Wire Line
+	5900 3400 6450 3400
+Wire Wire Line
+	6450 3500 5900 3500
+Wire Wire Line
+	5900 3600 6450 3600
+Wire Wire Line
+	2300 1250 3550 1250
+Wire Wire Line
+	2300 1350 3550 1350
+Wire Wire Line
+	2300 1500 3000 1500
+Wire Wire Line
+	2300 1600 3000 1600
 Wire Wire Line
 	2300 1800 3550 1800
 Wire Wire Line
 	3550 1900 2300 1900
-$Sheet
-S 1700 4100 2350 1600
-U 5B3D4A05
-F0 "ADS1292_esquematico" 60
-F1 "ADS1292_esquematico.sch" 60
-$EndSheet
+Wire Wire Line
+	3550 2800 4300 2800
+Wire Wire Line
+	3550 2900 4300 2900
+Wire Wire Line
+	3550 3000 4300 3000
+Wire Wire Line
+	3550 3100 4300 3100
+Wire Wire Line
+	3550 3200 4300 3200
+Wire Wire Line
+	3550 3400 4300 3400
+Wire Wire Line
+	3550 3500 4300 3500
+Wire Wire Line
+	3550 3950 4300 3950
+Wire Wire Line
+	3550 4050 4300 4050
+Wire Wire Line
+	3550 2700 4300 2700
+Wire Wire Line
+	3550 3650 4300 3650
+Wire Wire Line
+	3550 3750 4300 3750
+Wire Wire Line
+	6450 3700 5900 3700
+Wire Wire Line
+	9100 3900 9600 3900
+Wire Wire Line
+	9100 4000 9600 4000
+Wire Wire Line
+	9100 4100 9600 4100
+Wire Wire Line
+	3300 5150 3950 5150
+Wire Wire Line
+	6450 4900 5900 4900
+Text Label 6250 4900 2    60   ~ 0
+CD_SD
+Wire Wire Line
+	4900 1300 5550 1300
+Wire Wire Line
+	4900 1500 5550 1500
+Text Label 5100 1300 0    60   ~ 0
+ADC_BAT
+Text Label 5100 1500 0    60   ~ 0
+ADC_TEMP
 $EndSCHEMATC
