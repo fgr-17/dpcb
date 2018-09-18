@@ -1,319 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:Video
-LIBS:Valve
-LIBS:Triac_Thyristor
-LIBS:Transistor_IGBT
-LIBS:Transistor_FET
-LIBS:Transistor_BJT
-LIBS:Transistor_Array
-LIBS:Transformer
-LIBS:Timer_RTC
-LIBS:Timer_PLL
-LIBS:Timer
-LIBS:Switch
-LIBS:Sensor_Voltage
-LIBS:Sensor_Touch
-LIBS:Sensor_Temperature
-LIBS:Sensor_Proximity
-LIBS:Sensor_Pressure
-LIBS:Sensor_Optical
-LIBS:Sensor_Motion
-LIBS:Sensor_Magnetic
-LIBS:Sensor_Humidity
-LIBS:Sensor_Gas
-LIBS:Sensor_Current
-LIBS:Sensor_Audio
-LIBS:Sensor
-LIBS:RF_ZigBee
-LIBS:RF_WiFi
-LIBS:RF_Switch
-LIBS:RF_RFID
-LIBS:RF_Module
-LIBS:RF_Mixer
-LIBS:RF_GPS
-LIBS:RF_Bluetooth
-LIBS:RF_AM_FM
-LIBS:RF
-LIBS:Relay_SolidState
-LIBS:Relay
-LIBS:Regulator_Switching
-LIBS:Regulator_SwitchedCapacitor
-LIBS:Regulator_Linear
-LIBS:Regulator_Current
-LIBS:Regulator_Controller
-LIBS:Reference_Voltage
-LIBS:Reference_Current
-LIBS:pspice
-LIBS:Power_Supervisor
-LIBS:Power_Protection
-LIBS:Power_Management
-LIBS:power
-LIBS:Potentiometer_Digital
-LIBS:Oscillator
-LIBS:Motor
-LIBS:Memory_UniqueID
-LIBS:Memory_ROM
-LIBS:Memory_RAM
-LIBS:Memory_NVRAM
-LIBS:Memory_Flash
-LIBS:Memory_EPROM
-LIBS:Memory_EEPROM
-LIBS:Memory_Controller
-LIBS:Mechanical
-LIBS:MCU_Texas_MSP430
-LIBS:MCU_Texas
-LIBS:MCU_ST_STM32
-LIBS:MCU_ST_STM8
-LIBS:MCU_SiliconLabs
-LIBS:MCU_SiFive
-LIBS:MCU_Parallax
-LIBS:MCU_NXP_S08
-LIBS:MCU_NXP_MCore
-LIBS:MCU_NXP_MAC7100
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_HCS12
-LIBS:MCU_NXP_HC12
-LIBS:MCU_NXP_HC11
-LIBS:MCU_NXP_ColdFire
-LIBS:MCU_Module
-LIBS:MCU_Microchip_SAML
-LIBS:MCU_Microchip_SAME
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Intel
-LIBS:MCU_Infineon
-LIBS:MCU_Cypress
-LIBS:MCU_Atmel_AVR
-LIBS:MCU_Atmel_ATTINY
-LIBS:MCU_Atmel_ATMEGA
-LIBS:MCU_Atmel_8051
-LIBS:MCU_AnalogDevices
-LIBS:Logic_Programmable
-LIBS:Logic_LevelTranslator
-LIBS:LED
-LIBS:Jumper
-LIBS:Isolator_Analog
-LIBS:Isolator
-LIBS:Interface_USB
-LIBS:Interface_UART
-LIBS:Interface_Telecom
-LIBS:Interface_Optical
-LIBS:Interface_LineDriver
-LIBS:Interface_HID
-LIBS:Interface_Expansion
-LIBS:Interface_Ethernet
-LIBS:Interface_CurrentLoop
-LIBS:Interface_CAN_LIN
-LIBS:Interface
-LIBS:Graphic
-LIBS:GPU
-LIBS:FPGA_Xilinx_Virtex7
-LIBS:FPGA_Xilinx_Virtex6
-LIBS:FPGA_Xilinx_Virtex5
-LIBS:FPGA_Xilinx_Spartan6
-LIBS:FPGA_Xilinx_Kintex7
-LIBS:FPGA_Xilinx_Artix7
-LIBS:FPGA_Xilinx
-LIBS:FPGA_Actel
-LIBS:Filter
-LIBS:DSP_Texas
-LIBS:DSP_Motorola
-LIBS:DSP_Microchip_DSPIC33
-LIBS:DSP_Freescale
-LIBS:Driver_Relay
-LIBS:Driver_Motor
-LIBS:Driver_LED
-LIBS:Driver_FET
-LIBS:Driver_Display
-LIBS:Display_Graphic
-LIBS:Display_Character
-LIBS:Diode_Laser
-LIBS:Diode_Bridge
-LIBS:Diode
-LIBS:Device
-LIBS:CPU_PowerPC
-LIBS:CPU_NXP_68000
-LIBS:CPU_NXP_6800
-LIBS:CPU
-LIBS:CPLD_Xilinx
-LIBS:CPLD_Altera
-LIBS:Converter_DCDC
-LIBS:Converter_ACDC
-LIBS:Connector_Specialized
-LIBS:Connector_Generic_Shielded
-LIBS:Connector_Generic
-LIBS:Comparator
-LIBS:Battery_Management
-LIBS:Audio
-LIBS:Analog_Switch
-LIBS:Analog_DAC
-LIBS:Analog_ADC
-LIBS:Analog
-LIBS:Amplifier_Video
-LIBS:Amplifier_Operational
-LIBS:Amplifier_Instrumentation
-LIBS:Amplifier_Difference
-LIBS:Amplifier_Current
-LIBS:Amplifier_Buffer
-LIBS:Amplifier_Audio
-LIBS:74xx_IEEE
-LIBS:74xx
-LIBS:74xGxx
-LIBS:4xxx_IEEE
-LIBS:4xxx
-LIBS:dk_USB-DVI-HDMI-Connectors
-LIBS:dk_TVS-Mixed-Technology
-LIBS:dk_TVS-Diodes
-LIBS:dk_Trimmer-Potentiometers
-LIBS:dk_Transistors-JFETs
-LIBS:dk_Transistors-FETs-MOSFETs-Single
-LIBS:dk_Transistors-FETs-MOSFETs-RF
-LIBS:dk_Transistors-FETs-MOSFETs-Arrays
-LIBS:dk_Transistors-Bipolar-BJT-Single-Pre-Biased
-LIBS:dk_Transistors-Bipolar-BJT-Single
-LIBS:dk_Transistors-Bipolar-BJT-RF
-LIBS:dk_Transistors-Bipolar-BJT-Arrays
-LIBS:dk_Toggle-Switches
-LIBS:dk_Thyristors-TRIACs
-LIBS:dk_Thyristors-SCRs
-LIBS:dk_Thyristors-DIACs-SIDACs
-LIBS:dk_Thermal-Cutoffs-Thermal-Fuses
-LIBS:dk_Temperature-Sensors-Analog-and-Digital-Output
-LIBS:dk_Tactile-Switches
-LIBS:dk_Surge-Suppression-ICs
-LIBS:dk_Specialized-Sensors
-LIBS:dk_Specialized-ICs
-LIBS:dk_Solid-State-Relays
-LIBS:dk_Slide-Switches
-LIBS:dk_Signal-Relays-Up-to-2-Amps
-LIBS:dk_Sensors-Transducers_Accessories
-LIBS:dk_Rotary-Potentiometers-Rheostats
-LIBS:dk_RF-Transmitters
-LIBS:dk_RF-Transceiver-Modules
-LIBS:dk_RF-Transceiver-ICs
-LIBS:dk_RF-Switches
-LIBS:dk_RF-Receivers
-LIBS:dk_RFID-RF-Access-Monitoring-ICs
-LIBS:dk_RF-Evaluation-and-Development-Kits-Boards
-LIBS:dk_RF-Detectors
-LIBS:dk_RF-Demodulators
-LIBS:dk_RF-Antennas
-LIBS:dk_RF-Amplifiers
-LIBS:dk_Resistor-Networks-Arrays
-LIBS:dk_Reed-Relays
-LIBS:dk_Rectangular-Connectors-Headers-Male-Pins
-LIBS:dk_Pushbutton-Switches
-LIBS:dk_Programmable-Oscillators
-LIBS:dk_Pressure-Sensors-Transducers
-LIBS:dk_Power-Relays-Over-2-Amps
-LIBS:dk_PMIC-Voltage-Regulators-Special-Purpose
-LIBS:dk_PMIC-Voltage-Regulators-Linear
-LIBS:dk_PMIC-Voltage-Regulators-DC-DC-Switching-Regulators
-LIBS:dk_PMIC-Voltage-Regulators-DC-DC-Switching-Controllers
-LIBS:dk_PMIC-Voltage-Reference
-LIBS:dk_PMIC-V-F-and-F-V-Converters
-LIBS:dk_PMIC-Thermal-Management
-LIBS:dk_PMIC-Supervisors
-LIBS:dk_PMIC-RMS-to-DC-Converters
-LIBS:dk_PMIC-Power-Management-Specialized
-LIBS:dk_PMIC-Power-Distribution-Switches-Load-Drivers
-LIBS:dk_PMIC-OR-Controllers-Ideal-Diodes
-LIBS:dk_PMIC-Motor-Drivers-Controllers
-LIBS:dk_PMIC-LED-Drivers
-LIBS:dk_PMIC-Gate-Drivers
-LIBS:dk_PMIC-Full-Half-Bridge-Drivers
-LIBS:dk_PMIC-Current-Regulation-Management
-LIBS:dk_PMIC-Battery-Management
-LIBS:dk_PMIC-Battery-Chargers
-LIBS:dk_PMIC-AC-DC-Converters-Offline-Switchers
-LIBS:dk_Oscillators
-LIBS:dk_Optoisolators-Triac-SCR-Output
-LIBS:dk_Optoisolators-Transistor-Photovoltaic-Output
-LIBS:dk_Optoisolators-Logic-Output
-LIBS:dk_Optical-Sensors-Reflective-Analog-Output
-LIBS:dk_Optical-Sensors-Phototransistors
-LIBS:dk_Optical-Sensors-Photodiodes
-LIBS:dk_Optical-Sensors-Photo-Detectors-Remote-Receiver
-LIBS:dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors
-LIBS:dk_Navigation-Switches-Joystick
-LIBS:dk_Motion-Sensors-Tilt-Switches
-LIBS:dk_Motion-Sensors-IMUs-Inertial-Measurement-Units
-LIBS:dk_Motion-Sensors-Accelerometers
-LIBS:dk_Modular-Connectors-Jacks-With-Magnetics
-LIBS:dk_Modular-Connectors-Jacks
-LIBS:dk_Microphones
-LIBS:dk_Memory-Connectors-PC-Card-Sockets
-LIBS:dk_Memory
-LIBS:dk_Magnetic-Sensors-Switches-Solid-State
-LIBS:dk_Magnetic-Sensors-Linear-Compass-ICs
-LIBS:dk_Magnetic-Sensors-Compass-Magnetic-Field-Modules
-LIBS:dk_Logic-Translators-Level-Shifters
-LIBS:dk_Logic-Signal-Switches-Multiplexers-Decoders
-LIBS:dk_Logic-Shift-Registers
-LIBS:dk_Logic-Multivibrators
-LIBS:dk_Logic-Gates-and-Inverters
-LIBS:dk_Logic-Flip-Flops
-LIBS:dk_Logic-Buffers-Drivers-Receivers-Transceivers
-LIBS:dk_Linear-Comparators
-LIBS:dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps
-LIBS:dk_Linear-Amplifiers-Audio
-LIBS:dk_LEDs-Circuit-Board-Indicators-Arrays-Light-Bars-Bar-Graphs
-LIBS:dk_LED-Indication-Discrete
-LIBS:dk_Interface-Specialized
-LIBS:dk_Interface-Sensor-Capacitive-Touch
-LIBS:dk_Interface-Sensor-and-Detector-Interfaces
-LIBS:dk_Interface-Modules
-LIBS:dk_Interface-I-O-Expanders
-LIBS:dk_Interface-Drivers-Receivers-Transceivers
-LIBS:dk_Interface-Controllers
-LIBS:dk_Interface-Analog-Switches-Special-Purpose
-LIBS:dk_Interface-Analog-Switches-Multiplexers-Demultiplexers
-LIBS:dk_Inrush-Current-Limiters-ICL
-LIBS:dk_Infrared-UV-Visible-Emitters
-LIBS:dk_Image-Sensors-Camera
-LIBS:dk_Humidity-Moisture-Sensors
-LIBS:dk_Gas-Sensors
-LIBS:dk_Fuses
-LIBS:dk_Fixed-Inductors
-LIBS:dk_Ferrite-Beads-and-Chips
-LIBS:dk_Evaluation-Boards-Sensors
-LIBS:dk_Encoders
-LIBS:dk_Embedded-Microcontrollers
-LIBS:dk_D-Sub-Connectors
-LIBS:dk_Display-Modules-LED-Character-and-Numeric
-LIBS:dk_Diodes-Zener-Single
-LIBS:dk_Diodes-Rectifiers-Single
-LIBS:dk_Diodes-Rectifiers-Arrays
-LIBS:dk_Diodes-Bridge-Rectifiers
-LIBS:dk_Digital-Isolators
-LIBS:dk_DC-DC-Converters
-LIBS:dk_Data-Acquisition-Touch-Screen-Controllers
-LIBS:dk_Data-Acquisition-Digital-to-Analog-Converters-DAC
-LIBS:dk_Data-Acquisition-Digital-Potentiometers
-LIBS:dk_Data-Acquisition-Analog-to-Digital-Converters-ADC
-LIBS:dk_Data-Acquisition-ADCs-DACs-Special-Purpose
-LIBS:dk_Current-Transducers
-LIBS:dk_Coaxial-Connectors-RF
-LIBS:dk_Clock-Timing-Real-Time-Clocks
-LIBS:dk_Clock-Timing-Programmable-Timers-and-Oscillators
-LIBS:dk_Clock-Timing-Clock-Generators-PLLs-Frequency-Synthesizers
-LIBS:dk_Battery-Holders-Clips-Contacts
-LIBS:dk_Barrel-Audio-Connectors
-LIBS:dk_Balun
-LIBS:dk_Automotive-Relays
-LIBS:dk_Alarms-Buzzers-and-Sirens
-LIBS:dk_Addressable-Specialty
+EESchema Schematic File Version 4
 LIBS:vop24_lpcxpresso1769_basehw-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title "ADS1292 esquematico"
 Date "2018-07-04"
 Rev "0.1"
@@ -324,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ADS1292 U?
+L vop24_lpcxpresso1769_basehw-rescue:ADS1292 U?
 U 1 1 5B3D4F42
 P 5250 3100
 F 0 "U?" H 6100 3850 60  0000 C CNN
@@ -361,7 +52,7 @@ SENS2N
 Text Label 3700 3250 0    60   ~ 0
 SENS2P
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B3D4F8C
 P 4000 3450
 F 0 "C?" V 4150 3350 50  0000 L CNN
@@ -372,7 +63,7 @@ F 3 "" H 4000 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B3D4F9E
 P 1150 3450
 F 0 "C?" V 1250 3450 50  0000 L CNN
@@ -385,7 +76,7 @@ $EndComp
 Text Label 750  3450 0    60   ~ 0
 VCAP2
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B3D4FA7
 P 1150 3750
 F 0 "C?" V 1250 3750 50  0000 L CNN
@@ -398,7 +89,7 @@ $EndComp
 Text Label 750  3750 0    60   ~ 0
 VREFP
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B3D4FB0
 P 1150 4000
 F 0 "C?" V 1250 4000 50  0000 L CNN
@@ -431,7 +122,7 @@ DGND
 Text Label 1500 800  0    60   ~ 0
 AVCC
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B415E52
 P 4000 2750
 F 0 "C?" V 3850 2700 50  0000 L CNN
@@ -452,7 +143,7 @@ MOSI_ADS
 Text HLabel 6700 3350 2    60   Input ~ 0
 ~CS~_ADS
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B4163B5
 P 5850 4600
 F 0 "R?" V 5750 4450 50  0000 L CNN
@@ -471,7 +162,7 @@ Text HLabel 5900 4300 2    60   Input ~ 0
 Text HLabel 5900 4450 2    60   Input ~ 0
 START_ADS
 $Comp
-L Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J?
 U 1 1 5B416E44
 P 1050 4850
 F 0 "J?" H 1050 4950 50  0000 C CNN
@@ -482,7 +173,7 @@ F 3 "" H 1050 4850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J?
 U 1 1 5B41719D
 P 1050 5400
 F 0 "J?" H 1050 5500 50  0000 C CNN
@@ -501,7 +192,7 @@ SENS2N
 Text Label 1500 5400 0    60   ~ 0
 SENS2P
 $Comp
-L Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J?
 U 1 1 5B421B08
 P 1050 5900
 F 0 "J?" H 1050 6000 50  0000 C CNN
@@ -524,7 +215,7 @@ Conexión directa  a las \nentradas del ADS. Tener\n en cuenta que la entrada\n 
 Text Label 5400 2100 1    60   ~ 0
 VCAP2
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B42231C
 P 1150 3150
 F 0 "C?" V 1250 3150 50  0000 L CNN
@@ -541,7 +232,7 @@ GPIO1
 Text Label 5600 2100 1    60   ~ 0
 GPIO2
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B422C1C
 P 5800 1650
 F 0 "R?" V 5700 1550 50  0000 L CNN
@@ -552,7 +243,7 @@ F 3 "" H 5800 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDD #PWR?
+L power:GNDD #PWR?
 U 1 1 5B423002
 P 2100 1550
 F 0 "#PWR?" H 2100 1300 50  0001 C CNN
@@ -563,7 +254,7 @@ F 3 "" H 2100 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 5B423104
 P 2100 1100
 F 0 "#PWR?" H 2100 850 50  0001 C CNN
@@ -574,7 +265,7 @@ F 3 "" H 2100 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR?
+L power:GNDD #PWR?
 U 1 1 5B4233F5
 P 2100 4100
 F 0 "#PWR?" H 2100 3850 50  0001 C CNN
@@ -585,7 +276,7 @@ F 3 "" H 2100 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR?
+L power:GNDD #PWR?
 U 1 1 5B42366D
 P 6150 1700
 F 0 "#PWR?" H 6150 1450 50  0001 C CNN
@@ -596,7 +287,7 @@ F 3 "" H 6150 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR?
+L power:GNDD #PWR?
 U 1 1 5B423775
 P 6250 1500
 F 0 "#PWR?" H 6250 1250 50  0001 C CNN
@@ -621,7 +312,7 @@ RLDIN
 Text Label 1200 2150 2    60   ~ 0
 RLDINV
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B423FD2
 P 2300 2350
 F 0 "R?" H 2350 2250 50  0000 L CNN
@@ -632,7 +323,7 @@ F 3 "" H 2300 2350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B42407E
 P 1700 2400
 F 0 "R?" V 1600 2250 50  0000 L CNN
@@ -643,7 +334,7 @@ F 3 "" H 1700 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B424105
 P 2650 2400
 F 0 "C?" V 2750 2200 50  0000 L CNN
@@ -656,7 +347,7 @@ $EndComp
 Text Notes 7800 650  0    60   ~ 12
 FILTRO ANALOGICO ENTRADA 1\n
 $Comp
-L Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J?
 U 1 1 5B43F158
 P 8050 1700
 F 0 "J?" H 8050 1800 50  0000 C CNN
@@ -667,7 +358,7 @@ F 3 "" H 8050 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B43F2AB
 P 9300 1350
 F 0 "C?" V 9400 1350 50  0000 L CNN
@@ -678,7 +369,7 @@ F 3 "" H 9300 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B43F335
 P 8750 1150
 F 0 "R?" V 8650 1250 50  0000 L CNN
@@ -689,7 +380,7 @@ F 3 "" H 8750 1150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 5B43F3DE
 P 9650 1300
 F 0 "#PWR?" H 9650 1050 50  0001 C CNN
@@ -700,7 +391,7 @@ F 3 "" H 9650 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B43F4A7
 P 8950 950
 F 0 "R?" V 8850 900 50  0000 L CNN
@@ -711,7 +402,7 @@ F 3 "" H 8950 950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B43F81E
 P 9650 1150
 F 0 "C?" V 9750 1150 50  0000 L CNN
@@ -722,7 +413,7 @@ F 3 "" H 9650 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 5B43F8C6
 P 8750 1300
 F 0 "#PWR?" H 8750 1050 50  0001 C CNN
@@ -733,7 +424,7 @@ F 3 "" H 8750 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 5B4401BF
 P 9650 2050
 F 0 "#PWR?" H 9650 1800 50  0001 C CNN
@@ -744,7 +435,7 @@ F 3 "" H 9650 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B4401CB
 P 9650 1900
 F 0 "C?" V 9750 1900 50  0000 L CNN
@@ -755,7 +446,7 @@ F 3 "" H 9650 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 5B4401D1
 P 8750 2050
 F 0 "#PWR?" H 8750 1800 50  0001 C CNN
@@ -1024,7 +715,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 1650 6150 1800
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B4544E5
 P 5950 1400
 F 0 "R?" V 5850 1250 50  0000 L CNN
@@ -1035,7 +726,7 @@ F 3 "" H 5950 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B454AD0
 P 8950 1700
 F 0 "R?" V 8850 1650 50  0000 L CNN
@@ -1046,7 +737,7 @@ F 3 "" H 8950 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B454B45
 P 8750 1900
 F 0 "R?" V 8650 2000 50  0000 L CNN
@@ -1059,7 +750,7 @@ $EndComp
 Text Notes 7800 2600 0    60   ~ 12
 FILTRO ANALOGICO ENTRADA 2
 $Comp
-L Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J?
 U 1 1 5B455525
 P 8050 3650
 F 0 "J?" H 8050 3750 50  0000 C CNN
@@ -1070,7 +761,7 @@ F 3 "" H 8050 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B45552B
 P 9300 3300
 F 0 "C?" V 9400 3300 50  0000 L CNN
@@ -1081,7 +772,7 @@ F 3 "" H 9300 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B455531
 P 8750 3100
 F 0 "R?" V 8650 3200 50  0000 L CNN
@@ -1092,7 +783,7 @@ F 3 "" H 8750 3100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 5B455537
 P 9650 3250
 F 0 "#PWR?" H 9650 3000 50  0001 C CNN
@@ -1103,7 +794,7 @@ F 3 "" H 9650 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B45553D
 P 8950 2900
 F 0 "R?" V 8850 2850 50  0000 L CNN
@@ -1114,7 +805,7 @@ F 3 "" H 8950 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B455543
 P 9650 3100
 F 0 "C?" V 9750 3100 50  0000 L CNN
@@ -1125,7 +816,7 @@ F 3 "" H 9650 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 5B455549
 P 8750 3250
 F 0 "#PWR?" H 8750 3000 50  0001 C CNN
@@ -1136,7 +827,7 @@ F 3 "" H 8750 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 5B45554F
 P 9650 4000
 F 0 "#PWR?" H 9650 3750 50  0001 C CNN
@@ -1147,7 +838,7 @@ F 3 "" H 9650 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B455555
 P 9650 3850
 F 0 "C?" V 9750 3850 50  0000 L CNN
@@ -1158,7 +849,7 @@ F 3 "" H 9650 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 5B45555B
 P 8750 4000
 F 0 "#PWR?" H 8750 3750 50  0001 C CNN
@@ -1231,7 +922,7 @@ Wire Wire Line
 Wire Notes Line
 	10950 4350 7750 4350
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B45557D
 P 8950 3650
 F 0 "R?" V 8850 3600 50  0000 L CNN
@@ -1242,7 +933,7 @@ F 3 "" H 8950 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B455583
 P 8750 3850
 F 0 "R?" V 8650 3950 50  0000 L CNN
@@ -1255,7 +946,7 @@ $EndComp
 Text Notes 7800 4550 0    60   ~ 12
 FILTRO ANALOGICO ENTRADA 3
 $Comp
-L Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J?
 U 1 1 5B455BFE
 P 8050 5600
 F 0 "J?" H 8050 5700 50  0000 C CNN
@@ -1266,7 +957,7 @@ F 3 "" H 8050 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B455C04
 P 9300 5250
 F 0 "C?" V 9400 5250 50  0000 L CNN
@@ -1277,7 +968,7 @@ F 3 "" H 9300 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B455C0A
 P 8750 5050
 F 0 "R?" V 8650 5150 50  0000 L CNN
@@ -1288,7 +979,7 @@ F 3 "" H 8750 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 5B455C10
 P 9650 5200
 F 0 "#PWR?" H 9650 4950 50  0001 C CNN
@@ -1299,7 +990,7 @@ F 3 "" H 9650 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B455C16
 P 8950 4850
 F 0 "R?" V 8850 4800 50  0000 L CNN
@@ -1310,7 +1001,7 @@ F 3 "" H 8950 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B455C1C
 P 9650 5050
 F 0 "C?" V 9750 5050 50  0000 L CNN
@@ -1321,7 +1012,7 @@ F 3 "" H 9650 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 5B455C22
 P 8750 5200
 F 0 "#PWR?" H 8750 4950 50  0001 C CNN
@@ -1332,7 +1023,7 @@ F 3 "" H 8750 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 5B455C28
 P 9650 5950
 F 0 "#PWR?" H 9650 5700 50  0001 C CNN
@@ -1343,7 +1034,7 @@ F 3 "" H 9650 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B455C2E
 P 9650 5800
 F 0 "C?" V 9750 5800 50  0000 L CNN
@@ -1354,7 +1045,7 @@ F 3 "" H 9650 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 5B455C34
 P 8750 5950
 F 0 "#PWR?" H 8750 5700 50  0001 C CNN
@@ -1427,7 +1118,7 @@ Wire Wire Line
 Wire Notes Line
 	10950 6300 7750 6300
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B455C56
 P 8950 5600
 F 0 "R?" V 8850 5550 50  0000 L CNN
@@ -1438,7 +1129,7 @@ F 3 "" H 8950 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R?
+L Device:R_Small R?
 U 1 1 5B455C5C
 P 8750 5800
 F 0 "R?" V 8650 5900 50  0000 L CNN
@@ -1449,7 +1140,7 @@ F 3 "" H 8750 5800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B4562C2
 P 1350 6800
 F 0 "C?" V 1450 6800 50  0000 L CNN
@@ -1460,7 +1151,7 @@ F 3 "" H 1350 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B456530
 P 1950 6800
 F 0 "C?" V 2050 6800 50  0000 L CNN
@@ -1471,7 +1162,7 @@ F 3 "" H 1950 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B4565D8
 P 1650 6800
 F 0 "C?" V 1750 6800 50  0000 L CNN
@@ -1482,7 +1173,7 @@ F 3 "" H 1650 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L Device:C_Small C?
 U 1 1 5B456726
 P 2200 6800
 F 0 "C?" V 2300 6800 50  0000 L CNN
@@ -1520,7 +1211,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 6900 2200 7150
 $Comp
-L GNDD #PWR?
+L power:GNDD #PWR?
 U 1 1 5B45722C
 P 1350 7150
 F 0 "#PWR?" H 1350 6900 50  0001 C CNN
@@ -1531,7 +1222,7 @@ F 3 "" H 1350 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR?
+L power:GNDD #PWR?
 U 1 1 5B45736B
 P 1650 7150
 F 0 "#PWR?" H 1650 6900 50  0001 C CNN
@@ -1542,7 +1233,7 @@ F 3 "" H 1650 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR?
+L power:GNDD #PWR?
 U 1 1 5B4573FA
 P 1950 7150
 F 0 "#PWR?" H 1950 6900 50  0001 C CNN
@@ -1553,7 +1244,7 @@ F 3 "" H 1950 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR?
+L power:GNDD #PWR?
 U 1 1 5B457489
 P 2200 7150
 F 0 "#PWR?" H 2200 6900 50  0001 C CNN
@@ -1568,7 +1259,7 @@ DVCC
 Text Notes 2450 7050 0    60   ~ 0
 Desacople de la alimentacion\ndel ADS1292. Poner los caps\ncerca de los pines de alimentacion\n
 $Comp
-L BLM18PG121SN1D FB?
+L vop24_lpcxpresso1769_basehw-rescue:BLM18PG121SN1D FB?
 U 1 1 5B458336
 P 3150 950
 F 0 "FB?" H 3150 1150 60  0000 C CNN
