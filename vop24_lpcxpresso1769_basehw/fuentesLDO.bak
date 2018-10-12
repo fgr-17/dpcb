@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -17,306 +17,495 @@ $EndDescr
 $Comp
 L vop24_lpcxpresso1769_basehw-rescue:MCP1700T-3302E_TT U?
 U 1 1 5B3830F9
-P 5800 2600
+P 4400 3500
 AR Path="/5B3830F9" Ref="U?"  Part="1" 
-AR Path="/5B3826CA/5B3830F9" Ref="U?"  Part="1" 
-F 0 "U?" H 5800 2800 60  0000 C CNN
-F 1 "MCP1700T-3302E_TT" H 5800 2900 60  0000 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 6000 2800 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 6000 2900 60  0001 L CNN
-F 4 "MCP1700T3302ETTCT-ND" H 6000 3000 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP1700T-3302E/TT" H 6000 3100 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 6000 3200 60  0001 L CNN "Category"
-F 7 "PMIC - Voltage Regulators - Linear" H 6000 3300 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 6000 3400 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP1700T-3302E-TT/MCP1700T3302ETTCT-ND/652677" H 6000 3500 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC REG LINEAR 3.3V 250MA SOT23-3" H 6000 3600 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 6000 3700 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6000 3800 60  0001 L CNN "Status"
-	1    5800 2600
+AR Path="/5B3826CA/5B3830F9" Ref="U9"  Part="1" 
+F 0 "U9" H 4400 3700 60  0000 C CNN
+F 1 "MCP1700T-3302E_TT" H 4400 3800 60  0000 C CNN
+F 2 "digikey-footprints:SOT-23-3" H 4600 3700 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 4600 3800 60  0001 L CNN
+F 4 "MCP1700T3302ETTCT-ND" H 4600 3900 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP1700T-3302E/TT" H 4600 4000 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 4600 4100 60  0001 L CNN "Category"
+F 7 "PMIC - Voltage Regulators - Linear" H 4600 4200 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 4600 4300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP1700T-3302E-TT/MCP1700T3302ETTCT-ND/652677" H 4600 4400 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC REG LINEAR 3.3V 250MA SOT23-3" H 4600 4500 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 4600 4600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4600 4700 60  0001 L CNN "Status"
+	1    4400 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L vop24_lpcxpresso1769_basehw-rescue:MCP1700T-3302E_TT U?
 U 1 1 5B383109
-P 5750 3850
+P 4350 4750
 AR Path="/5B383109" Ref="U?"  Part="1" 
-AR Path="/5B3826CA/5B383109" Ref="U?"  Part="1" 
-F 0 "U?" H 5750 4050 60  0000 C CNN
-F 1 "MCP1700T-3302E_TT" H 5750 4150 60  0000 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 5950 4050 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 5950 4150 60  0001 L CNN
-F 4 "MCP1700T3302ETTCT-ND" H 5950 4250 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP1700T-3302E/TT" H 5950 4350 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 5950 4450 60  0001 L CNN "Category"
-F 7 "PMIC - Voltage Regulators - Linear" H 5950 4550 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 5950 4650 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP1700T-3302E-TT/MCP1700T3302ETTCT-ND/652677" H 5950 4750 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC REG LINEAR 3.3V 250MA SOT23-3" H 5950 4850 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 5950 4950 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5950 5050 60  0001 L CNN "Status"
-	1    5750 3850
+AR Path="/5B3826CA/5B383109" Ref="U8"  Part="1" 
+F 0 "U8" H 4350 4950 60  0000 C CNN
+F 1 "MCP1700T-3302E_TT" H 4350 5050 60  0000 C CNN
+F 2 "digikey-footprints:SOT-23-3" H 4550 4950 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 4550 5050 60  0001 L CNN
+F 4 "MCP1700T3302ETTCT-ND" H 4550 5150 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP1700T-3302E/TT" H 4550 5250 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 4550 5350 60  0001 L CNN "Category"
+F 7 "PMIC - Voltage Regulators - Linear" H 4550 5450 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 4550 5550 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP1700T-3302E-TT/MCP1700T3302ETTCT-ND/652677" H 4550 5650 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC REG LINEAR 3.3V 250MA SOT23-3" H 4550 5750 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 4550 5850 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4550 5950 60  0001 L CNN "Status"
+	1    4350 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5B383110
-P 3800 2700
-F 0 "J?" H 3800 2800 50  0000 C CNN
-F 1 "Conn_01x02" H 3800 2500 50  0000 C CNN
-F 2 "" H 3800 2700 50  0001 C CNN
-F 3 "" H 3800 2700 50  0001 C CNN
-	1    3800 2700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C?
+L Device:C_Small C21
 U 1 1 5B383117
-P 4900 2850
-F 0 "C?" H 4910 2920 50  0000 L CNN
-F 1 "1uF" H 4910 2770 50  0000 L CNN
-F 2 "" H 4900 2850 50  0001 C CNN
-F 3 "" H 4900 2850 50  0001 C CNN
-	1    4900 2850
+P 3500 3750
+F 0 "C21" H 3510 3820 50  0000 L CNN
+F 1 "1uF" H 3510 3670 50  0000 L CNN
+F 2 "" H 3500 3750 50  0001 C CNN
+F 3 "" H 3500 3750 50  0001 C CNN
+	1    3500 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C25
 U 1 1 5B38311E
-P 6700 2850
-F 0 "C?" H 6710 2920 50  0000 L CNN
-F 1 "1uF" H 6710 2770 50  0000 L CNN
-F 2 "" H 6700 2850 50  0001 C CNN
-F 3 "" H 6700 2850 50  0001 C CNN
-	1    6700 2850
+P 5300 3750
+F 0 "C25" H 5310 3820 50  0000 L CNN
+F 1 "1uF" H 5310 3670 50  0000 L CNN
+F 2 "" H 5300 3750 50  0001 C CNN
+F 3 "" H 5300 3750 50  0001 C CNN
+	1    5300 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C22
 U 1 1 5B383125
-P 4950 4100
-F 0 "C?" H 4960 4170 50  0000 L CNN
-F 1 "1uF" H 4960 4020 50  0000 L CNN
-F 2 "" H 4950 4100 50  0001 C CNN
-F 3 "" H 4950 4100 50  0001 C CNN
-	1    4950 4100
+P 3550 5000
+F 0 "C22" H 3560 5070 50  0000 L CNN
+F 1 "1uF" H 3560 4920 50  0000 L CNN
+F 2 "" H 3550 5000 50  0001 C CNN
+F 3 "" H 3550 5000 50  0001 C CNN
+	1    3550 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C26
 U 1 1 5B38312C
-P 6700 4100
-F 0 "C?" H 6710 4170 50  0000 L CNN
-F 1 "1uF" H 6710 4020 50  0000 L CNN
-F 2 "" H 6700 4100 50  0001 C CNN
-F 3 "" H 6700 4100 50  0001 C CNN
-	1    6700 4100
+P 5300 5000
+F 0 "C26" H 5310 5070 50  0000 L CNN
+F 1 "1uF" H 5310 4920 50  0000 L CNN
+F 2 "" H 5300 5000 50  0001 C CNN
+F 3 "" H 5300 5000 50  0001 C CNN
+	1    5300 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R26
 U 1 1 5B383133
-P 4650 3250
-F 0 "R?" H 4680 3270 50  0000 L CNN
-F 1 "R_Small" H 4680 3210 50  0000 L CNN
-F 2 "" H 4650 3250 50  0001 C CNN
-F 3 "" H 4650 3250 50  0001 C CNN
-	1    4650 3250
+P 3250 4150
+F 0 "R26" H 3280 4170 50  0000 L CNN
+F 1 "R_Small" H 3280 4110 50  0000 L CNN
+F 2 "" H 3250 4150 50  0001 C CNN
+F 3 "" H 3250 4150 50  0001 C CNN
+	1    3250 4150
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R27
 U 1 1 5B38313A
-P 4700 4450
-F 0 "R?" H 4730 4470 50  0000 L CNN
-F 1 "R_Small" H 4730 4410 50  0000 L CNN
-F 2 "" H 4700 4450 50  0001 C CNN
-F 3 "" H 4700 4450 50  0001 C CNN
-	1    4700 4450
+P 3300 5350
+F 0 "R27" H 3330 5370 50  0000 L CNN
+F 1 "R_Small" H 3330 5310 50  0000 L CNN
+F 2 "" H 3300 5350 50  0001 C CNN
+F 3 "" H 3300 5350 50  0001 C CNN
+	1    3300 5350
 	0    1    1    0   
 $EndComp
-Text Label 6400 2600 0    60   ~ 0
+Text Label 5000 3500 0    60   ~ 0
 DVCC
-Text Label 6400 3250 0    60   ~ 0
+Text Label 5000 4150 0    60   ~ 0
 DGND
-Text Label 6400 3850 0    60   ~ 0
+Text Label 5000 4750 0    60   ~ 0
 AVCC
-Text Label 6400 4450 0    60   ~ 0
+Text Label 5000 5350 0    60   ~ 0
 AGND
-Text Label 4200 2600 0    60   ~ 0
+Text Label 2800 3500 0    60   ~ 0
 VBAT
-Text Label 4250 4450 0    60   ~ 0
+Text Label 2850 5350 0    60   ~ 0
 GNDBAT
 $Comp
-L Device:LED_Small D?
+L Device:LED_Small D1
 U 1 1 5B383147
-P 7350 2800
-F 0 "D?" H 7300 2925 50  0000 L CNN
-F 1 "LED_Small" H 7175 2700 50  0000 L CNN
-F 2 "" V 7350 2800 50  0001 C CNN
-F 3 "" V 7350 2800 50  0001 C CNN
-	1    7350 2800
+P 5950 3700
+F 0 "D1" H 5900 3825 50  0000 L CNN
+F 1 "LED_Small" H 5775 3600 50  0000 L CNN
+F 2 "" V 5950 3700 50  0001 C CNN
+F 3 "" V 5950 3700 50  0001 C CNN
+	1    5950 3700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small 1k
+L Device:R_Small 1k1
 U 1 1 5B38314E
-P 7350 3100
-F 0 "1k" H 7380 3120 50  0000 L CNN
-F 1 "R_Small" H 7380 3060 50  0000 L CNN
-F 2 "" H 7350 3100 50  0001 C CNN
-F 3 "" H 7350 3100 50  0001 C CNN
-	1    7350 3100
+P 5950 4000
+F 0 "1k1" H 5980 4020 50  0000 L CNN
+F 1 "R_Small" H 5980 3960 50  0000 L CNN
+F 2 "" H 5950 4000 50  0001 C CNN
+F 3 "" H 5950 4000 50  0001 C CNN
+	1    5950 4000
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Small D?
+L Device:LED_Small D2
 U 1 1 5B383155
-P 7350 4000
-F 0 "D?" H 7300 4125 50  0000 L CNN
-F 1 "LED_Small" H 7175 3900 50  0000 L CNN
-F 2 "" V 7350 4000 50  0001 C CNN
-F 3 "" V 7350 4000 50  0001 C CNN
-	1    7350 4000
+P 5950 4900
+F 0 "D2" H 5900 5025 50  0000 L CNN
+F 1 "LED_Small" H 5775 4800 50  0000 L CNN
+F 2 "" V 5950 4900 50  0001 C CNN
+F 3 "" V 5950 4900 50  0001 C CNN
+	1    5950 4900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small 1k
+L Device:R_Small 1k2
 U 1 1 5B38315C
-P 7350 4300
-F 0 "1k" H 7380 4320 50  0000 L CNN
-F 1 "R_Small" H 7380 4260 50  0000 L CNN
-F 2 "" H 7350 4300 50  0001 C CNN
-F 3 "" H 7350 4300 50  0001 C CNN
-	1    7350 4300
+P 5950 5200
+F 0 "1k2" H 5980 5220 50  0000 L CNN
+F 1 "R_Small" H 5980 5160 50  0000 L CNN
+F 2 "" H 5950 5200 50  0001 C CNN
+F 3 "" H 5950 5200 50  0001 C CNN
+	1    5950 5200
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4000 2600 4300 2600
+	3500 3650 3500 3500
+Connection ~ 3500 3500
 Wire Wire Line
-	4900 2750 4900 2600
-Connection ~ 4900 2600
+	2900 4750 2900 3500
+Connection ~ 2900 3500
 Wire Wire Line
-	4300 3850 4500 3850
+	3550 4900 3550 4750
+Connection ~ 3550 4750
 Wire Wire Line
-	4300 3850 4300 2600
-Connection ~ 4300 2600
+	4850 4750 5300 4750
 Wire Wire Line
-	4950 4000 4950 3850
-Connection ~ 4950 3850
+	5300 4750 5300 4900
 Wire Wire Line
-	6250 3850 6700 3850
+	3550 5100 3550 5350
 Wire Wire Line
-	6700 3850 6700 4000
+	3400 5350 3550 5350
 Wire Wire Line
-	4950 4200 4950 4450
+	5300 5350 5300 5100
 Wire Wire Line
-	4800 4450 4950 4450
+	4350 5150 4350 5350
+Connection ~ 4350 5350
 Wire Wire Line
-	6700 4450 6700 4200
+	3500 3850 3500 4150
 Wire Wire Line
-	5750 4250 5750 4450
-Connection ~ 5750 4450
+	3350 4150 3500 4150
 Wire Wire Line
-	4900 2950 4900 3250
+	5300 4150 5300 3850
 Wire Wire Line
-	4750 3250 4900 3250
+	4900 3500 5300 3500
 Wire Wire Line
-	6700 3250 6700 2950
+	5300 3500 5300 3650
 Wire Wire Line
-	6300 2600 6700 2600
+	4400 3900 4400 4150
+Connection ~ 4400 4150
+Connection ~ 3550 5350
 Wire Wire Line
-	6700 2600 6700 2750
+	2800 3600 2800 4150
 Wire Wire Line
-	5800 3000 5800 3250
-Connection ~ 5800 3250
-Connection ~ 4950 4450
+	2800 3600 2700 3600
 Wire Wire Line
-	4200 4450 4450 4450
+	3150 4150 2800 4150
+Connection ~ 2800 4150
+Connection ~ 3500 4150
 Wire Wire Line
-	4200 2700 4200 3250
+	5950 3500 5950 3600
+Connection ~ 5300 3500
 Wire Wire Line
-	4200 2700 4000 2700
+	5950 3900 5950 3800
 Wire Wire Line
-	4550 3250 4200 3250
-Connection ~ 4200 3250
-Connection ~ 4900 3250
+	5950 4150 5950 4100
+Connection ~ 5300 4150
 Wire Wire Line
-	7350 2600 7350 2700
-Connection ~ 6700 2600
+	5950 4750 5950 4800
+Connection ~ 5300 4750
 Wire Wire Line
-	7350 3000 7350 2900
+	5950 5000 5950 5100
 Wire Wire Line
-	7350 3250 7350 3200
-Connection ~ 6700 3250
-Wire Wire Line
-	7350 3850 7350 3900
-Connection ~ 6700 3850
-Wire Wire Line
-	7350 4100 7350 4200
-Wire Wire Line
-	7350 4450 7350 4400
-Connection ~ 6700 4450
-Connection ~ 7350 3850
-Connection ~ 7350 4450
-Text HLabel 8300 3850 2    60   Input ~ 0
+	5950 5350 5950 5300
+Connection ~ 5300 5350
+Connection ~ 5950 4750
+Connection ~ 5950 5350
+Text HLabel 6900 4750 2    60   BiDi ~ 0
 AVCC
-Text HLabel 8300 4450 2    60   Input ~ 0
+Text HLabel 6900 5350 2    60   BiDi ~ 0
 AGND
-Text HLabel 8300 3250 2    60   Input ~ 0
+Text HLabel 6900 4150 2    60   BiDi ~ 0
 DGND
-Text HLabel 8300 2600 2    60   Input ~ 0
+Text HLabel 9300 3200 0    60   Input ~ 0
 DVCC
-Connection ~ 7350 2600
-Connection ~ 7350 3250
-Text HLabel 4700 5000 2    60   Input ~ 0
-VBAT
-Text HLabel 4700 5200 2    60   Input ~ 0
-GND_BAT
+Connection ~ 5950 3500
+Connection ~ 5950 4150
 Wire Wire Line
-	4700 5000 4500 5000
+	3500 3500 4000 3500
 Wire Wire Line
-	4500 5000 4500 3850
-Connection ~ 4500 3850
+	2900 3500 3500 3500
 Wire Wire Line
-	4450 5200 4700 5200
+	3550 4750 3950 4750
 Wire Wire Line
-	4450 5200 4450 4450
-Connection ~ 4450 4450
+	4350 5350 5300 5350
 Wire Wire Line
-	4900 2600 5400 2600
+	4400 4150 5300 4150
 Wire Wire Line
-	4300 2600 4900 2600
+	3550 5350 4350 5350
 Wire Wire Line
-	4950 3850 5350 3850
+	2800 4150 2800 5350
 Wire Wire Line
-	5750 4450 6700 4450
+	3500 4150 4400 4150
 Wire Wire Line
-	5800 3250 6700 3250
+	5300 3500 5950 3500
 Wire Wire Line
-	4950 4450 5750 4450
+	5300 4150 5950 4150
 Wire Wire Line
-	4200 3250 4200 4450
+	5300 4750 5950 4750
 Wire Wire Line
-	4900 3250 5800 3250
+	5300 5350 5950 5350
 Wire Wire Line
-	6700 2600 7350 2600
+	5950 4750 6900 4750
 Wire Wire Line
-	6700 3250 7350 3250
+	5950 5350 6900 5350
 Wire Wire Line
-	6700 3850 7350 3850
+	5950 3500 6900 3500
 Wire Wire Line
-	6700 4450 7350 4450
+	5950 4150 6900 4150
+$Comp
+L cargaBateriaUSB:TPS63001 U10
+U 1 1 5BBF90D3
+P 5500 2100
+F 0 "U10" H 5500 2665 50  0000 C CNN
+F 1 "TPS63001" H 5500 2574 50  0000 C CNN
+F 2 "" H 5500 2000 50  0001 C CNN
+F 3 "" H 5500 2000 50  0001 C CNN
+	1    5500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5BBF9F99
+P 5500 1400
+F 0 "L1" V 5690 1400 50  0000 C CNN
+F 1 "2.2uH" V 5599 1400 50  0000 C CNN
+F 2 "" H 5500 1400 50  0001 C CNN
+F 3 "~" H 5500 1400 50  0001 C CNN
+	1    5500 1400
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	7350 3850 8300 3850
+	5050 1900 4950 1900
 Wire Wire Line
-	7350 4450 8300 4450
+	4950 1900 4950 1400
 Wire Wire Line
-	7350 2600 8300 2600
+	4950 1400 5350 1400
 Wire Wire Line
-	7350 3250 8300 3250
+	5650 1400 6100 1400
 Wire Wire Line
-	4500 3850 4950 3850
+	6100 1400 6100 1900
 Wire Wire Line
-	4450 4450 4600 4450
+	6100 1900 5950 1900
+$Comp
+L Device:C C27
+U 1 1 5BBFC32D
+P 6600 2550
+F 0 "C27" H 6715 2596 50  0000 L CNN
+F 1 "10uF" H 6715 2505 50  0000 L CNN
+F 2 "" H 6638 2400 50  0001 C CNN
+F 3 "~" H 6600 2550 50  0001 C CNN
+	1    6600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C24
+U 1 1 5BBFC3A7
+P 4600 2750
+F 0 "C24" H 4715 2796 50  0000 L CNN
+F 1 "0.1uF" H 4715 2705 50  0000 L CNN
+F 2 "" H 4638 2600 50  0001 C CNN
+F 3 "~" H 4600 2750 50  0001 C CNN
+	1    4600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C23
+U 1 1 5BBFC431
+P 3800 2450
+F 0 "C23" H 3915 2496 50  0000 L CNN
+F 1 "10uF" H 3915 2405 50  0000 L CNN
+F 2 "" H 3838 2300 50  0001 C CNN
+F 3 "~" H 3800 2450 50  0001 C CNN
+	1    3800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C28
+U 1 1 5BBFC5F5
+P 7100 2550
+F 0 "C28" H 7215 2596 50  0000 L CNN
+F 1 "10uF" H 7215 2505 50  0000 L CNN
+F 2 "" H 7138 2400 50  0001 C CNN
+F 3 "~" H 7100 2550 50  0001 C CNN
+	1    7100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5BBFC68E
+P 4600 2300
+F 0 "R28" H 4670 2346 50  0000 L CNN
+F 1 "R" H 4670 2255 50  0000 L CNN
+F 2 "" V 4530 2300 50  0001 C CNN
+F 3 "~" H 4600 2300 50  0001 C CNN
+	1    4600 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2000 4600 2000
+Wire Wire Line
+	3800 2300 3800 2000
+Connection ~ 3800 2000
+Wire Wire Line
+	4600 2150 4600 2000
+Connection ~ 4600 2000
+Wire Wire Line
+	4600 2000 3800 2000
+Wire Wire Line
+	4600 2600 4600 2550
+Wire Wire Line
+	5050 2300 4850 2300
+Wire Wire Line
+	4850 2300 4850 2200
+Wire Wire Line
+	4850 2100 5050 2100
+Wire Wire Line
+	5050 2200 4850 2200
+Connection ~ 4850 2200
+Wire Wire Line
+	4850 2200 4850 2100
+Wire Wire Line
+	4850 2300 4850 2550
+Wire Wire Line
+	4850 2550 4600 2550
+Connection ~ 4850 2300
+Connection ~ 4600 2550
+Wire Wire Line
+	4600 2550 4600 2450
+Wire Wire Line
+	5950 2050 6050 2050
+Wire Wire Line
+	6600 2400 6600 2050
+Connection ~ 6600 2050
+Wire Wire Line
+	6600 2050 7100 2050
+Wire Wire Line
+	7100 2400 7100 2050
+Connection ~ 7100 2050
+Wire Wire Line
+	7100 2050 7500 2050
+Wire Wire Line
+	5950 2250 6050 2250
+Wire Wire Line
+	6050 2250 6050 2050
+Connection ~ 6050 2050
+Wire Wire Line
+	6050 2050 6600 2050
+Wire Wire Line
+	3800 2600 3800 3000
+Wire Wire Line
+	3800 3000 4600 3000
+Wire Wire Line
+	6600 2700 6600 3000
+Connection ~ 6600 3000
+Wire Wire Line
+	6600 3000 7100 3000
+Wire Wire Line
+	7100 3000 7100 2700
+Connection ~ 7100 3000
+Wire Wire Line
+	4600 2900 4600 3000
+Connection ~ 4600 3000
+Wire Wire Line
+	4600 3000 5000 3000
+Wire Wire Line
+	5050 2400 5000 2400
+Wire Wire Line
+	5000 2400 5000 3000
+Connection ~ 5000 3000
+Wire Wire Line
+	5000 3000 6050 3000
+Wire Wire Line
+	5950 2400 6050 2400
+Wire Wire Line
+	6050 2400 6050 3000
+Connection ~ 6050 3000
+Wire Wire Line
+	6050 3000 6600 3000
+Wire Wire Line
+	7100 3000 7550 3000
+Wire Wire Line
+	2800 2000 2800 3500
+Wire Wire Line
+	2800 2000 3800 2000
+Connection ~ 2800 3500
+Wire Wire Line
+	2800 3500 2900 3500
+Wire Wire Line
+	2700 3600 2700 3000
+Wire Wire Line
+	2700 3000 3800 3000
+Connection ~ 2700 3600
+Wire Wire Line
+	2700 3600 2600 3600
+Connection ~ 3800 3000
+Text HLabel 7550 3000 2    60   BiDi ~ 0
+DGND
+Text Label 6500 3500 0    50   ~ 0
+DVCC_LDO
+Text Label 7050 2050 0    50   ~ 0
+DVCC_UD
+$Comp
+L Connector:Conn_01x03_Male J8
+U 1 1 5BC24F14
+P 9750 3200
+F 0 "J8" H 9856 3478 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 9856 3387 50  0000 C CNN
+F 2 "" H 9750 3200 50  0001 C CNN
+F 3 "~" H 9750 3200 50  0001 C CNN
+	1    9750 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 3200 9300 3200
+Wire Wire Line
+	9550 3300 9050 3300
+Wire Wire Line
+	9550 3100 9050 3100
+Text Label 9100 3100 0    50   ~ 0
+DVCC_UD
+Text Label 9100 3300 0    50   ~ 0
+DVCC_LDO
+Wire Wire Line
+	2800 5350 3200 5350
+Wire Wire Line
+	2900 4750 3550 4750
+Wire Wire Line
+	2600 3500 2800 3500
+Text HLabel 2600 3500 0    50   BiDi ~ 0
+VCC_NREG
+Text HLabel 2600 3600 0    50   BiDi ~ 0
+GND_NREG
 $EndSCHEMATC
