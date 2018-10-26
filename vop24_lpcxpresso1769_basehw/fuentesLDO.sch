@@ -106,8 +106,8 @@ $Comp
 L Device:R_Small R101
 U 1 1 5B383133
 P 3250 4150
-F 0 "R101" H 3280 4170 50  0000 L CNN
-F 1 "R_Small" H 3280 4110 50  0000 L CNN
+F 0 "R101" V 3150 4050 50  0000 L CNN
+F 1 "0" V 3200 4250 50  0000 L CNN
 F 2 "" H 3250 4150 50  0001 C CNN
 F 3 "" H 3250 4150 50  0001 C CNN
 	1    3250 4150
@@ -117,8 +117,8 @@ $Comp
 L Device:R_Small R102
 U 1 1 5B38313A
 P 3300 5350
-F 0 "R102" H 3330 5370 50  0000 L CNN
-F 1 "R_Small" H 3330 5310 50  0000 L CNN
+F 0 "R102" V 3200 5250 50  0000 L CNN
+F 1 "0" V 3250 5500 50  0000 L CNN
 F 2 "" H 3300 5350 50  0001 C CNN
 F 3 "" H 3300 5350 50  0001 C CNN
 	1    3300 5350
@@ -148,11 +148,11 @@ F 3 "" V 5950 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small 1k101
+L Device:R_Small R101
 U 1 1 5B38314E
 P 5950 4000
-F 0 "1k101" H 5980 4020 50  0000 L CNN
-F 1 "R_Small" H 5980 3960 50  0000 L CNN
+F 0 "R101" H 5980 4020 50  0000 L CNN
+F 1 "1k" H 5980 3960 50  0000 L CNN
 F 2 "" H 5950 4000 50  0001 C CNN
 F 3 "" H 5950 4000 50  0001 C CNN
 	1    5950 4000
@@ -170,11 +170,11 @@ F 3 "" V 5950 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small 1k102
+L Device:R_Small R102
 U 1 1 5B38315C
 P 5950 5200
-F 0 "1k102" H 5980 5220 50  0000 L CNN
-F 1 "R_Small" H 5980 5160 50  0000 L CNN
+F 0 "R102" H 5980 5220 50  0000 L CNN
+F 1 "1k" H 5980 5160 50  0000 L CNN
 F 2 "" H 5950 5200 50  0001 C CNN
 F 3 "" H 5950 5200 50  0001 C CNN
 	1    5950 5200
@@ -248,7 +248,7 @@ Text HLabel 6900 5350 2    60   BiDi ~ 0
 AGND
 Text HLabel 6900 4150 2    60   BiDi ~ 0
 DGND
-Text HLabel 9300 3200 0    60   Input ~ 0
+Text HLabel 8900 3200 0    60   Input ~ 0
 DVCC
 Connection ~ 5950 3500
 Connection ~ 5950 4150
@@ -367,7 +367,7 @@ L Device:R R103
 U 1 1 5BBFC68E
 P 4600 2300
 F 0 "R103" H 4670 2346 50  0000 L CNN
-F 1 "R" H 4670 2255 50  0000 L CNN
+F 1 "100" H 4670 2255 50  0000 L CNN
 F 2 "" V 4530 2300 50  0001 C CNN
 F 3 "~" H 4600 2300 50  0001 C CNN
 	1    4600 2300
@@ -489,8 +489,6 @@ F 3 "~" H 9750 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9550 3200 9300 3200
-Wire Wire Line
 	9550 3300 9050 3300
 Wire Wire Line
 	9550 3100 9050 3100
@@ -508,4 +506,38 @@ Text HLabel 2600 3500 0    50   BiDi ~ 0
 VCC_NREG
 Text HLabel 2600 3600 0    50   BiDi ~ 0
 GND_NREG
+Text Label 5950 6400 0    60   ~ 0
+DVCC
+$Comp
+L vop24_lpcxpresso1769_basehw-rescue:BLM18PG121SN1D FB?
+U 1 1 5BE5DDBC
+P 5500 6400
+AR Path="/5B3D4A05/5BE5DDBC" Ref="FB?"  Part="1" 
+AR Path="/5B3826CA/5BE5DDBC" Ref="FB101"  Part="1" 
+F 0 "FB101" H 5500 6600 60  0000 C CNN
+F 1 "BLM18PG121SN1D" H 5500 6700 60  0000 C CNN
+F 2 "digikey-footprints:0603" H 5700 6600 60  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 5700 6700 60  0001 L CNN
+F 4 "490-1037-1-ND" H 5700 6800 60  0001 L CNN "Digi-Key_PN"
+F 5 "BLM18PG121SN1D" H 5700 6900 60  0001 L CNN "MPN"
+F 6 "Filters" H 5700 7000 60  0001 L CNN "Category"
+F 7 "Ferrite Beads and Chips" H 5700 7100 60  0001 L CNN "Family"
+F 8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 5700 7200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" H 5700 7300 60  0001 L CNN "DK_Detail_Page"
+F 10 "FERRITE BEAD 120 OHM 0603 1LN" H 5700 7400 60  0001 L CNN "Description"
+F 11 "Murata Electronics North America" H 5700 7500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5700 7600 60  0001 L CNN "Status"
+	1    5500 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 6400 6250 6400
+Wire Wire Line
+	5200 6400 4850 6400
+Text Label 4900 6400 0    60   ~ 0
+AVCC
+Text Label 9100 3200 0    50   ~ 0
+DVCC
+Wire Wire Line
+	8900 3200 9550 3200
 $EndSCHEMATC
