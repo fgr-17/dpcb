@@ -467,6 +467,31 @@ X GND 9 -450 -300 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# dk_Ferrite-Beads-and-Chips_BLM21PG331SN1D
+#
+DEF dk_Ferrite-Beads-and-Chips_BLM21PG331SN1D FB 0 40 Y Y 1 F N
+F0 "FB" -150 150 60 H V C CNN
+F1 "dk_Ferrite-Beads-and-Chips_BLM21PG331SN1D" 0 -150 60 H V L CNN
+F2 "digikey-footprints:0805" 200 200 60 H I L CNN
+F3 "https://www.murata.com/en-us/products/productdata/8796738977822/ENFA0005.pdf" 200 300 60 H I L CNN
+F4 "490-5988-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "BLM21PG331SN1D" 200 500 60 H I L CNN "MPN"
+F6 "Filters" 200 600 60 H I L CNN "Category"
+F7 "Ferrite Beads and Chips" 200 700 60 H I L CNN "Family"
+F8 "https://www.murata.com/en-us/products/productdata/8796738977822/ENFA0005.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/murata-electronics-north-america/BLM21PG331SN1D/490-5988-1-ND/3845188" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "FERRITE BEAD 330 OHM 0805 1LN" 200 1000 60 H I L CNN "Description"
+F11 "Murata Electronics North America" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 -50 0 -100 0 N
+P 2 0 1 0 50 0 100 0 N
+P 5 0 1 0 -50 100 -100 50 50 -100 100 -50 -50 100 f
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # tpd4s014_TPD4S014
 #
 DEF tpd4s014_TPD4S014 U 0 40 Y Y 1 F N
@@ -530,31 +555,6 @@ X IN2P 6 -1000 -150 200 R 50 50 1 1 B
 X PGA2N 7 -1000 -250 200 R 50 50 1 1 B
 X PGA2P 8 -1000 -350 200 R 50 50 1 1 B
 X VREFP 9 -350 -850 200 U 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# vop24_lpcxpresso1769_basehw-rescue_BLM18PG121SN1D
-#
-DEF vop24_lpcxpresso1769_basehw-rescue_BLM18PG121SN1D FB 0 40 Y Y 1 F N
-F0 "FB" 0 200 60 H V C CNN
-F1 "vop24_lpcxpresso1769_basehw-rescue_BLM18PG121SN1D" 0 300 60 H V C CNN
-F2 "digikey-footprints:0603" 200 200 60 H I L CNN
-F3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" 200 300 60 H I L CNN
-F4 "490-1037-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "BLM18PG121SN1D" 200 500 60 H I L CNN "MPN"
-F6 "Filters" 200 600 60 H I L CNN "Category"
-F7 "Ferrite Beads and Chips" 200 700 60 H I L CNN "Family"
-F8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "FERRITE BEAD 120 OHM 0603 1LN" 200 1000 60 H I L CNN "Description"
-F11 "Murata Electronics North America" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-P 2 0 1 0 -50 0 -100 0 N
-P 2 0 1 0 50 0 100 0 N
-P 5 0 1 0 -50 100 -100 50 50 -100 100 -50 -50 100 f
-X ~ 1 -300 0 200 R 50 50 1 1 I
-X ~ 2 300 0 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #

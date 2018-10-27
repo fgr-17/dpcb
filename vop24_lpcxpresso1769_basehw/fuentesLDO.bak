@@ -290,7 +290,7 @@ U 1 1 5BBF90D3
 P 5500 2100
 F 0 "U103" H 5500 2665 50  0000 C CNN
 F 1 "TPS63001" H 5500 2574 50  0000 C CNN
-F 2 "" H 5500 2000 50  0001 C CNN
+F 2 "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias" H 5500 2000 50  0001 C CNN
 F 3 "" H 5500 2000 50  0001 C CNN
 	1    5500 2100
 	1    0    0    -1  
@@ -301,7 +301,7 @@ U 1 1 5BBF9F99
 P 5500 1400
 F 0 "L101" V 5690 1400 50  0000 C CNN
 F 1 "2.2uH" V 5599 1400 50  0000 C CNN
-F 2 "" H 5500 1400 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5500 1400 50  0001 C CNN
 F 3 "~" H 5500 1400 50  0001 C CNN
 	1    5500 1400
 	0    -1   -1   0   
@@ -508,36 +508,34 @@ Text HLabel 2600 3600 0    50   BiDi ~ 0
 GND_NREG
 Text Label 5950 6400 0    60   ~ 0
 DVCC
-$Comp
-L vop24_lpcxpresso1769_basehw-rescue:BLM18PG121SN1D FB?
-U 1 1 5BE5DDBC
-P 5500 6400
-AR Path="/5B3D4A05/5BE5DDBC" Ref="FB?"  Part="1" 
-AR Path="/5B3826CA/5BE5DDBC" Ref="FB101"  Part="1" 
-F 0 "FB101" H 5500 6600 60  0000 C CNN
-F 1 "BLM18PG121SN1D" H 5500 6700 60  0000 C CNN
-F 2 "digikey-footprints:0603" H 5700 6600 60  0001 L CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 5700 6700 60  0001 L CNN
-F 4 "490-1037-1-ND" H 5700 6800 60  0001 L CNN "Digi-Key_PN"
-F 5 "BLM18PG121SN1D" H 5700 6900 60  0001 L CNN "MPN"
-F 6 "Filters" H 5700 7000 60  0001 L CNN "Category"
-F 7 "Ferrite Beads and Chips" H 5700 7100 60  0001 L CNN "Family"
-F 8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 5700 7200 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" H 5700 7300 60  0001 L CNN "DK_Detail_Page"
-F 10 "FERRITE BEAD 120 OHM 0603 1LN" H 5700 7400 60  0001 L CNN "Description"
-F 11 "Murata Electronics North America" H 5700 7500 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5700 7600 60  0001 L CNN "Status"
-	1    5500 6400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5800 6400 6250 6400
-Wire Wire Line
-	5200 6400 4850 6400
 Text Label 4900 6400 0    60   ~ 0
 AVCC
 Text Label 9100 3200 0    50   ~ 0
 DVCC
 Wire Wire Line
 	8900 3200 9550 3200
+$Comp
+L dk_Ferrite-Beads-and-Chips:BLM21PG331SN1D FB?
+U 1 1 5BD41945
+P 5500 6400
+F 0 "FB?" H 5500 6687 60  0000 C CNN
+F 1 "BLM21PG331SN1D" H 5500 6581 60  0000 C CNN
+F 2 "digikey-footprints:0805" H 5700 6600 60  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 5700 6700 60  0001 L CNN
+F 4 "490-5988-1-ND" H 5700 6800 60  0001 L CNN "Digi-Key_PN"
+F 5 "BLM21PG331SN1D" H 5700 6900 60  0001 L CNN "MPN"
+F 6 "Filters" H 5700 7000 60  0001 L CNN "Category"
+F 7 "Ferrite Beads and Chips" H 5700 7100 60  0001 L CNN "Family"
+F 8 "https://www.murata.com/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 5700 7200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/murata-electronics-north-america/BLM21PG331SN1D/490-5988-1-ND/3845188" H 5700 7300 60  0001 L CNN "DK_Detail_Page"
+F 10 "FERRITE BEAD 330 OHM 0805 1LN" H 5700 7400 60  0001 L CNN "Description"
+F 11 "Murata Electronics North America" H 5700 7500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5700 7600 60  0001 L CNN "Status"
+	1    5500 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 6400 5300 6400
+Wire Wire Line
+	5700 6400 6250 6400
 $EndSCHEMATC

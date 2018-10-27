@@ -9,7 +9,7 @@ Desarrollo en KICAD del hardware base para LPCXpresso1769 con los componentes bÃ
 	- slot microSD
 	- salida serie para BT
 	- mediciÃ³n de baterÃ­a
-	
+
 ## Historial ##
 
 27.06.2018:
@@ -33,3 +33,8 @@ Desarrollo en KICAD del hardware base para LPCXpresso1769 con los componentes bÃ
     - se agrego simbolo ads1292 al esquematico
     - falta terminar las conexiones del ads
     - conviene separar en modulos jerarq. -> VER COMO SE HACE
+
+PENDIENTES:
+
+- ver modelo del diodo schottky del L4411
+- ver footprint del micro USB b

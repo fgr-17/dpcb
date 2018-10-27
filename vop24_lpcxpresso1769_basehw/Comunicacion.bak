@@ -100,7 +100,7 @@ U 1 1 5BAE3529
 P 1100 3800
 F 0 "J301" H 1155 4267 50  0000 C CNN
 F 1 "USB_B_Micro" H 1155 4176 50  0000 C CNN
-F 2 "" H 1250 3750 50  0001 C CNN
+F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 1250 3750 50  0001 C CNN
 F 3 "~" H 1250 3750 50  0001 C CNN
 	1    1100 3800
 	1    0    0    -1  
@@ -111,7 +111,7 @@ U 1 1 5BAE3ACE
 P 2400 3250
 F 0 "U301" H 2700 3600 50  0000 C CNN
 F 1 "TPD4S014" H 2350 3600 50  0000 C CNN
-F 2 "" H 2250 3250 50  0001 C CNN
+F 2 "Package_SON:Texas_S-PWSON-N10" H 2250 3250 50  0001 C CNN
 F 3 "/home/froux/Dropbox/VOP24/docs y hojas de datos/otros/cosas modulo usb/tpd4s014.pdf" H 2250 3250 50  0001 C CNN
 	1    2400 3250
 	1    0    0    -1  
@@ -280,7 +280,7 @@ U 1 1 5BC34D77
 P 6300 3550
 F 0 "U303" H 6650 3950 50  0000 C CNN
 F 1 "LT1512" H 6500 3800 50  0000 C CNN
-F 2 "" H 6300 3550 50  0001 C CNN
+F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 6300 3550 50  0001 C CNN
 F 3 "" H 6300 3550 50  0001 C CNN
 	1    6300 3550
 	1    0    0    -1  
@@ -547,7 +547,7 @@ U 1 1 5BCCEE8C
 P 3250 6600
 F 0 "U302" H 3450 6950 50  0000 C CNN
 F 1 "LTC4411" H 3250 6800 50  0000 C CNN
-F 2 "" H 3200 6550 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5_HandSoldering" H 3200 6550 50  0001 C CNN
 F 3 "" H 3200 6550 50  0001 C CNN
 	1    3250 6600
 	1    0    0    -1  
@@ -558,7 +558,7 @@ U 1 1 5BCCF0A2
 P 3250 6100
 F 0 "D301" H 3250 5884 50  0000 C CNN
 F 1 "MBRS130LT3" H 3100 6000 50  0000 C CNN
-F 2 "" H 3250 6100 50  0001 C CNN
+F 2 "Diode_SMD:D_SMB-SMC_Universal_Handsoldering" H 3250 6100 50  0001 C CNN
 F 3 "~" H 3250 6100 50  0001 C CNN
 	1    3250 6100
 	-1   0    0    1   
@@ -761,4 +761,8 @@ Wire Wire Line
 	1700 3450 1700 3700
 Text Label 1500 3700 0    50   ~ 0
 DGND
+Text Notes 500  3200 0    50   Italic 0
+Revisar footprint del USB \nuna vez comprado
+Text Notes 5450 3050 0    50   Italic 0
+Revisar footprint del \nLT1512 una vez comprado
 $EndSCHEMATC
