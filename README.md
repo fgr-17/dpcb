@@ -38,3 +38,4 @@ PENDIENTES:
 
 - ver modelo del diodo schottky del L4411
 - ver footprint del micro USB b
+- definir inductor acoplado

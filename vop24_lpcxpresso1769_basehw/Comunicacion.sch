@@ -38,7 +38,7 @@ U 1 1 5B9F0B88
 P 1000 4550
 F 0 "R301" H 1070 4596 50  0000 L CNN
 F 1 "1M" H 1070 4505 50  0000 L CNN
-F 2 "" V 930 4550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 930 4550 50  0001 C CNN
 F 3 "~" H 1000 4550 50  0001 C CNN
 	1    1000 4550
 	1    0    0    -1  
@@ -49,7 +49,7 @@ U 1 1 5B9F0BDD
 P 1300 4550
 F 0 "C301" H 1415 4596 50  0000 L CNN
 F 1 "10n/500V" H 1415 4505 50  0000 L CNN
-F 2 "" H 1338 4400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1338 4400 50  0001 C CNN
 F 3 "~" H 1300 4550 50  0001 C CNN
 	1    1300 4550
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 1 1 5BA01F94
 P 3300 1550
 F 0 "J302" H 3406 1928 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 3406 1837 50  0000 C CNN
-F 2 "" H 3300 1550 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 3300 1550 50  0001 C CNN
 F 3 "~" H 3300 1550 50  0001 C CNN
 	1    3300 1550
 	1    0    0    -1  
@@ -103,17 +103,6 @@ F 1 "USB_B_Micro" H 1155 4176 50  0000 C CNN
 F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 1250 3750 50  0001 C CNN
 F 3 "~" H 1250 3750 50  0001 C CNN
 	1    1100 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L tpd4s014:TPD4S014 U301
-U 1 1 5BAE3ACE
-P 2400 3250
-F 0 "U301" H 2700 3600 50  0000 C CNN
-F 1 "TPD4S014" H 2350 3600 50  0000 C CNN
-F 2 "Package_SON:Texas_S-PWSON-N10" H 2250 3250 50  0001 C CNN
-F 3 "/home/froux/Dropbox/VOP24/docs y hojas de datos/otros/cosas modulo usb/tpd4s014.pdf" H 2250 3250 50  0001 C CNN
-	1    2400 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -235,7 +224,7 @@ U 1 1 5BAF1C86
 P 5700 1550
 F 0 "J303" H 5806 1928 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 5806 1837 50  0000 C CNN
-F 2 "" H 5700 1550 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical" H 5700 1550 50  0001 C CNN
 F 3 "~" H 5700 1550 50  0001 C CNN
 	1    5700 1550
 	1    0    0    -1  
@@ -264,7 +253,7 @@ U 1 1 5BB133EA
 P 3100 2850
 F 0 "R302" H 3170 2896 50  0000 L CNN
 F 1 "1M" H 3170 2805 50  0000 L CNN
-F 2 "" V 3030 2850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 2850 50  0001 C CNN
 F 3 "~" H 3100 2850 50  0001 C CNN
 	1    3100 2850
 	1    0    0    -1  
@@ -290,8 +279,8 @@ L Device:C C304
 U 1 1 5BC34DFA
 P 5200 4000
 F 0 "C304" H 5315 4046 50  0000 L CNN
-F 1 "22uF/25V" H 5315 3955 50  0000 L CNN
-F 2 "" H 5238 3850 50  0001 C CNN
+F 1 "22uF/25V bajo ESR" H 5315 3955 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5238 3850 50  0001 C CNN
 F 3 "~" H 5200 4000 50  0001 C CNN
 	1    5200 4000
 	1    0    0    -1  
@@ -302,7 +291,7 @@ U 1 1 5BC34E82
 P 6350 4150
 F 0 "C305" H 6465 4196 50  0000 L CNN
 F 1 "0.1uF" H 6465 4105 50  0000 L CNN
-F 2 "" H 6388 4000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6388 4000 50  0001 C CNN
 F 3 "~" H 6350 4150 50  0001 C CNN
 	1    6350 4150
 	1    0    0    -1  
@@ -313,7 +302,7 @@ U 1 1 5BC34EDA
 P 6650 4550
 F 0 "C306" H 6765 4596 50  0000 L CNN
 F 1 "0.22uF" H 6765 4505 50  0000 L CNN
-F 2 "" H 6688 4400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6688 4400 50  0001 C CNN
 F 3 "~" H 6650 4550 50  0001 C CNN
 	1    6650 4550
 	1    0    0    -1  
@@ -324,7 +313,7 @@ U 1 1 5BC34F18
 P 7250 3450
 F 0 "C307" V 7100 3300 50  0000 L CNN
 F 1 "2.2uF CER" V 7365 3405 50  0000 L CNN
-F 2 "" H 7288 3300 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 7288 3300 50  0001 C CNN
 F 3 "~" H 7250 3450 50  0001 C CNN
 	1    7250 3450
 	0    1    1    0   
@@ -335,7 +324,7 @@ U 1 1 5BC34FB2
 P 8300 4250
 F 0 "C308" H 8415 4296 50  0000 L CNN
 F 1 "22uF/25V" H 8415 4205 50  0000 L CNN
-F 2 "" H 8338 4100 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 8338 4100 50  0001 C CNN
 F 3 "~" H 8300 4250 50  0001 C CNN
 	1    8300 4250
 	-1   0    0    1   
@@ -348,7 +337,7 @@ U 1 1 5BC35392
 P 6350 4550
 F 0 "R304" H 6420 4596 50  0000 L CNN
 F 1 "1k" H 6420 4505 50  0000 L CNN
-F 2 "" V 6280 4550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6280 4550 50  0001 C CNN
 F 3 "~" H 6350 4550 50  0001 C CNN
 	1    6350 4550
 	1    0    0    -1  
@@ -359,7 +348,7 @@ U 1 1 5BC35474
 P 7450 4550
 F 0 "R306" H 7500 4500 50  0000 L CNN
 F 1 "0.2" H 7550 4600 50  0000 L CNN
-F 2 "" V 7380 4550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7380 4550 50  0001 C CNN
 F 3 "~" H 7450 4550 50  0001 C CNN
 	1    7450 4550
 	-1   0    0    1   
@@ -367,12 +356,12 @@ $EndComp
 $Comp
 L Device:R R305
 U 1 1 5BC35500
-P 7050 4300
-F 0 "R305" V 6900 4150 50  0000 L CNN
-F 1 "24" V 6900 4400 50  0000 L CNN
-F 2 "" V 6980 4300 50  0001 C CNN
-F 3 "~" H 7050 4300 50  0001 C CNN
-	1    7050 4300
+P 7050 4350
+F 0 "R305" V 6900 4200 50  0000 L CNN
+F 1 "24" V 6900 4450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6980 4350 50  0001 C CNN
+F 3 "~" H 7050 4350 50  0001 C CNN
+	1    7050 4350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -381,7 +370,7 @@ U 1 1 5BC355AC
 P 8000 3750
 F 0 "R307" H 8100 3700 50  0000 L CNN
 F 1 "1M" H 8100 3800 50  0000 L CNN
-F 2 "" V 7930 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7930 3750 50  0001 C CNN
 F 3 "~" H 8000 3750 50  0001 C CNN
 	1    8000 3750
 	-1   0    0    1   
@@ -392,26 +381,15 @@ U 1 1 5BC3560A
 P 8000 4400
 F 0 "R308" H 8100 4350 50  0000 L CNN
 F 1 "1M" H 8100 4450 50  0000 L CNN
-F 2 "" V 7930 4400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7930 4400 50  0001 C CNN
 F 3 "~" H 8000 4400 50  0001 C CNN
 	1    8000 4400
 	-1   0    0    1   
 $EndComp
 Text Notes 8300 3750 0    50   ~ 10
 Divisor resistivo\npara calcular corriente\nde carga de batería
-$Comp
-L Device:L_Core_Ferrite_Coupled L301
-U 1 1 5BC35BED
-P 6600 2750
-F 0 "L301" H 6600 3028 50  0000 C CNN
-F 1 "L_Core_Ferrite_Coupled" H 6600 2937 50  0000 C CNN
-F 2 "" H 6600 2750 50  0001 C CNN
-F 3 "~" H 6600 2750 50  0001 C CNN
-	1    6600 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6400 2850 6100 2850
+	6300 2850 6100 2850
 Wire Wire Line
 	5200 2850 5200 3850
 Wire Wire Line
@@ -433,16 +411,16 @@ Wire Wire Line
 Wire Wire Line
 	6350 4400 6350 4300
 Wire Wire Line
-	6650 4400 6650 4300
+	6650 4400 6650 4350
 Wire Wire Line
-	6650 4300 6900 4300
-Connection ~ 6650 4300
+	6650 4350 6900 4350
+Connection ~ 6650 4350
 Wire Wire Line
-	6650 4300 6650 3900
+	6650 4350 6650 3900
 Wire Wire Line
-	7200 4300 7450 4300
+	7200 4350 7450 4350
 Wire Wire Line
-	7450 4300 7450 4400
+	7450 4350 7450 4400
 Wire Wire Line
 	8000 4250 8000 4050
 Wire Wire Line
@@ -476,12 +454,6 @@ Connection ~ 8000 4050
 Wire Wire Line
 	8000 4050 8000 3900
 Wire Wire Line
-	6800 2650 7500 2650
-Wire Wire Line
-	7500 3450 7400 3450
-Wire Wire Line
-	7500 2650 7500 3450
-Wire Wire Line
 	7450 4800 8000 4800
 Wire Wire Line
 	8300 4800 8300 4400
@@ -491,26 +463,17 @@ Wire Wire Line
 Connection ~ 8000 4800
 Wire Wire Line
 	8000 4800 8300 4800
-Wire Wire Line
-	6400 2650 6100 2650
-Text Label 6200 2650 0    50   ~ 0
-coilA
-Text Label 7250 4300 0    50   ~ 0
-coilA
 $Comp
 L Device:D_Schottky D302
 U 1 1 5BC4D3CD
 P 7750 3450
 F 0 "D302" H 7750 3234 50  0000 C CNN
 F 1 "MBRS130LT3" H 7600 3350 50  0000 C CNN
-F 2 "" H 7750 3450 50  0001 C CNN
+F 2 "Diode_SMD:D_SMB-SMC_Universal_Handsoldering" H 7750 3450 50  0001 C CNN
 F 3 "~" H 7750 3450 50  0001 C CNN
 	1    7750 3450
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7600 3450 7500 3450
-Connection ~ 7500 3450
 Wire Wire Line
 	7900 3450 8000 3450
 Wire Wire Line
@@ -582,7 +545,7 @@ U 1 1 5BCE020F
 P 3950 6400
 F 0 "C303" H 4065 6446 50  0000 L CNN
 F 1 "0.1uF" H 4065 6355 50  0000 L CNN
-F 2 "" H 3988 6250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3988 6250 50  0001 C CNN
 F 3 "~" H 3950 6400 50  0001 C CNN
 	1    3950 6400
 	1    0    0    -1  
@@ -624,7 +587,7 @@ U 1 1 5BCF71FC
 P 5500 5100
 F 0 "R303" V 5350 4950 50  0000 L CNN
 F 1 "0" V 5500 5100 50  0000 L CNN
-F 2 "" V 5430 5100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5430 5100 50  0001 C CNN
 F 3 "~" H 5500 5100 50  0001 C CNN
 	1    5500 5100
 	0    1    1    0   
@@ -655,7 +618,7 @@ U 1 1 5BAE49F4
 P 1700 3300
 F 0 "C302" H 1750 3500 50  0000 L CNN
 F 1 "10uF" H 1750 3400 50  0000 L CNN
-F 2 "" H 1738 3150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1738 3150 50  0001 C CNN
 F 3 "~" H 1700 3300 50  0001 C CNN
 	1    1700 3300
 	1    0    0    -1  
@@ -666,7 +629,7 @@ Wire Wire Line
 	1700 3150 1700 3050
 Connection ~ 1700 3050
 Wire Wire Line
-	1700 3050 1900 3050
+	1700 3050 1800 3050
 Wire Notes Line
 	9150 2350 9150 5350
 Wire Notes Line
@@ -723,7 +686,7 @@ U 1 1 5BDFE4B3
 P 8950 4200
 F 0 "J304" H 9030 4192 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 9030 4101 50  0000 L CNN
-F 2 "" H 8950 4200 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 8950 4200 50  0001 C CNN
 F 3 "~" H 8950 4200 50  0001 C CNN
 	1    8950 4200
 	1    0    0    -1  
@@ -765,4 +728,64 @@ Text Notes 500  3200 0    50   Italic 0
 Revisar footprint del USB \nuna vez comprado
 Text Notes 5450 3050 0    50   Italic 0
 Revisar footprint del \nLT1512 una vez comprado
+Text Notes 7050 2600 0    50   Italic 0
+No encuentro el componente.\npuse cualquier footprint de inductor doble
+Text Notes 5300 4250 0    50   Italic 0
+Ubicar este cap\ncerca de pin Vin
+Text Notes 5750 4950 0    50   Italic 0
+GNDs se tiene que conectar\ncerca de los demas pines del IC
+$Comp
+L pspice:INDUCTOR L302
+U 1 1 5BD9F38A
+P 7450 3950
+F 0 "L302" V 7404 4028 50  0000 L CNN
+F 1 "33uHy" V 7495 4028 50  0000 L CNN
+F 2 "Inductor_THT:L_Radial_D8.7mm_P5.00mm_Fastron_07HCP" H 7450 3950 50  0001 C CNN
+F 3 "" H 7450 3950 50  0001 C CNN
+	1    7450 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:INDUCTOR L301
+U 1 1 5BD9F433
+P 6550 2850
+F 0 "L301" H 6550 3065 50  0000 C CNN
+F 1 "33uHy" H 6550 2974 50  0000 C CNN
+F 2 "Inductor_THT:L_Radial_D8.7mm_P5.00mm_Fastron_07HCP" H 6550 2850 50  0001 C CNN
+F 3 "" H 6550 2850 50  0001 C CNN
+	1    6550 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3450 7450 3450
+Wire Wire Line
+	7450 4200 7450 4350
+Connection ~ 7450 4350
+Wire Wire Line
+	7450 3700 7450 3450
+Connection ~ 7450 3450
+Wire Wire Line
+	7450 3450 7600 3450
+$Comp
+L tpd4s014:TPD4S014 U301
+U 1 1 5BDBF51B
+P 2400 3250
+F 0 "U301" H 2400 3715 50  0000 C CNN
+F 1 "TPD4S014" H 2400 3624 50  0000 C CNN
+F 2 "meport_kicad_libs:Texas_R-PWSON-N10" H 2250 3250 50  0001 C CNN
+F 3 "/home/froux/Dropbox/VOP24/docs y hojas de datos/otros/cosas modulo usb/tpd4s014.pdf" H 2250 3250 50  0001 C CNN
+	1    2400 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3150 1800 3150
+Wire Wire Line
+	1800 3150 1800 3050
+Connection ~ 1800 3050
+Wire Wire Line
+	1800 3050 1900 3050
+Wire Wire Line
+	2900 3150 2950 3150
+Wire Wire Line
+	2950 3150 2950 3050
 $EndSCHEMATC
