@@ -37,5 +37,11 @@ Desarrollo en KICAD del hardware base para LPCXpresso1769 con los componentes b√
 PENDIENTES:
 
 - ver modelo del diodo schottky del L4411
-- ver footprint del micro USB b
-- definir inductor acoplado
+- ver footprint del micro USB B - ver con lo q consiga
+- definir inductor acoplado - HECHO
+- intercambiar pines TPD_EN y USB_ID para que quede para rutear directo
+
+02/11/2018 :
+
+   - intercambiado pines TPD_EN y USB_ID para que quede para rutear directo
+   - cambio de footprint de J303 y J302 por tira de pines de 2.54mm

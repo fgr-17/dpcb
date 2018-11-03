@@ -278,13 +278,13 @@ Wire Wire Line
 	10200 4200 10850 4200
 Wire Wire Line
 	10200 4300 10850 4300
-Text Label 10300 4200 0    50   ~ 0
+Text Label 10300 4400 0    50   ~ 0
 TPD_~EN
 Text Label 10300 4300 0    50   ~ 0
 TPD_~ACK
 Wire Wire Line
 	10200 4400 10850 4400
-Text Label 10300 4400 0    50   ~ 0
+Text Label 10300 4200 0    50   ~ 0
 USB_ID
 $Sheet
 S 1200 850  1100 1150
