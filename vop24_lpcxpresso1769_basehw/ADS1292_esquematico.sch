@@ -347,7 +347,7 @@ $EndComp
 Text Label 10400 900  0    60   ~ 0
 SENS1N
 Text Label 10400 1650 0    60   ~ 0
-SENS1N
+SENS1P
 Wire Wire Line
 	6200 3250 6700 3250
 Wire Wire Line
@@ -649,7 +649,7 @@ $EndComp
 Text Label 10450 2900 0    60   ~ 0
 SENS2N
 Text Label 10450 3650 0    60   ~ 0
-SENS2N
+SENS2P
 Wire Notes Line
 	7750 2500 7750 4400
 Wire Notes Line
@@ -777,7 +777,7 @@ $EndComp
 Text Label 10450 4900 0    60   ~ 0
 SENS3N
 Text Label 10450 5650 0    60   ~ 0
-SENS3N
+SENS3P
 Wire Notes Line
 	7750 4450 7750 6350
 Wire Notes Line

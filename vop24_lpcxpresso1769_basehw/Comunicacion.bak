@@ -75,7 +75,7 @@ U 1 1 5BA01F94
 P 3300 1550
 F 0 "J302" H 3406 1928 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 3406 1837 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 3300 1550 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 3300 1550 50  0001 C CNN
 F 3 "~" H 3300 1550 50  0001 C CNN
 	1    3300 1550
 	1    0    0    -1  
@@ -224,7 +224,7 @@ U 1 1 5BAF1C86
 P 5700 1550
 F 0 "J303" H 5806 1928 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 5806 1837 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical" H 5700 1550 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 5700 1550 50  0001 C CNN
 F 3 "~" H 5700 1550 50  0001 C CNN
 	1    5700 1550
 	1    0    0    -1  
