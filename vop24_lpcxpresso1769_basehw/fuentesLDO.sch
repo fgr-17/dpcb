@@ -478,9 +478,11 @@ DVCC_LDO
 Text Label 7050 2050 0    50   ~ 0
 DVCC_UD
 $Comp
-L Connector:Conn_01x03_Male J101
+L vop24_lpcxpresso1769_basehw-rescue:Conn_01x03_Male-Connector J101
 U 1 1 5BC24F14
 P 9750 3200
+AR Path="/5BC24F14" Ref="J101"  Part="1" 
+AR Path="/5B3826CA/5BC24F14" Ref="J101"  Part="1" 
 F 0 "J101" H 9856 3478 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 9856 3387 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9750 3200 50  0001 C CNN
@@ -515,9 +517,11 @@ DVCC
 Wire Wire Line
 	8900 3200 9550 3200
 $Comp
-L dk_Ferrite-Beads-and-Chips:BLM21PG331SN1D FB101
+L vop24_lpcxpresso1769_basehw-rescue:BLM21PG331SN1D-dk_Ferrite-Beads-and-Chips FB101
 U 1 1 5BD41945
 P 5500 6400
+AR Path="/5BD41945" Ref="FB101"  Part="1" 
+AR Path="/5B3826CA/5BD41945" Ref="FB101"  Part="1" 
 F 0 "FB101" H 5500 6687 60  0000 C CNN
 F 1 "BLM21PG331SN1D" H 5500 6581 60  0000 C CNN
 F 2 "digikey-footprints:0805" H 5700 6600 60  0001 L CNN

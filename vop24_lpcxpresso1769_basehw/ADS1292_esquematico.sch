@@ -919,7 +919,7 @@ Wire Wire Line
 Text Label 1100 6500 0    60   ~ 0
 DVCC
 Text Notes 2450 7050 0    60   ~ 0
-Desacople de la alimentacion\ndel ADS1292. Poner los caps\ncerca de los pines de alimentacion\n
+Desacople de la alimentacion\ndel ADS1292. Poner los caps\ncerca de los pines de alimentacion\n.
 Wire Wire Line
 	9150 900  9150 1550
 $Comp
@@ -939,7 +939,7 @@ U 1 1 5BE44EB4
 P 8600 1650
 F 0 "J404" V 8800 1700 50  0000 C CNN
 F 1 "Conn_01x04" V 8700 1600 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 8600 1650 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 8600 1650 50  0001 C CNN
 F 3 "~" H 8600 1650 50  0001 C CNN
 	1    8600 1650
 	-1   0    0    1   
@@ -991,7 +991,7 @@ U 1 1 5BE7FDAB
 P 8600 3650
 F 0 "J405" V 8800 3750 50  0000 C CNN
 F 1 "Conn_01x04" V 8700 3600 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 8600 3650 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 8600 3650 50  0001 C CNN
 F 3 "~" H 8600 3650 50  0001 C CNN
 	1    8600 3650
 	-1   0    0    1   
@@ -1043,7 +1043,7 @@ U 1 1 5BE88683
 P 8650 5650
 F 0 "J406" V 8750 5500 50  0000 C CNN
 F 1 "Conn_01x04" V 8850 5600 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 8650 5650 50  0001 C CNN
+F 2 "CConnector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 8650 5650 50  0001 C CNN
 F 3 "~" H 8650 5650 50  0001 C CNN
 	1    8650 5650
 	-1   0    0    1   

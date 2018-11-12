@@ -344,11 +344,12 @@ Wire Wire Line
 Wire Wire Line
 	3350 4900 3350 5100
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L vop24_lpcxpresso1769_basehw-rescue:Screw_Terminal_01x02-Connector J?
 U 1 1 5BDCF4D0
 P 2600 5200
 AR Path="/5B9DAB38/5BDCF4D0" Ref="J?"  Part="1" 
 AR Path="/5B3D187B/5BDCF4D0" Ref="J201"  Part="1" 
+AR Path="/5BDCF4D0" Ref="J201"  Part="1" 
 F 0 "J201" H 2680 5192 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 2680 5101 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2600 5200 50  0001 C CNN
