@@ -94,19 +94,6 @@ Wire Wire Line
 	3500 1850 4350 1850
 Wire Wire Line
 	1400 3800 2400 3800
-$Comp
-L vop24_lpcxpresso1769_basehw-rescue:USB_B_Micro-Connector J301
-U 1 1 5BAE3529
-P 1100 3800
-AR Path="/5BAE3529" Ref="J301"  Part="1" 
-AR Path="/5B9DAB38/5BAE3529" Ref="J301"  Part="1" 
-F 0 "J301" H 1155 4267 50  0000 C CNN
-F 1 "USB_B_Micro" H 1155 4176 50  0000 C CNN
-F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 1250 3750 50  0001 C CNN
-F 3 "~" H 1250 3750 50  0001 C CNN
-	1    1100 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 4000 2550 4000
 Wire Wire Line
@@ -728,8 +715,6 @@ Wire Wire Line
 	1700 3700 1450 3700
 Wire Wire Line
 	1700 3450 1700 3700
-Text Label 1500 3700 0    50   ~ 0
-DGND
 Text Notes 500  3200 0    50   Italic 0
 Revisar footprint del USB \nuna vez comprado
 Text Notes 5450 3050 0    50   Italic 0
@@ -794,4 +779,19 @@ Wire Wire Line
 	2900 3150 2950 3150
 Wire Wire Line
 	2950 3150 2950 3050
+$Comp
+L vop24_lpcxpresso1769_basehw-rescue:USB_B_Micro-Connector J301
+U 1 1 5BAE3529
+P 1100 3800
+AR Path="/5BAE3529" Ref="J301"  Part="1" 
+AR Path="/5B9DAB38/5BAE3529" Ref="J301"  Part="1" 
+F 0 "J301" H 1155 4267 50  0000 C CNN
+F 1 "USB_B_Micro" H 1155 4176 50  0000 C CNN
+F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 1250 3750 50  0001 C CNN
+F 3 "~" H 1250 3750 50  0001 C CNN
+	1    1100 3800
+	1    0    0    -1  
+$EndComp
+Text Label 1500 3700 0    50   ~ 0
+USB_GND
 $EndSCHEMATC
