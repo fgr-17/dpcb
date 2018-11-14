@@ -103,10 +103,10 @@ F 3 "" H 5300 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R101
+L Device:R_Small R102
 U 1 1 5B383133
 P 3250 4150
-F 0 "R101" V 3150 4050 50  0000 L CNN
+F 0 "R102" V 3150 4050 50  0000 L CNN
 F 1 "0" V 3200 4250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 4150 50  0001 C CNN
 F 3 "" H 3250 4150 50  0001 C CNN
@@ -114,18 +114,16 @@ F 3 "" H 3250 4150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R102
+L Device:R_Small R103
 U 1 1 5B38313A
 P 3300 5350
-F 0 "R102" V 3200 5250 50  0000 L CNN
+F 0 "R103" V 3200 5250 50  0000 L CNN
 F 1 "0" V 3250 5500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3300 5350 50  0001 C CNN
 F 3 "" H 3300 5350 50  0001 C CNN
 	1    3300 5350
 	0    1    1    0   
 $EndComp
-Text Label 5000 3500 0    60   ~ 0
-DVCC
 Text Label 5000 4150 0    60   ~ 0
 DGND
 Text Label 5000 4750 0    60   ~ 0
@@ -148,10 +146,10 @@ F 3 "" V 5950 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R104
+L Device:R_Small R105
 U 1 1 5B38314E
 P 5950 4000
-F 0 "R104" H 5980 4020 50  0000 L CNN
+F 0 "R105" H 5980 4020 50  0000 L CNN
 F 1 "1k" H 5980 3960 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5950 4000 50  0001 C CNN
 F 3 "" H 5950 4000 50  0001 C CNN
@@ -170,10 +168,10 @@ F 3 "" V 5950 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R105
+L Device:R_Small R106
 U 1 1 5B38315C
 P 5950 5200
-F 0 "R105" H 5980 5220 50  0000 L CNN
+F 0 "R106" H 5980 5220 50  0000 L CNN
 F 1 "1k" H 5980 5160 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5950 5200 50  0001 C CNN
 F 3 "" H 5950 5200 50  0001 C CNN
@@ -363,10 +361,10 @@ F 3 "~" H 7100 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R103
+L Device:R R104
 U 1 1 5BBFC68E
 P 4600 2300
-F 0 "R103" H 4670 2346 50  0000 L CNN
+F 0 "R104" H 4670 2346 50  0000 L CNN
 F 1 "100" H 4670 2255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4530 2300 50  0001 C CNN
 F 3 "~" H 4600 2300 50  0001 C CNN
@@ -465,12 +463,9 @@ Wire Wire Line
 	2800 3500 2900 3500
 Wire Wire Line
 	2700 3600 2700 3000
-Wire Wire Line
-	2700 3000 3800 3000
 Connection ~ 2700 3600
 Wire Wire Line
 	2700 3600 2600 3600
-Connection ~ 3800 3000
 Text HLabel 7550 3000 2    60   BiDi ~ 0
 DGND
 Text Label 6500 3500 0    50   ~ 0
@@ -478,10 +473,10 @@ DVCC_LDO
 Text Label 7050 2050 0    50   ~ 0
 DVCC_UD
 $Comp
-L vop24_lpcxpresso1769_basehw-rescue:Conn_01x03_Male-Connector J101
+L vop24_lpcxpresso1769_basehw-rescue:Conn_01x03_Male-Connector J?
 U 1 1 5BC24F14
 P 9750 3200
-AR Path="/5BC24F14" Ref="J101"  Part="1" 
+AR Path="/5BC24F14" Ref="J?"  Part="1" 
 AR Path="/5B3826CA/5BC24F14" Ref="J101"  Part="1" 
 F 0 "J101" H 9856 3478 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 9856 3387 50  0000 C CNN
@@ -517,10 +512,10 @@ DVCC
 Wire Wire Line
 	8900 3200 9550 3200
 $Comp
-L vop24_lpcxpresso1769_basehw-rescue:BLM21PG331SN1D-dk_Ferrite-Beads-and-Chips FB101
+L vop24_lpcxpresso1769_basehw-rescue:BLM21PG331SN1D-dk_Ferrite-Beads-and-Chips FB?
 U 1 1 5BD41945
 P 5500 6400
-AR Path="/5BD41945" Ref="FB101"  Part="1" 
+AR Path="/5BD41945" Ref="FB?"  Part="1" 
 AR Path="/5B3826CA/5BD41945" Ref="FB101"  Part="1" 
 F 0 "FB101" H 5500 6687 60  0000 C CNN
 F 1 "BLM21PG331SN1D" H 5500 6581 60  0000 C CNN
@@ -542,4 +537,20 @@ Wire Wire Line
 	4850 6400 5300 6400
 Wire Wire Line
 	5700 6400 6250 6400
+$Comp
+L Device:R_Small R101
+U 1 1 5BEC88E2
+P 3250 3000
+F 0 "R101" V 3150 2900 50  0000 L CNN
+F 1 "0" V 3200 3100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 3000 50  0001 C CNN
+F 3 "" H 3250 3000 50  0001 C CNN
+	1    3250 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 3000 3800 3000
+Connection ~ 3800 3000
+Wire Wire Line
+	3150 3000 2700 3000
 $EndSCHEMATC

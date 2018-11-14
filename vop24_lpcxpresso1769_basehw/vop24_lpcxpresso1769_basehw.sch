@@ -415,8 +415,6 @@ Text Label 7050 5000 0    60   ~ 0
 BLE_EN
 Text Label 7050 5100 0    60   ~ 0
 BLE_STATE
-Text Label 10600 4500 2    60   ~ 0
-CD_SD
 Wire Wire Line
 	10200 4500 10850 4500
 Text Label 2900 3850 0    60   ~ 0
@@ -447,4 +445,6 @@ Wire Wire Line
 	10200 4900 10850 4900
 Text Label 10350 4900 0    60   ~ 0
 LTC4411_STAT
+Text Label 10600 4500 2    60   ~ 0
+CD_SD
 $EndSCHEMATC

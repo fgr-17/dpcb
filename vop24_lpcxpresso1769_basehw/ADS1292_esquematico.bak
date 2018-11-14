@@ -1043,7 +1043,7 @@ U 1 1 5BE88683
 P 8650 5650
 F 0 "J406" V 8750 5500 50  0000 C CNN
 F 1 "Conn_01x04" V 8850 5600 50  0000 C CNN
-F 2 "CConnector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 8650 5650 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 8650 5650 50  0001 C CNN
 F 3 "~" H 8650 5650 50  0001 C CNN
 	1    8650 5650
 	-1   0    0    1   

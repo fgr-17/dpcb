@@ -208,10 +208,10 @@ UU_GND
 Text Label 6350 1350 0    50   ~ 0
 UU_VCC
 $Comp
-L vop24_lpcxpresso1769_basehw-rescue:Conn_01x05_Male-Connector J303
+L vop24_lpcxpresso1769_basehw-rescue:Conn_01x05_Male-Connector J?
 U 1 1 5BAF1C86
 P 5700 1550
-AR Path="/5BAF1C86" Ref="J303"  Part="1" 
+AR Path="/5BAF1C86" Ref="J?"  Part="1" 
 AR Path="/5B9DAB38/5BAF1C86" Ref="J303"  Part="1" 
 F 0 "J303" H 5806 1928 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 5806 1837 50  0000 C CNN
@@ -672,10 +672,10 @@ VCC_SW
 Text HLabel 4150 7000 2    50   BiDi ~ 0
 GND_SW
 $Comp
-L vop24_lpcxpresso1769_basehw-rescue:Screw_Terminal_01x02-Connector J304
+L vop24_lpcxpresso1769_basehw-rescue:Screw_Terminal_01x02-Connector J?
 U 1 1 5BDFE4B3
 P 8950 4200
-AR Path="/5BDFE4B3" Ref="J304"  Part="1" 
+AR Path="/5BDFE4B3" Ref="J?"  Part="1" 
 AR Path="/5B9DAB38/5BDFE4B3" Ref="J304"  Part="1" 
 F 0 "J304" H 9030 4192 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 9030 4101 50  0000 L CNN
@@ -780,10 +780,10 @@ Wire Wire Line
 Wire Wire Line
 	2950 3150 2950 3050
 $Comp
-L vop24_lpcxpresso1769_basehw-rescue:USB_B_Micro-Connector J301
+L vop24_lpcxpresso1769_basehw-rescue:USB_B_Micro-Connector J?
 U 1 1 5BAE3529
 P 1100 3800
-AR Path="/5BAE3529" Ref="J301"  Part="1" 
+AR Path="/5BAE3529" Ref="J?"  Part="1" 
 AR Path="/5B9DAB38/5BAE3529" Ref="J301"  Part="1" 
 F 0 "J301" H 1155 4267 50  0000 C CNN
 F 1 "USB_B_Micro" H 1155 4176 50  0000 C CNN
