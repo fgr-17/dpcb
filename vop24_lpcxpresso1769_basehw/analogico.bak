@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
-Title "Entradas analogicas"
+Title "VOP24 - Entradas analogicas"
 Date "2018-07-04"
 Rev "0.1"
-Comp "Universidad Favaloro"
-Comment1 ""
+Comp "Federico G. Roux"
+Comment1 "Universidad Favaloro"
 Comment2 ""
 Comment3 ""
 Comment4 ""

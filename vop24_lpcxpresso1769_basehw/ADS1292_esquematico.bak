@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
-Title "ADS1292 esquematico"
+Title "VOP24 - ADS1292 esquematico"
 Date "2018-07-04"
 Rev "0.1"
-Comp ""
-Comment1 ""
+Comp "Federico G. Roux"
+Comment1 "Universidad Favaloro"
 Comment2 ""
 Comment3 ""
 Comment4 ""

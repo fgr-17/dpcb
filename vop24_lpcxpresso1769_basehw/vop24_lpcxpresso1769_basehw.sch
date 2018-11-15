@@ -8,8 +8,8 @@ Sheet 1 5
 Title "VOP24_LPCXpresso1769_BaseHW"
 Date "2018-06-27"
 Rev "0.1"
-Comp "Universidad Favaloro"
-Comment1 ""
+Comp "Federico G. Roux"
+Comment1 "Universidad Favaloro"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -17,25 +17,25 @@ $EndDescr
 $Comp
 L vop24_lpcxpresso1769_basehw-rescue:Micro_SD_Card J1
 U 1 1 5B33BAF7
-P 8700 1500
-F 0 "J1" H 8050 2100 50  0000 C CNN
-F 1 "Micro_SD_Card" H 9350 2100 50  0000 R CNN
-F 2 "meport_kicad_libs:microSD_3020-901-0001-ACH-ELECTRONICS" H 9850 1800 50  0001 C CNN
-F 3 "" H 8700 1500 50  0001 C CNN
-	1    8700 1500
+P 8700 1850
+F 0 "J1" H 8050 2450 50  0000 C CNN
+F 1 "Micro_SD_Card" H 9350 2450 50  0000 R CNN
+F 2 "meport_kicad_libs:microSD_3020-901-0001-ACH-ELECTRONICS" H 9850 2150 50  0001 C CNN
+F 3 "" H 8700 1850 50  0001 C CNN
+	1    8700 1850
 	-1   0    0    1   
 $EndComp
-Text Label 10150 1700 2    60   ~ 0
+Text Label 10150 2050 2    60   ~ 0
 CS_SD
-Text Label 10150 1400 2    60   ~ 0
+Text Label 10150 1750 2    60   ~ 0
 SCLK_SD
-Text Label 10150 1600 2    60   ~ 0
+Text Label 10150 1950 2    60   ~ 0
 MOSI_SD
-Text Label 10150 1500 2    60   ~ 0
+Text Label 10150 1850 2    60   ~ 0
 DVCC
-Text Label 10150 1300 2    60   ~ 0
+Text Label 10150 1650 2    60   ~ 0
 DGND
-Text Label 10150 1200 2    60   ~ 0
+Text Label 10150 1550 2    60   ~ 0
 MISO_SD
 $Comp
 L vop24_lpcxpresso1769_basehw-rescue:LPCXpresso1769 U1
@@ -83,12 +83,12 @@ DGND
 Text Label 2650 1500 0    60   ~ 0
 DVCC
 $Sheet
-S 3550 800  1350 1300
+S 3550 750  1500 1350
 U 5B3D187B
 F0 "analogico" 60
 F1 "analogico.sch" 60
-F2 "ADC_BAT" I R 4900 1300 60 
-F3 "ADC_TEMP" I R 4900 1500 60 
+F2 "ADC_BAT" I R 5050 1300 60 
+F3 "ADC_TEMP" I R 5050 1500 60 
 F4 "AGND" I L 3550 1350 60 
 F5 "AVCC" I L 3550 1250 60 
 F6 "VBAT" I L 3550 1800 60 
@@ -144,20 +144,20 @@ Text Label 10300 3900 0    60   ~ 0
 PWDNE_ADS
 Text Label 10300 3800 0    60   ~ 0
 CLK_ADS
-Text Label 10150 1100 2    60   ~ 0
+Text Label 10150 1450 2    60   ~ 0
 CD_SD
 Wire Wire Line
-	9600 1700 10250 1700
+	9600 2050 10250 2050
 Wire Wire Line
-	9600 1600 10250 1600
+	9600 1950 10250 1950
 Wire Wire Line
-	9600 1500 10250 1500
+	9600 1850 10250 1850
 Wire Wire Line
-	9600 1400 10250 1400
+	9600 1750 10250 1750
 Wire Wire Line
-	9600 1300 10250 1300
+	9600 1650 10250 1650
 Wire Wire Line
-	9600 1200 10250 1200
+	9600 1550 10250 1550
 Wire Wire Line
 	7550 2800 7000 2800
 Wire Wire Line
@@ -225,18 +225,18 @@ Wire Wire Line
 Wire Wire Line
 	10200 4000 10850 4000
 Wire Wire Line
-	9600 1100 10250 1100
+	9600 1450 10250 1450
 Wire Wire Line
 	7550 4800 7000 4800
 Text Label 7350 4500 2    60   ~ 0
 CD_SD
 Wire Wire Line
-	4900 1300 5550 1300
+	5050 1300 5700 1300
 Wire Wire Line
-	4900 1500 5550 1500
-Text Label 5100 1300 0    60   ~ 0
+	5050 1500 5700 1500
+Text Label 5250 1300 0    60   ~ 0
 ADC_BAT
-Text Label 5100 1500 0    60   ~ 0
+Text Label 5250 1500 0    60   ~ 0
 ADC_TEMP
 Wire Wire Line
 	5050 2850 5600 2850
@@ -420,8 +420,8 @@ DVCC
 Text Label 2900 3950 0    60   ~ 0
 DGND
 Wire Wire Line
-	7900 900  7400 900 
-Text Label 7750 900  2    60   ~ 0
+	7900 1250 7400 1250
+Text Label 7750 1250 2    60   ~ 0
 DGND
 Wire Wire Line
 	10200 5400 10550 5400
@@ -447,4 +447,18 @@ Wire Wire Line
 	7550 4700 7000 4700
 Text Label 7050 4700 0    60   ~ 0
 BLE_EN
+Text Notes 1300 1050 0    79   ~ 16
+FUENTES
+Text Notes 3550 1150 0    79   ~ 16
+ENTRADAS ANALÓGICAS\nDE BAJA RESOLUCION\nDIRECTAS AL ADC \nDEL MICRO
+Text Notes 8150 1150 0    79   ~ 16
+MEMORIA MICROSD\nSLOT CONECTADO AL \nMICRO DIRECTO
+Text Notes 3450 3700 0    79   ~ 16
+USB-BLE-UART\nCARGA USB
+Text Notes 1100 6150 0    79   ~ 16
+CONVERSOR AD DE ALTA \nRESOLUCION ADS1292\nCON CIRC DE ACONDICIONAMIENTO
+Text Notes 8450 3100 0    79   ~ 16
+LPCXpresso1769
+Text Notes 4650 6350 0    50   ~ 0
+Los errores de ERC que tira es por los pines no conectados del LPCXpresso.\nAdemás, los pines de alimentación de los símbolos creados por mí se dejaron\ncomo bidireccionales, porque la alimentación del circuito esta separada.
 $EndSCHEMATC

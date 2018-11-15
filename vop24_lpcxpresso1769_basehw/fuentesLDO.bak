@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "VOP24 - Reguladores Analógico y Digital"
+Date "2018-11-01"
+Rev "0.1"
+Comp "Federico G. Roux"
+Comment1 "Universidad Favaloro"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -553,4 +553,14 @@ Wire Wire Line
 Connection ~ 3800 3000
 Wire Wire Line
 	3150 3000 2700 3000
+Text Notes 7900 4600 0    50   ~ 10
+En esta hoja están las fuentes para alimentación analógica(AVCC) y digital\n(DVCC). Para la alimentación analógica se utiliza un regulador lineal LDO,\nmientras que para la digital se usan dos opciones, un regulador lineal LDO\nigual al analógico, y un regulador up/down. El regulador up/down me da mas\nmargen de descarga de la batería, y el regulador LDO es por si este no\nfunciona durante la etapa de desarrollo. Se colocan los 3 pines J101 para\nelegir con un jumper si conecto DVCC al regulador up/down o al LDO\n
+Wire Notes Line
+	7800 3900 11050 3900
+Wire Notes Line
+	11050 3900 11050 4800
+Wire Notes Line
+	11050 4800 7800 4800
+Wire Notes Line
+	7800 4800 7800 3900
 $EndSCHEMATC
