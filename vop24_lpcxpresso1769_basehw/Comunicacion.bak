@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 4 5
 Title "VOP24 - Comunicacion y carga de bateria"
 Date "2018-09-15"
 Rev "0.1"
@@ -23,147 +23,126 @@ Wire Notes Line
 Wire Notes Line
 	700  1300 700  650 
 Wire Wire Line
-	2400 3200 3250 3200
-Text Label 3400 3200 0    50   ~ 0
+	3250 3050 4100 3050
+Text Label 4250 3050 0    50   ~ 0
 D-
-Text Label 3400 3100 0    50   ~ 0
+Text Label 4250 2950 0    50   ~ 0
 D+
 Wire Wire Line
-	2000 3500 2000 3650
+	2850 3350 2850 3500
 $Comp
 L Device:R R301
 U 1 1 5B9F0B88
-P 2000 3850
-F 0 "R301" H 2070 3896 50  0000 L CNN
-F 1 "1M" H 2070 3805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1930 3850 50  0001 C CNN
-F 3 "~" H 2000 3850 50  0001 C CNN
-	1    2000 3850
+P 2850 3850
+F 0 "R301" H 2920 3896 50  0000 L CNN
+F 1 "1M" H 2920 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2780 3850 50  0001 C CNN
+F 3 "~" H 2850 3850 50  0001 C CNN
+	1    2850 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C301
 U 1 1 5B9F0BDD
-P 2300 3850
-F 0 "C301" H 2415 3896 50  0000 L CNN
-F 1 "10n/500V" H 2415 3805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2338 3700 50  0001 C CNN
-F 3 "~" H 2300 3850 50  0001 C CNN
-	1    2300 3850
+P 3150 3850
+F 0 "C301" H 3265 3896 50  0000 L CNN
+F 1 "10n/500V" H 3265 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3188 3700 50  0001 C CNN
+F 3 "~" H 3150 3850 50  0001 C CNN
+	1    3150 3850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 3650 2300 3650
+	2850 3500 3150 3500
 Wire Wire Line
-	2300 3650 2300 3700
-Connection ~ 2000 3650
+	3150 3500 3150 3700
+Connection ~ 2850 3500
 Wire Wire Line
-	2000 3650 2000 3700
+	2850 3500 2850 3700
 Wire Wire Line
-	2300 4050 2300 4000
+	3150 4150 3150 4000
 Wire Wire Line
-	2100 3500 2100 3550
+	2950 3350 2950 3400
 Wire Wire Line
-	2100 3550 2550 3550
+	2950 3400 3400 3400
 Wire Wire Line
-	2550 3550 2550 4050
+	3400 3400 3400 4150
 Wire Wire Line
-	2400 3100 3400 3100
+	3250 2950 4250 2950
 Wire Wire Line
-	2400 3300 3550 3300
+	3250 3150 4400 3150
 Wire Wire Line
-	3250 2950 3250 3200
-Connection ~ 3250 3200
+	4100 2800 4100 3050
+Connection ~ 4100 3050
 Wire Wire Line
-	3400 2950 3400 3100
-Connection ~ 3400 3100
+	4250 2800 4250 2950
+Connection ~ 4250 2950
 Wire Wire Line
-	3550 2950 3550 3300
-Connection ~ 3550 3300
+	4400 2800 4400 3150
+Connection ~ 4400 3150
 Wire Wire Line
-	2400 2900 2550 2900
+	3250 2750 3400 2750
 Wire Wire Line
-	2550 2350 2700 2350
+	3400 2200 3550 2200
 Wire Wire Line
-	3900 2350 3950 2350
+	4750 2200 4800 2200
 Wire Wire Line
-	3900 2550 4600 2550
+	4750 2400 5450 2400
 Wire Wire Line
-	3900 2650 4100 2650
+	4750 2500 4950 2500
 Wire Wire Line
-	3400 3100 4600 3100
+	4250 2950 5450 2950
 Wire Wire Line
-	3250 3200 4600 3200
+	4100 3050 5450 3050
 Wire Wire Line
-	3550 3300 4600 3300
-Text Label 4250 2350 0    50   ~ 0
-VUSB_OUT
-Text Label 4250 2550 0    50   ~ 0
+	4400 3150 5450 3150
+Text Label 5100 2400 0    50   ~ 0
 TPD_~EN
-Text Label 4250 2650 0    50   ~ 0
+Text Label 5100 2500 0    50   ~ 0
 TPD_~ACK
-Text Label 4300 3100 0    50   ~ 0
+Text Label 5150 2950 0    50   ~ 0
 USB_D+
-Text Label 4300 3200 0    50   ~ 0
+Text Label 5150 3050 0    50   ~ 0
 USB_D-
-Text Label 4300 3300 0    50   ~ 0
+Text Label 5150 3150 0    50   ~ 0
 USB_ID
-Text HLabel 4600 2350 2    50   BiDi ~ 0
-VUSB_OUT
-Text HLabel 4600 2550 2    50   BiDi ~ 0
+Text HLabel 5450 2400 2    50   BiDi ~ 0
 TPD_~EN
-Text HLabel 4600 2650 2    50   BiDi ~ 0
+Text HLabel 5450 2500 2    50   BiDi ~ 0
 TPD_~ACK
-Text HLabel 4600 3100 2    50   BiDi ~ 0
+Text HLabel 5450 2950 2    50   BiDi ~ 0
 USB_D+
-Text HLabel 4600 3200 2    50   BiDi ~ 0
+Text HLabel 5450 3050 2    50   BiDi ~ 0
 USB_D-
-Text HLabel 4600 3300 2    50   BiDi ~ 0
+Text HLabel 5450 3150 2    50   BiDi ~ 0
 USB_ID
-Wire Notes Line
-	5350 1700 5350 4300
-Wire Notes Line
-	5350 4300 1700 4300
-Wire Notes Line
-	1700 4300 1700 1700
-Wire Notes Line
-	1700 1700 5350 1700
-Text Notes 2100 1950 0    50   ~ 0
-USB
 Wire Wire Line
-	2000 4050 2300 4050
+	2850 4150 3150 4150
 Wire Wire Line
-	2900 2650 2800 2650
+	3750 2500 3650 2500
 Wire Wire Line
-	2800 2650 2800 4050
+	3650 2500 3650 4150
 Wire Wire Line
-	2800 4050 2550 4050
-Connection ~ 2550 4050
-Wire Wire Line
-	2800 4050 3650 4050
-Connection ~ 2800 4050
-Text Label 3250 4050 0    50   ~ 0
-USB_GND
-Text HLabel 3650 4050 2    50   BiDi ~ 0
-USB_GND
-Text Notes 2000 1650 0    50   ~ 0
+	3650 4150 3400 4150
+Connection ~ 3400 4150
+Text Notes 1950 1500 0    50   ~ 0
 VER COMO HACER CON LOS PINES CORTOCIRCUITADOS INTERNAMENTE EN EL TPD\n
 $Comp
 L Device:R R302
 U 1 1 5BB133EA
-P 4100 2150
-F 0 "R302" H 4170 2196 50  0000 L CNN
-F 1 "1M" H 4170 2105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4030 2150 50  0001 C CNN
-F 3 "~" H 4100 2150 50  0001 C CNN
-	1    4100 2150
+P 4950 2000
+F 0 "R302" H 5020 2046 50  0000 L CNN
+F 1 "1M" H 5020 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4880 2000 50  0001 C CNN
+F 3 "~" H 4950 2000 50  0001 C CNN
+	1    4950 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 2650 4100 2300
-Connection ~ 4100 2650
+	4950 2500 4950 2150
+Connection ~ 4950 2500
 Wire Wire Line
-	4100 2650 4600 2650
+	4950 2500 5450 2500
 $Comp
 L cargaBateriaUSB:LT1512 U303
 U 1 1 5BC34D77
@@ -397,90 +376,84 @@ Wire Wire Line
 Connection ~ 7000 4150
 Wire Wire Line
 	6650 2850 6500 2850
-Wire Wire Line
-	6250 2200 5850 2200
-Connection ~ 6250 2200
-Wire Wire Line
-	6250 4150 5850 4150
-Connection ~ 6250 4150
 Text Label 5900 2200 0    50   ~ 0
 VUSB_OUT
 $Comp
 L cargaBateriaUSB:LTC4411 U301
 U 1 1 5BCCEE8C
-P 2750 5500
-F 0 "U301" H 2950 5850 50  0000 C CNN
-F 1 "LTC4411" H 2750 5700 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-5_HandSoldering" H 2700 5450 50  0001 C CNN
-F 3 "" H 2700 5450 50  0001 C CNN
-	1    2750 5500
+P 4000 6400
+F 0 "U301" H 4200 6750 50  0000 C CNN
+F 1 "LTC4411" H 4000 6600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5_HandSoldering" H 3950 6350 50  0001 C CNN
+F 3 "" H 3950 6350 50  0001 C CNN
+	1    4000 6400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Schottky D301
 U 1 1 5BCCF0A2
-P 2750 5000
-F 0 "D301" H 2750 4784 50  0000 C CNN
-F 1 "MBRS130LT3" H 2600 4900 50  0000 C CNN
-F 2 "Diode_SMD:D_SMB-SMC_Universal_Handsoldering" H 2750 5000 50  0001 C CNN
-F 3 "~" H 2750 5000 50  0001 C CNN
-	1    2750 5000
+P 4000 5900
+F 0 "D301" H 4000 5684 50  0000 C CNN
+F 1 "MBRS130LT3" H 3850 5800 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB-SMC_Universal_Handsoldering" H 4000 5900 50  0001 C CNN
+F 3 "~" H 4000 5900 50  0001 C CNN
+	1    4000 5900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2400 5450 2000 5450
+	3650 6350 3250 6350
 Wire Wire Line
-	3100 5650 3200 5650
+	4350 6550 4450 6550
 Wire Wire Line
-	3100 5450 3250 5450
+	4350 6350 4500 6350
 Wire Wire Line
-	3250 5450 3250 5000
+	4500 6350 4500 5900
 Wire Wire Line
-	3250 5000 2900 5000
+	4500 5900 4150 5900
 Wire Wire Line
-	3250 5000 3450 5000
-Connection ~ 3250 5000
+	4500 5900 4700 5900
+Connection ~ 4500 5900
 $Comp
 L Device:C C303
 U 1 1 5BCE020F
-P 3450 5300
-F 0 "C303" H 3565 5346 50  0000 L CNN
-F 1 "0.1uF" H 3565 5255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3488 5150 50  0001 C CNN
-F 3 "~" H 3450 5300 50  0001 C CNN
-	1    3450 5300
+P 4700 6200
+F 0 "C303" H 4815 6246 50  0000 L CNN
+F 1 "0.1uF" H 4815 6155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4738 6050 50  0001 C CNN
+F 3 "~" H 4700 6200 50  0001 C CNN
+	1    4700 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 5150 3450 5000
-Connection ~ 3450 5000
+	4700 6050 4700 5900
+Connection ~ 4700 5900
 Wire Wire Line
-	2600 5000 2000 5000
+	3850 5900 3250 5900
 Wire Wire Line
-	2400 5550 2250 5550
+	3650 6450 3500 6450
 Wire Wire Line
-	2250 5550 2250 5650
+	3500 6450 3500 6550
 Wire Wire Line
-	2250 5900 3450 5900
+	3500 6800 4700 6800
 Wire Wire Line
-	3450 5900 3450 5450
+	4700 6800 4700 6350
 Wire Wire Line
-	2400 5650 2250 5650
-Connection ~ 2250 5650
+	3650 6550 3500 6550
+Connection ~ 3500 6550
 Wire Wire Line
-	2250 5650 2250 5900
-Text Label 2100 5450 0    50   ~ 0
+	3500 6550 3500 6800
+Text Label 3350 6350 0    50   ~ 0
 VBAT+
 Text Label 9200 2800 0    50   ~ 0
 VBAT+
 Text Label 9200 4150 0    50   ~ 0
 VBAT-
-Text Label 2100 5900 0    50   ~ 0
+Text Label 3350 6800 0    50   ~ 0
 VBAT-
 Wire Wire Line
-	2000 5900 2250 5900
-Connection ~ 2250 5900
-Text Label 2100 5000 0    50   ~ 0
+	3250 6800 3500 6800
+Connection ~ 3500 6800
+Text Label 3350 5900 0    50   ~ 0
 VUSB_OUT
 $Comp
 L Device:R R303
@@ -502,65 +475,57 @@ Wire Wire Line
 Text Label 6800 4450 0    50   ~ 0
 USB_GND
 Wire Wire Line
-	3450 5900 3650 5900
-Connection ~ 3450 5900
+	4700 6800 4900 6800
+Connection ~ 4700 6800
 Wire Wire Line
-	3450 5000 3650 5000
-Text Label 3450 5000 0    50   ~ 0
+	4700 5900 4900 5900
+Text Label 4700 5900 0    50   ~ 0
 VOUTR
 Wire Wire Line
-	2000 4000 2000 4050
-Connection ~ 2300 4050
+	2850 4000 2850 4150
+Connection ~ 3150 4150
 Wire Wire Line
-	2300 4050 2550 4050
+	3150 4150 3400 4150
 $Comp
 L Device:C C302
 U 1 1 5BAE49F4
-P 2700 2600
-F 0 "C302" H 2750 2800 50  0000 L CNN
-F 1 "10uF" H 2750 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2738 2450 50  0001 C CNN
-F 3 "~" H 2700 2600 50  0001 C CNN
-	1    2700 2600
+P 3550 2450
+F 0 "C302" H 3600 2650 50  0000 L CNN
+F 1 "10uF" H 3600 2550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3588 2300 50  0001 C CNN
+F 3 "~" H 3550 2450 50  0001 C CNN
+	1    3550 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 2900 2550 2350
+	3400 2750 3400 2200
 Wire Wire Line
-	2700 2450 2700 2350
-Connection ~ 2700 2350
+	3550 2300 3550 2200
+Connection ~ 3550 2200
 Wire Wire Line
-	2700 2350 2800 2350
+	3550 2200 3650 2200
 Wire Notes Line
-	10200 1700 10200 4700
+	2950 5300 5250 5300
 Wire Notes Line
-	10200 4700 5700 4700
+	5250 5300 5250 7000
 Wire Notes Line
-	5700 4700 5700 1700
+	5250 7000 2950 7000
 Wire Notes Line
-	5700 1700 10200 1700
-Wire Notes Line
-	1700 4400 4000 4400
-Wire Notes Line
-	4000 4400 4000 6100
-Wire Notes Line
-	4000 6100 1700 6100
-Wire Notes Line
-	1700 6100 1700 4400
+	2950 7000 2950 5300
 Text Notes 9350 1850 0    50   ~ 10
 CARGA DE BATERIA\n
-Text Notes 3250 4650 0    50   ~ 10
+Text Notes 4500 5550 0    50   ~ 10
 SWITCH ENTRE\nBATERIA Y VUSB\n
-Text Notes 4650 1950 0    50   ~ 10
+Text Notes 5500 1800 0    50   ~ 10
 PUERTO USB\n
 Text HLabel 9600 4150 2    50   BiDi ~ 0
 VBAT-
 Text HLabel 9600 2800 2    50   BiDi ~ 0
 VBAT+
-Text HLabel 3650 5000 2    50   BiDi ~ 0
-VCC_SW
-Text HLabel 3650 5900 2    50   BiDi ~ 0
-GND_SW
+Text HLabel 4900 5900 2    50   BiDi ~ 0
+VCC_NR
+Text HLabel 4900 6800 2    50   BiDi ~ 0
+GND_NR
 $Comp
 L vop24_lpcxpresso1769_basehw-rescue:Screw_Terminal_01x02-Connector J?
 U 1 1 5BDFE4B3
@@ -589,23 +554,21 @@ Connection ~ 9500 4150
 Wire Wire Line
 	9500 4150 9600 4150
 Wire Wire Line
-	4100 1850 3950 1850
+	4950 1700 4800 1700
 Wire Wire Line
-	4100 1850 4100 2000
+	4950 1700 4950 1850
 Wire Wire Line
-	3950 1850 3950 2350
-Connection ~ 3950 2350
-Wire Wire Line
-	3950 2350 4600 2350
-Text HLabel 3200 5650 2    50   Input ~ 0
+	4800 1700 4800 2200
+Connection ~ 4800 2200
+Text HLabel 4450 6550 2    50   Input ~ 0
 LTC4411_STAT
 Text HLabel 6500 2850 0    50   Input ~ 0
 LT1512_S-S
 Wire Wire Line
-	2700 3000 2450 3000
+	3550 2850 3300 2850
 Wire Wire Line
-	2700 2750 2700 3000
-Text Notes 1500 2500 0    50   Italic 0
+	3550 2600 3550 2850
+Text Notes 2350 2350 0    50   Italic 0
 Revisar footprint del USB \nuna vez comprado
 Text Notes 6500 2400 0    50   Italic 0
 Revisar footprint del \nLT1512 una vez comprado
@@ -650,40 +613,49 @@ Wire Wire Line
 $Comp
 L tpd4s014:TPD4S014 U302
 U 1 1 5BDBF51B
-P 3400 2550
-F 0 "U302" H 3400 3015 50  0000 C CNN
-F 1 "TPD4S014" H 3400 2924 50  0000 C CNN
-F 2 "meport_kicad_libs:Texas_R-PWSON-N10" H 3250 2550 50  0001 C CNN
-F 3 "/home/froux/Dropbox/VOP24/docs y hojas de datos/otros/cosas modulo usb/tpd4s014.pdf" H 3250 2550 50  0001 C CNN
-	1    3400 2550
+P 4250 2400
+F 0 "U302" H 4250 2865 50  0000 C CNN
+F 1 "TPD4S014" H 4250 2774 50  0000 C CNN
+F 2 "meport_kicad_libs:Texas_R-PWSON-N10" H 4100 2400 50  0001 C CNN
+F 3 "/home/froux/Dropbox/VOP24/docs y hojas de datos/otros/cosas modulo usb/tpd4s014.pdf" H 4100 2400 50  0001 C CNN
+	1    4250 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 2450 2800 2450
+	3750 2300 3650 2300
 Wire Wire Line
-	2800 2450 2800 2350
-Connection ~ 2800 2350
+	3650 2300 3650 2200
+Connection ~ 3650 2200
 Wire Wire Line
-	2800 2350 2900 2350
+	3650 2200 3750 2200
 Wire Wire Line
-	3900 2450 3950 2450
+	4750 2300 4800 2300
 Wire Wire Line
-	3950 2450 3950 2350
+	4800 2300 4800 2200
 $Comp
 L vop24_lpcxpresso1769_basehw-rescue:USB_B_Micro-Connector J?
 U 1 1 5BAE3529
-P 2100 3100
+P 2950 2950
 AR Path="/5BAE3529" Ref="J?"  Part="1" 
 AR Path="/5B9DAB38/5BAE3529" Ref="J301"  Part="1" 
-F 0 "J301" H 2155 3567 50  0000 C CNN
-F 1 "USB_B_Micro" H 2155 3476 50  0000 C CNN
-F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 2250 3050 50  0001 C CNN
-F 3 "~" H 2250 3050 50  0001 C CNN
-	1    2100 3100
+F 0 "J301" H 3005 3417 50  0000 C CNN
+F 1 "USB_B_Micro" H 3005 3326 50  0000 C CNN
+F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 3100 2900 50  0001 C CNN
+F 3 "~" H 3100 2900 50  0001 C CNN
+	1    2950 2950
 	1    0    0    -1  
 $EndComp
-Text Label 2500 3000 0    50   ~ 0
+Text Label 3350 2850 0    50   ~ 0
 USB_GND
 Text Notes 850  1150 0    50   ~ 0
 Interfaces de comunicación externas:\n- USB\n- carga de batería\n- intercambio entre bateria y vusb\n
+Wire Wire Line
+	6250 4150 3650 4150
+Connection ~ 6250 4150
+Connection ~ 3650 4150
+Wire Wire Line
+	4800 2200 6250 2200
+Connection ~ 6250 2200
+Text Notes 5450 6150 0    50   ~ 0
+Esta es la salida de tensión sin regular.\nPuede ser la tensión directa de batería\no la tensión proveniente del puerto USB
 $EndSCHEMATC
