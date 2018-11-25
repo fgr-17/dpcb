@@ -7,10 +7,10 @@ encoding utf-8
 Sheet 5 5
 Title "VOP24 - Entradas analogicas"
 Date "2018-07-04"
-Rev "0.1"
+Rev "0.2"
 Comp "Federico G. Roux"
 Comment1 "Universidad Favaloro"
-Comment2 ""
+Comment2 "Revisor: Mg. Ing. Brengi, Diego"
 Comment3 ""
 Comment4 ""
 $EndDescr
