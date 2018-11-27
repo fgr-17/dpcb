@@ -4,12 +4,12 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
-Title "VOP24 - Comunicacion y carga de bateria"
+Sheet 2 5
+Title "Prototipo 1 Base LPCXpresso - VOP24"
 Date "2018-09-15"
 Rev "0.2"
-Comp "Federico G. Roux"
-Comment1 "Universidad Favaloro"
+Comp "Universidad Favaloro"
+Comment1 "Autor: Federico G. Roux"
 Comment2 "Revisor: Mg. Ing. Brengi, Diego"
 Comment3 ""
 Comment4 ""
@@ -125,8 +125,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 4250 2650 4250
 Connection ~ 2650 4250
-Text Notes 1300 4650 0    50   Italic 0
-VER COMO HACER CON LOS PINES CORTOCIRCUITADOS INTERNAMENTE EN EL TPD\n
 $Comp
 L Device:R R302
 U 1 1 5BB133EA
@@ -143,17 +141,6 @@ Wire Wire Line
 Connection ~ 4200 2600
 Wire Wire Line
 	4200 2600 4700 2600
-$Comp
-L cargaBateriaUSB:LT1512 U303
-U 1 1 5BC34D77
-P 6600 3000
-F 0 "U303" H 6950 3400 50  0000 C CNN
-F 1 "LT1512" H 6800 3250 50  0000 C CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 6600 3000 50  0001 C CNN
-F 3 "" H 6600 3000 50  0001 C CNN
-	1    6600 3000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C304
 U 1 1 5BC34DFA
@@ -294,9 +281,6 @@ Wire Wire Line
 	6950 3850 6950 3800
 Wire Wire Line
 	6950 3800 7200 3800
-Connection ~ 6950 3800
-Wire Wire Line
-	6950 3800 6950 3350
 Wire Wire Line
 	7500 3800 7750 3800
 Wire Wire Line
@@ -341,8 +325,6 @@ Connection ~ 7750 4250
 Wire Wire Line
 	8300 4000 8300 4250
 Connection ~ 8300 4250
-Wire Wire Line
-	8300 4250 8600 4250
 $Comp
 L Device:D_Schottky D302
 U 1 1 5BC4D3CD
@@ -362,7 +344,7 @@ Wire Wire Line
 	8300 2900 8300 3050
 Connection ~ 8300 2900
 Wire Wire Line
-	8300 2900 8600 2900
+	8300 2900 8500 2900
 Wire Wire Line
 	8600 2900 8750 2900
 Connection ~ 8600 2900
@@ -378,17 +360,6 @@ Wire Wire Line
 	5900 2950 5750 2950
 Text Label 4950 2300 0    50   ~ 0
 VBUS
-$Comp
-L cargaBateriaUSB:LTC4411 U301
-U 1 1 5BCCEE8C
-P 2250 6050
-F 0 "U301" H 2450 6400 50  0000 C CNN
-F 1 "LTC4411" H 2250 6250 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-5_HandSoldering" H 2200 6000 50  0001 C CNN
-F 3 "" H 2200 6000 50  0001 C CNN
-	1    2250 6050
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D_Schottky D301
 U 1 1 5BCCF0A2
@@ -438,17 +409,6 @@ Wire Wire Line
 Connection ~ 1750 6200
 Wire Wire Line
 	1750 6200 1750 6450
-$Comp
-L Device:R R303
-U 1 1 5BCF71FC
-P 5300 4250
-F 0 "R303" V 5150 4100 50  0000 L CNN
-F 1 "0" V 5300 4250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5230 4250 50  0001 C CNN
-F 3 "~" H 5300 4250 50  0001 C CNN
-	1    5300 4250
-	0    1    1    0   
-$EndComp
 Text Label 4200 4250 0    50   ~ 0
 USB_GND
 Wire Wire Line
@@ -472,8 +432,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 2400 2800 2300
 Connection ~ 2800 2300
-Wire Wire Line
-	2800 2300 2900 2300
 Wire Notes Line
 	1200 4950 5400 4950
 Wire Notes Line
@@ -524,7 +482,7 @@ Wire Wire Line
 	2800 2700 2800 2950
 Text Notes 1600 2450 0    50   Italic 0
 Revisar footprint del USB \nuna vez comprado
-Text Notes 5750 2500 0    50   Italic 0
+Text Notes 5450 2600 0    50   Italic 0
 Revisar footprint del \nLT1512 una vez comprado
 Text Notes 5600 3700 0    50   Italic 0
 Ubicar este cap\ncerca de pin Vin
@@ -563,28 +521,6 @@ Connection ~ 7750 2900
 Wire Wire Line
 	7750 2900 7900 2900
 $Comp
-L tpd4s014:TPD4S014 U302
-U 1 1 5BDBF51B
-P 3500 2500
-F 0 "U302" H 3500 2965 50  0000 C CNN
-F 1 "TPD4S014" H 3500 2874 50  0000 C CNN
-F 2 "meport_kicad_libs:Texas_R-PWSON-N10" H 3350 2500 50  0001 C CNN
-F 3 "/home/froux/Dropbox/VOP24/docs y hojas de datos/otros/cosas modulo usb/tpd4s014.pdf" H 3350 2500 50  0001 C CNN
-	1    3500 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 2400 2900 2400
-Wire Wire Line
-	2900 2400 2900 2300
-Connection ~ 2900 2300
-Wire Wire Line
-	2900 2300 3000 2300
-Wire Wire Line
-	4000 2400 4050 2400
-Wire Wire Line
-	4050 2400 4050 2300
-$Comp
 L vop24_lpcxpresso1769_basehw-rescue:USB_B_Micro-Connector J?
 U 1 1 5BAE3529
 P 2200 3050
@@ -607,10 +543,10 @@ Connection ~ 5500 2300
 Text Notes 3700 5950 0    50   ~ 0
 Esta es la salida de tensión sin regular.\nPuede ser la tensión directa de batería\no la tensión proveniente del puerto USB\nVCOM - GNDREF es la entrada de tensión\ndel circuito de regulación
 $Comp
-L power:+BATT #PWR?
+L power:+BATT #PWR0105
 U 1 1 5BFAD0BB
 P 8750 2800
-F 0 "#PWR?" H 8750 2650 50  0001 C CNN
+F 0 "#PWR0105" H 8750 2650 50  0001 C CNN
 F 1 "+BATT" H 8765 2973 50  0000 C CNN
 F 2 "" H 8750 2800 50  0001 C CNN
 F 3 "" H 8750 2800 50  0001 C CNN
@@ -625,10 +561,10 @@ Text Label 8450 2900 0    50   ~ 0
 Text Label 8450 4250 0    50   ~ 0
 -BATT
 $Comp
-L power:-BATT #PWR?
+L power:-BATT #PWR0106
 U 1 1 5BFB0BF0
 P 8750 4350
-F 0 "#PWR?" H 8750 4200 50  0001 C CNN
+F 0 "#PWR0106" H 8750 4200 50  0001 C CNN
 F 1 "-BATT" H 8765 4523 50  0000 C CNN
 F 2 "" H 8750 4350 50  0001 C CNN
 F 3 "" H 8750 4350 50  0001 C CNN
@@ -639,41 +575,26 @@ Wire Wire Line
 	8750 4350 8750 4250
 Connection ~ 8750 4250
 $Comp
-L power:-BATT #PWR?
+L power:-BATT #PWR0107
 U 1 1 5BFB4A19
 P 1750 6600
-F 0 "#PWR?" H 1750 6450 50  0001 C CNN
+F 0 "#PWR0107" H 1750 6450 50  0001 C CNN
 F 1 "-BATT" H 1765 6773 50  0000 C CNN
 F 2 "" H 1750 6600 50  0001 C CNN
 F 3 "" H 1750 6600 50  0001 C CNN
 	1    1750 6600
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5BFB80D4
-P 2250 6450
-F 0 "R?" V 2150 6350 50  0000 C CNN
-F 1 "0" V 2150 6500 50  0000 C CNN
-F 2 "" V 2180 6450 50  0001 C CNN
-F 3 "~" H 2250 6450 50  0001 C CNN
-	1    2250 6450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2950 6450 2400 6450
-Wire Wire Line
-	2100 6450 1750 6450
 Wire Wire Line
 	1750 6600 1750 6450
 Connection ~ 1750 6450
 Wire Notes Line
 	1200 6900 1200 4950
 $Comp
-L power:+BATT #PWR?
+L power:+BATT #PWR0108
 U 1 1 5BFC6481
 P 1750 5850
-F 0 "#PWR?" H 1750 5700 50  0001 C CNN
+F 0 "#PWR0108" H 1750 5700 50  0001 C CNN
 F 1 "+BATT" H 1765 6023 50  0000 C CNN
 F 2 "" H 1750 5850 50  0001 C CNN
 F 3 "" H 1750 5850 50  0001 C CNN
@@ -684,17 +605,13 @@ Wire Wire Line
 	1750 5850 1750 6000
 Wire Wire Line
 	1750 6000 1900 6000
-Wire Wire Line
-	5450 4250 5500 4250
 Connection ~ 5500 4250
-Wire Wire Line
-	2900 4250 5150 4250
 Connection ~ 2900 4250
 $Comp
-L power:VBUS #PWR?
+L power:VBUS #PWR0109
 U 1 1 5BFD570E
 P 4550 2050
-F 0 "#PWR?" H 4550 1900 50  0001 C CNN
+F 0 "#PWR0109" H 4550 1900 50  0001 C CNN
 F 1 "VBUS" H 4565 2223 50  0000 C CNN
 F 2 "" H 4550 2050 50  0001 C CNN
 F 3 "" H 4550 2050 50  0001 C CNN
@@ -702,10 +619,10 @@ F 3 "" H 4550 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VBUS #PWR?
+L power:VBUS #PWR0110
 U 1 1 5BFD9165
 P 1750 5250
-F 0 "#PWR?" H 1750 5100 50  0001 C CNN
+F 0 "#PWR0110" H 1750 5100 50  0001 C CNN
 F 1 "VBUS" H 1765 5423 50  0000 C CNN
 F 2 "" H 1750 5250 50  0001 C CNN
 F 3 "" H 1750 5250 50  0001 C CNN
@@ -734,15 +651,13 @@ Wire Wire Line
 Wire Wire Line
 	3400 5550 3400 5250
 Wire Wire Line
-	2950 5550 3400 5550
-Wire Wire Line
 	2950 6450 3400 6450
 Connection ~ 2950 6450
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0111
 U 1 1 5C0334DC
 P 3400 6600
-F 0 "#PWR?" H 3400 6350 50  0001 C CNN
+F 0 "#PWR0111" H 3400 6350 50  0001 C CNN
 F 1 "GNDREF" H 3405 6427 50  0000 C CNN
 F 2 "" H 3400 6600 50  0001 C CNN
 F 3 "" H 3400 6600 50  0001 C CNN
@@ -752,14 +667,128 @@ $EndComp
 Wire Wire Line
 	3400 6450 3400 6600
 $Comp
-L power:VCOM #PWR?
+L power:VCOM #PWR0112
 U 1 1 5C03B6F6
 P 3400 5250
-F 0 "#PWR?" H 3400 5100 50  0001 C CNN
+F 0 "#PWR0112" H 3400 5100 50  0001 C CNN
 F 1 "VCOM" H 3417 5423 50  0000 C CNN
 F 2 "" H 3400 5250 50  0001 C CNN
 F 3 "" H 3400 5250 50  0001 C CNN
 	1    3400 5250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2950 5550 3400 5550
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5C799D66
+P 3400 6300
+F 0 "#FLG0105" H 3400 6375 50  0001 C CNN
+F 1 "PWR_FLAG" H 3400 6474 50  0000 C CNN
+F 2 "" H 3400 6300 50  0001 C CNN
+F 3 "~" H 3400 6300 50  0001 C CNN
+	1    3400 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 6300 3400 6450
+Connection ~ 3400 6450
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 5C7A8B2C
+P 8500 2900
+F 0 "#FLG0106" H 8500 2975 50  0001 C CNN
+F 1 "PWR_FLAG" H 8500 3074 50  0000 C CNN
+F 2 "" H 8500 2900 50  0001 C CNN
+F 3 "~" H 8500 2900 50  0001 C CNN
+	1    8500 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 2900
+Wire Wire Line
+	8500 2900 8600 2900
+Wire Wire Line
+	8300 4250 8450 4250
+$Comp
+L cargaBateriaUSB:LTC4411 U301
+U 1 1 5C7A9E64
+P 2250 6050
+F 0 "U301" H 2500 6400 50  0000 C CNN
+F 1 "LTC4411" H 2200 6400 50  0000 C CNN
+F 2 "" H 2200 6000 50  0001 C CNN
+F 3 "" H 2200 6000 50  0001 C CNN
+	1    2250 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cargaBateriaUSB:LT1512 U303
+U 1 1 5C7AA9D9
+P 6600 3000
+F 0 "U303" H 7100 3400 50  0000 C CNN
+F 1 "LT1512" H 6750 3400 50  0000 C CNN
+F 2 "" H 6600 3000 50  0001 C CNN
+F 3 "" H 6600 3000 50  0001 C CNN
+	1    6600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5C7AB339
+P 8450 4250
+F 0 "#FLG0104" H 8450 4325 50  0001 C CNN
+F 1 "PWR_FLAG" H 8450 4423 50  0000 C CNN
+F 2 "" H 8450 4250 50  0001 C CNN
+F 3 "~" H 8450 4250 50  0001 C CNN
+	1    8450 4250
+	-1   0    0    1   
+$EndComp
+Connection ~ 8450 4250
+Wire Wire Line
+	8450 4250 8600 4250
+Connection ~ 6950 3800
+Wire Wire Line
+	6950 3800 6950 3350
+$Comp
+L tpd4s014:TPD4S014 U302
+U 1 1 5BFCD56B
+P 3500 2500
+F 0 "U302" H 3500 2965 50  0000 C CNN
+F 1 "TPD4S014" H 3500 2874 50  0000 C CNN
+F 2 "" H 3350 2500 50  0001 C CNN
+F 3 "/home/froux/Dropbox/VOP24/docs y hojas de datos/otros/cosas modulo usb/tpd4s014.pdf" H 3350 2500 50  0001 C CNN
+	1    3500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2300 3000 2300
+$Comp
+L Device:Net-Tie_2 NT302
+U 1 1 5C3B70A5
+P 5300 4250
+F 0 "NT302" H 5300 4428 50  0000 C CNN
+F 1 "Net-Tie_2" H 5300 4337 50  0000 C CNN
+F 2 "" H 5300 4250 50  0001 C CNN
+F 3 "~" H 5300 4250 50  0001 C CNN
+	1    5300 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4250 5200 4250
+Wire Wire Line
+	5400 4250 5500 4250
+$Comp
+L Device:Net-Tie_2 NT301
+U 1 1 5C3BF2E8
+P 2250 6450
+F 0 "NT301" H 2250 6500 50  0000 C CNN
+F 1 "Net-Tie_2" H 2250 6400 50  0000 C CNN
+F 2 "" H 2250 6450 50  0001 C CNN
+F 3 "~" H 2250 6450 50  0001 C CNN
+	1    2250 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 6450 2150 6450
+Wire Wire Line
+	2350 6450 2950 6450
 $EndSCHEMATC
