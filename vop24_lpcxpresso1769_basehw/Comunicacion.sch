@@ -754,7 +754,7 @@ U 1 1 5BFCD56B
 P 3500 2500
 F 0 "U302" H 3500 2965 50  0000 C CNN
 F 1 "TPD4S014" H 3500 2874 50  0000 C CNN
-F 2 "Package_SON:Texas_S-PWSON-N10_ThermalVias" H 3350 2500 50  0001 C CNN
+F 2 "meport_kicad_libs:Texas_R-PWSON-N10" H 3350 2500 50  0001 C CNN
 F 3 "/home/froux/Dropbox/VOP24/docs y hojas de datos/otros/cosas modulo usb/tpd4s014.pdf" H 3350 2500 50  0001 C CNN
 	1    3500 2500
 	1    0    0    -1  

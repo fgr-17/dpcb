@@ -519,4 +519,58 @@ VDD
 Text Label 4350 4650 0    60   ~ 0
 GNDD
 NoConn ~ 3350 6900
+$Comp
+L Mechanical:MountingHole MH3
+U 1 1 5BFE9A50
+P 9200 1050
+F 0 "MH3" H 9300 1096 50  0000 L CNN
+F 1 "MountingHole" H 9300 1005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 9200 1050 50  0001 C CNN
+F 3 "~" H 9200 1050 50  0001 C CNN
+	1    9200 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH4
+U 1 1 5BFE9AC3
+P 9200 1450
+F 0 "MH4" H 9300 1496 50  0000 L CNN
+F 1 "MountingHole" H 9300 1405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 9200 1450 50  0001 C CNN
+F 3 "~" H 9200 1450 50  0001 C CNN
+	1    9200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH1
+U 1 1 5BFE9AFF
+P 8350 1050
+F 0 "MH1" H 8450 1096 50  0000 L CNN
+F 1 "MountingHole" H 8450 1005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 8350 1050 50  0001 C CNN
+F 3 "~" H 8350 1050 50  0001 C CNN
+	1    8350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH2
+U 1 1 5BFE9B3F
+P 8350 1450
+F 0 "MH2" H 8450 1496 50  0000 L CNN
+F 1 "MountingHole" H 8450 1405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 8350 1450 50  0001 C CNN
+F 3 "~" H 8350 1450 50  0001 C CNN
+	1    8350 1450
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8100 1700 9950 1700
+Wire Notes Line
+	9950 1700 9950 700 
+Wire Notes Line
+	9950 700  8100 700 
+Wire Notes Line
+	8100 700  8100 1700
+Text Notes 8300 850  0    50   ~ 0
+Agujeros de sujeción
 $EndSCHEMATC

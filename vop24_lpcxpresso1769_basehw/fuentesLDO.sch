@@ -167,8 +167,6 @@ Connection ~ 4000 6100
 Wire Wire Line
 	3150 4000 3150 4300
 Wire Wire Line
-	3000 4300 3150 4300
-Wire Wire Line
 	4950 4300 4950 4000
 Wire Wire Line
 	4550 3450 4950 3450
@@ -414,8 +412,6 @@ Text Label 8650 3950 2    50   ~ 0
 DVCC
 Wire Wire Line
 	8850 3950 8200 3950
-Wire Wire Line
-	3000 2950 3450 2950
 Connection ~ 3450 2950
 Text Notes 7600 6150 0    50   ~ 10
 En esta hoja están las fuentes para alimentación analógica(AVCC) y digital\n(DVCC). Para la alimentación analógica se utiliza un regulador lineal LDO,\nmientras que para la digital se usan dos opciones, un regulador lineal LDO\nigual al analógico, y un regulador up/down. El regulador up/down me da mas\nmargen de descarga de la batería, y el regulador LDO es por si este no\nfunciona durante la etapa de desarrollo. Se colocan los 3 pines J101 para\nelegir con un jumper si conecto DVCC al regulador up/down o al LDO\n
@@ -489,20 +485,15 @@ Connection ~ 2450 1950
 Wire Wire Line
 	2450 1950 3450 1950
 Wire Wire Line
-	2350 4300 2800 4300
-Wire Wire Line
 	5600 5700 5600 5550
 Wire Wire Line
-	1650 2950 2150 2950
+	1650 2950 1900 2950
 Wire Wire Line
 	5600 4000 5600 3900
 Wire Wire Line
 	4050 3850 4050 4300
 Wire Wire Line
 	2350 2950 2350 4300
-Connection ~ 2350 2950
-Wire Wire Line
-	2350 2950 2800 2950
 Wire Wire Line
 	3200 5650 3200 6100
 Wire Wire Line
@@ -516,15 +507,12 @@ Wire Wire Line
 Connection ~ 2250 1950
 Wire Wire Line
 	2250 1950 2450 1950
-Connection ~ 2150 2950
 Wire Wire Line
-	2150 2950 2350 2950
-Wire Wire Line
-	2150 2950 2150 6100
+	1900 2950 1900 6100
 Wire Wire Line
 	2250 5100 2500 5100
 Wire Wire Line
-	2150 6100 2850 6100
+	1900 6100 2850 6100
 Wire Wire Line
 	5600 5100 5900 5100
 Wire Wire Line
@@ -648,25 +636,14 @@ F 12 "Active" H 3000 6300 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Net-Tie_2 NT101
-U 1 1 5C3B6561
-P 2900 2950
-F 0 "NT101" H 2900 3128 50  0000 C CNN
-F 1 "Net-Tie_2" H 2900 3037 50  0000 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 2900 2950 50  0001 C CNN
-F 3 "~" H 2900 2950 50  0001 C CNN
-	1    2900 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Net-Tie_2 NT102
 U 1 1 5C3B676F
-P 2900 4300
-F 0 "NT102" H 2900 4478 50  0000 C CNN
-F 1 "Net-Tie_2" H 2900 4387 50  0000 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 2900 4300 50  0001 C CNN
-F 3 "~" H 2900 4300 50  0001 C CNN
-	1    2900 4300
+P 2050 2950
+F 0 "NT102" H 2050 3128 50  0000 C CNN
+F 1 "Net-Tie_2" H 2050 3037 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 2050 2950 50  0001 C CNN
+F 3 "~" H 2050 2950 50  0001 C CNN
+	1    2050 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -680,4 +657,14 @@ F 3 "~" H 2950 6100 50  0001 C CNN
 	1    2950 6100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2350 2950 3450 2950
+Wire Wire Line
+	1950 2950 1900 2950
+Connection ~ 1900 2950
+Wire Wire Line
+	2150 2950 2350 2950
+Connection ~ 2350 2950
+Wire Wire Line
+	2350 4300 3150 4300
 $EndSCHEMATC
