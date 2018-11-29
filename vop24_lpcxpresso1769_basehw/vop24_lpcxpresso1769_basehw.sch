@@ -157,10 +157,6 @@ Wire Wire Line
 	1650 6000 1150 6000
 Text Label 1500 6000 2    60   ~ 0
 GNDD
-Wire Wire Line
-	8050 5350 8400 5350
-Text Label 8150 5350 0    50   ~ 0
-GNDD
 Text Label 8200 4750 0    60   ~ 0
 LT1512_SS
 Text Label 8200 4850 0    60   ~ 0
@@ -573,4 +569,18 @@ Wire Notes Line
 	8100 700  8100 1700
 Text Notes 8300 850  0    50   ~ 0
 Agujeros de sujeción
+NoConn ~ 8050 5350
+Text Notes 9050 2000 0    50   ~ 0
+FIDUCIAL
+$Comp
+L Mechanical:MountingHole FIDBACK1
+U 1 1 5BFF8AF2
+P 8350 1950
+F 0 "FIDBACK1" H 8450 1996 50  0000 L CNN
+F 1 "MountingHole" H 8450 1905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Dia_1.5mm_Outer" H 8350 1950 50  0001 C CNN
+F 3 "~" H 8350 1950 50  0001 C CNN
+	1    8350 1950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
